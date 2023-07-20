@@ -17,11 +17,12 @@ namespace PresenterLayout.Presenters
         private readonly IGetStartPackagesService _getStartPackagesService;
         private readonly ILoginService _makeUserPackageService;
 
-        public NewPackagePresenter(IApplicationController controller, INewPackageView view, IBaseView baseView) : base(controller, view, baseView)
+        public NewPackagePresenter(IApplicationController controller, INewPackageView view, IBaseView baseView, IGetStartPackagesService getStartPackagesService) : base(controller, view, baseView)
         {
+            _getStartPackagesService = getStartPackagesService;
         }
 
-        public new void Run()
+        public override void Run()
         {
             View.LoadStartPackages(GetStartPackages());
             BaseView.LoadNewForm(View);

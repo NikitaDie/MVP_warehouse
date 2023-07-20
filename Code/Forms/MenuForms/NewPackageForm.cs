@@ -13,6 +13,8 @@ using System.Windows.Forms;
 using Forms.Controls;
 using ViewLayout.Views;
 using ModelLayout.Models.Package;
+using static Guna.UI2.WinForms.Suite.Descriptions;
+using Guna.UI2.WinForms.Interfaces;
 
 namespace Forms.MenuForms
 {
@@ -35,13 +37,39 @@ namespace Forms.MenuForms
             if (action != null) action();
         }
 
+        public void NameLabel(List<IPackageModel> packages, Label label, int i)
+        {
+            if (label.Name.ToLower().Contains("price"))
+                label.Text = packages[i].Price.ToString() + " €";
+            else if (label.Name.ToLower().Contains("name"))
+                label.Text = packages[i].Name.ToString();
+            else if (label.Name.ToLower().Contains("sizedescription"))
+                label.Text = $"max. {packages[i].SizeDescription.Width} x {packages[i].SizeDescription.Length} x {packages[i].SizeDescription.Height} cm";
+        }
+
+        public void FindLabel(List<IPackageModel> packages, Panel panel, int i)
+        {
+            foreach (var control in panel.Controls)
+            {
+                if (control is Panel)
+                    FindLabel(packages, control as Panel, i);
+                else if (control is Label)
+                    NameLabel(packages, control as Label, i);
+            }
+        }
         public void LoadStartPackages(List<IPackageModel> packages)
         {
             try
             {
-                for (int i = 0; i < packages.Count; ++i)
+                TableLayoutControlCollection controls = packages_tableLayout.Controls;
+                int i = -1;
+
+                foreach (var control in controls)
                 {
-                    OptionPanelSizeDescription)
+                    ++i;
+
+                    if (control is Panel)
+                        FindLabel(packages, control as Panel, i);
                 }
             }
             catch { }

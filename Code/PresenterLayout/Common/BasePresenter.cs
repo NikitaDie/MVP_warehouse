@@ -22,7 +22,7 @@ namespace PresenterLayout.Common
             BaseView = baseView;
         }
 
-        public void Run()
+        public virtual void Run()
         {
             BaseView.LoadNewForm(View);
         }
