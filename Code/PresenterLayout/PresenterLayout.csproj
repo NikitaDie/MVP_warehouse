@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ServiceLayer\ServiceLayout.csproj" />
+    <ProjectReference Include="..\ModelLayout\ModelLayout.csproj" />
+    <ProjectReference Include="..\ServiceLayout\ServiceLayout.csproj" />
     <ProjectReference Include="..\ViewLayout\ViewLayout.csproj" />
   </ItemGroup>
 
