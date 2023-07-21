@@ -1,20 +1,11 @@
-﻿using Guna.UI2.WinForms;
+﻿using Forms.Controls;
+using Guna.UI2.WinForms;
 using Guna.UI2.WinForms.Suite;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Forms.Controls;
-using ViewLayout.Views;
+using Microsoft.AspNetCore.Mvc.Filters;
 using ModelLayout.Models.Package;
-using static Guna.UI2.WinForms.Suite.Descriptions;
-using Guna.UI2.WinForms.Interfaces;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using ViewLayout.Views;
 
 namespace Forms.MenuForms
 {
@@ -37,40 +28,41 @@ namespace Forms.MenuForms
             if (action != null) action();
         }
 
-        public void NameLabel(List<IPackageModel> packages, Label label, int i)
+        public void NameLabel(List<IPackageModel> packages, Label label)
         {
-            if (label.Name.ToLower().Contains("price"))
-                label.Text = packages[i].Price.ToString() + " €";
-            else if (label.Name.ToLower().Contains("name"))
-                label.Text = packages[i].Name.ToString();
-            else if (label.Name.ToLower().Contains("sizedescription"))
-                label.Text = $"max. {packages[i].SizeDescription.Width} x {packages[i].SizeDescription.Length} x {packages[i].SizeDescription.Height} cm";
+            int i;
+            try
+            {
+                i = Int32.Parse(Regex.Match(label.Name, @"\d+$").Value) - 1; // - 1 cause Names contains numbers from 1
+            } catch { return; }
+
+            try
+            {
+                if (label.Name.ToLower().Contains("price"))
+                    label.Text = packages[i].Price.ToString() + " €";
+                else if (label.Name.ToLower().Contains("name"))
+                    label.Text = packages[i].Name.ToString();
+                else if (label.Name.ToLower().Contains("sizedescription"))
+                    label.Text = $"max. {packages[i].SizeDescription.Width} x {packages[i].SizeDescription.Length} x {packages[i].SizeDescription.Height} cm";
+            }
+            catch { return; }
         }
 
-        public void FindLabel(List<IPackageModel> packages, Panel panel, int i)
+        public void FindLabel(List<IPackageModel> packages, Panel panel)
         {
             foreach (var control in panel.Controls)
             {
                 if (control is Panel)
-                    FindLabel(packages, control as Panel, i);
+                    FindLabel(packages, control as Panel);
                 else if (control is Label)
-                    NameLabel(packages, control as Label, i);
+                    NameLabel(packages, control as Label);
             }
         }
         public void LoadStartPackages(List<IPackageModel> packages)
         {
             try
             {
-                TableLayoutControlCollection controls = packages_tableLayout.Controls;
-                int i = -1;
-
-                foreach (var control in controls)
-                {
-                    ++i;
-
-                    if (control is Panel)
-                        FindLabel(packages, control as Panel, i);
-                }
+                FindLabel(packages, MainPanel as Panel);
             }
             catch { }
         }
@@ -192,11 +184,6 @@ namespace Forms.MenuForms
         private void OptionPanelMask1_Click(object sender, EventArgs e)
         {
             optionPanel_Click(OptionPanelBase1, OptinPanelWhitePanel1);
-        }
-
-        private void OptionPanelButton2_Click(object sender, EventArgs e)
-        {
-            optionPanel_Click(OptionPanelBase3, OptinPanelWhitePanel3);
         }
 
         private void OptionPanelMask1_MouseHover(object sender, EventArgs e)

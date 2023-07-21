@@ -28,62 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges87 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges88 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges97 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges98 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges95 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges96 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges107 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges108 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges101 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges99 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges100 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges117 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges118 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges111 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges112 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges109 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges110 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges113 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges114 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges127 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges128 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges121 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges122 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges119 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges120 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges123 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges124 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges125 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges126 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             OptinPanelWhitePanel1 = new Guna.UI2.WinForms.Guna2Panel();
             OptionPanelTraking1 = new Label();
             OptionPanelLiability1 = new Label();
@@ -91,73 +99,88 @@
             OptionPanelName1 = new Label();
             OptionPanelHeader1 = new Guna.UI2.WinForms.Guna2Panel();
             OptionPanelPrice1 = new Label();
-            guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            label10 = new Label();
-            OptionPanelName5 = new Label();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
-            OptionPanelPrice5 = new Label();
-            guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
-            label13 = new Label();
-            OptionPanelName6 = new Label();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
-            OptionPanelPrice6 = new Label();
-            OptionPanelBase4 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
-            label16 = new Label();
-            OptionPanelName4 = new Label();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
-            OptionPanelPrice4 = new Label();
             guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             OptionPanelBase1 = new Controls.OptionPanel();
             OptionPanelMask1 = new Controls.OptionPanel();
             OptionPanelButton1 = new Controls.HoverButton();
-            OptionPanelBase3 = new Controls.OptionPanel();
-            OptinPanelWhitePanel3 = new Guna.UI2.WinForms.Guna2Panel();
+            MainPanel = new Panel();
+            optionPanel9 = new Controls.OptionPanel();
+            optionPanel10 = new Controls.OptionPanel();
+            hoverButton5 = new Controls.HoverButton();
+            guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelTraking6 = new Label();
+            OptionPanelLiability6 = new Label();
+            OptionPanelSizeDescription6 = new Label();
+            OptionPanelName6 = new Label();
+            guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelPrice6 = new Label();
+            optionPanel7 = new Controls.OptionPanel();
+            optionPanel8 = new Controls.OptionPanel();
+            hoverButton4 = new Controls.HoverButton();
+            guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelTraking4 = new Label();
+            OptionPanelLiability4 = new Label();
+            OptionPanelSizeDescription4 = new Label();
+            OptionPanelName4 = new Label();
+            guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelPrice4 = new Label();
+            optionPanel5 = new Controls.OptionPanel();
+            optionPanel6 = new Controls.OptionPanel();
+            hoverButton3 = new Controls.HoverButton();
+            guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelTraking5 = new Label();
+            OptionPanelLiability5 = new Label();
+            OptionPanelSizeDescription5 = new Label();
+            OptionPanelName5 = new Label();
+            guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            OptionPanelPrice5 = new Label();
+            optionPanel3 = new Controls.OptionPanel();
+            optionPanel4 = new Controls.OptionPanel();
+            hoverButton2 = new Controls.HoverButton();
+            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             OptionPanelTraking3 = new Label();
             OptionPanelLiability3 = new Label();
             OptionPanelSizeDescription3 = new Label();
             OptionPanelName3 = new Label();
-            OptionPanelButton3 = new Guna.UI2.WinForms.Guna2Button();
-            OptionPanelHeader3 = new Guna.UI2.WinForms.Guna2Panel();
-            OptionPanelPrice3 = new Label();
+            guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            label10OptionPanelPrice3 = new Label();
+            optionPanel1 = new Controls.OptionPanel();
+            optionPanel2 = new Controls.OptionPanel();
+            hoverButton1 = new Controls.HoverButton();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            OptionPanelBase2 = new Controls.OptionPanel();
-            OptinPanelWhitePanel2 = new Guna.UI2.WinForms.Guna2Panel();
             OptionPanelTraking2 = new Label();
             OptionPanelLiability2 = new Label();
             OptionPanelSizeDescription2 = new Label();
             OptionPanelName2 = new Label();
-            OptionPanelButton2 = new Guna.UI2.WinForms.Guna2Button();
-            OptionPanelHeader2 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             OptionPanelPrice2 = new Label();
-            packages_tableLayout = new TableLayoutPanel();
             OptinPanelWhitePanel1.SuspendLayout();
             OptionPanelHeader1.SuspendLayout();
-            guna2Panel9.SuspendLayout();
-            guna2Panel10.SuspendLayout();
-            guna2Panel11.SuspendLayout();
-            guna2Panel12.SuspendLayout();
-            guna2Panel13.SuspendLayout();
-            guna2Panel14.SuspendLayout();
-            OptionPanelBase4.SuspendLayout();
-            guna2Panel16.SuspendLayout();
-            guna2Panel17.SuspendLayout();
             OptionPanelBase1.SuspendLayout();
             OptionPanelMask1.SuspendLayout();
-            OptionPanelBase3.SuspendLayout();
-            OptinPanelWhitePanel3.SuspendLayout();
-            OptionPanelHeader3.SuspendLayout();
-            OptionPanelBase2.SuspendLayout();
-            OptinPanelWhitePanel2.SuspendLayout();
-            OptionPanelHeader2.SuspendLayout();
-            packages_tableLayout.SuspendLayout();
+            MainPanel.SuspendLayout();
+            optionPanel9.SuspendLayout();
+            optionPanel10.SuspendLayout();
+            guna2Panel9.SuspendLayout();
+            guna2Panel10.SuspendLayout();
+            optionPanel7.SuspendLayout();
+            optionPanel8.SuspendLayout();
+            guna2Panel7.SuspendLayout();
+            guna2Panel8.SuspendLayout();
+            optionPanel5.SuspendLayout();
+            optionPanel6.SuspendLayout();
+            guna2Panel5.SuspendLayout();
+            guna2Panel6.SuspendLayout();
+            optionPanel3.SuspendLayout();
+            optionPanel4.SuspendLayout();
+            guna2Panel3.SuspendLayout();
+            guna2Panel4.SuspendLayout();
+            optionPanel1.SuspendLayout();
+            optionPanel2.SuspendLayout();
+            guna2Panel1.SuspendLayout();
+            guna2Panel2.SuspendLayout();
             SuspendLayout();
             // 
             // OptinPanelWhitePanel1
@@ -170,14 +193,14 @@
             OptinPanelWhitePanel1.Controls.Add(OptionPanelLiability1);
             OptinPanelWhitePanel1.Controls.Add(OptionPanelSizeDescription1);
             OptinPanelWhitePanel1.Controls.Add(OptionPanelName1);
-            customizableEdges1.TopLeft = false;
-            customizableEdges1.TopRight = false;
-            OptinPanelWhitePanel1.CustomizableEdges = customizableEdges1;
+            customizableEdges65.TopLeft = false;
+            customizableEdges65.TopRight = false;
+            OptinPanelWhitePanel1.CustomizableEdges = customizableEdges65;
             OptinPanelWhitePanel1.FillColor = SystemColors.Control;
             OptinPanelWhitePanel1.Location = new Point(2, 54);
             OptinPanelWhitePanel1.Name = "OptinPanelWhitePanel1";
             OptinPanelWhitePanel1.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            OptinPanelWhitePanel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            OptinPanelWhitePanel1.ShadowDecoration.CustomizableEdges = customizableEdges66;
             OptinPanelWhitePanel1.Size = new Size(162, 158);
             OptinPanelWhitePanel1.TabIndex = 9;
             OptinPanelWhitePanel1.UseTransparentBackground = true;
@@ -243,11 +266,11 @@
             OptionPanelHeader1.BorderRadius = 9;
             OptionPanelHeader1.BorderThickness = 1;
             OptionPanelHeader1.Controls.Add(OptionPanelPrice1);
-            OptionPanelHeader1.CustomizableEdges = customizableEdges3;
+            OptionPanelHeader1.CustomizableEdges = customizableEdges67;
             OptionPanelHeader1.FillColor = Color.FromArgb(255, 204, 0);
             OptionPanelHeader1.Location = new Point(2, 2);
             OptionPanelHeader1.Name = "OptionPanelHeader1";
-            OptionPanelHeader1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            OptionPanelHeader1.ShadowDecoration.CustomizableEdges = customizableEdges68;
             OptionPanelHeader1.Size = new Size(162, 82);
             OptionPanelHeader1.TabIndex = 0;
             OptionPanelHeader1.UseTransparentBackground = true;
@@ -264,357 +287,6 @@
             OptionPanelPrice1.Text = "3,99 €";
             OptionPanelPrice1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // guna2Panel9
-            // 
-            guna2Panel9.Anchor = AnchorStyles.None;
-            guna2Panel9.BackColor = Color.Transparent;
-            guna2Panel9.BorderColor = Color.FromArgb(154, 204, 156);
-            guna2Panel9.BorderRadius = 10;
-            guna2Panel9.Controls.Add(guna2Panel10);
-            guna2Panel9.Controls.Add(guna2Panel11);
-            guna2Panel9.CustomizableEdges = customizableEdges11;
-            guna2Panel9.FillColor = Color.Transparent;
-            guna2Panel9.Location = new Point(7, 243);
-            guna2Panel9.Name = "guna2Panel9";
-            guna2Panel9.ShadowDecoration.BorderRadius = 10;
-            guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2Panel9.ShadowDecoration.Depth = 20;
-            guna2Panel9.ShadowDecoration.Shadow = new Padding(5, 0, 5, 8);
-            guna2Panel9.Size = new Size(166, 214);
-            guna2Panel9.TabIndex = 10;
-            guna2Panel9.UseTransparentBackground = true;
-            // 
-            // guna2Panel10
-            // 
-            guna2Panel10.BackColor = Color.Transparent;
-            guna2Panel10.BorderColor = SystemColors.Control;
-            guna2Panel10.BorderRadius = 9;
-            guna2Panel10.BorderThickness = 1;
-            guna2Panel10.Controls.Add(label10);
-            guna2Panel10.Controls.Add(OptionPanelName5);
-            guna2Panel10.Controls.Add(guna2Button4);
-            customizableEdges7.TopLeft = false;
-            customizableEdges7.TopRight = false;
-            guna2Panel10.CustomizableEdges = customizableEdges7;
-            guna2Panel10.FillColor = SystemColors.Control;
-            guna2Panel10.Location = new Point(2, 54);
-            guna2Panel10.Name = "guna2Panel10";
-            guna2Panel10.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            guna2Panel10.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Panel10.Size = new Size(162, 158);
-            guna2Panel10.TabIndex = 9;
-            guna2Panel10.UseTransparentBackground = true;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(20, 69);
-            label10.Name = "label10";
-            label10.Size = new Size(116, 15);
-            label10.TabIndex = 8;
-            label10.Text = "max. 60 x 30 x 15 cm";
-            // 
-            // OptionPanelName5
-            // 
-            OptionPanelName5.BackColor = Color.Transparent;
-            OptionPanelName5.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelName5.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelName5.Location = new Point(1, 8);
-            OptionPanelName5.Name = "OptionPanelName5";
-            OptionPanelName5.Size = new Size(160, 32);
-            OptionPanelName5.TabIndex = 7;
-            OptionPanelName5.Text = "2 kg - Package S";
-            OptionPanelName5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // guna2Button4
-            // 
-            guna2Button4.Animated = true;
-            guna2Button4.BorderColor = Color.Transparent;
-            guna2Button4.BorderRadius = 5;
-            guna2Button4.BorderThickness = 2;
-            guna2Button4.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button4.CheckedState.FillColor = SystemColors.Control;
-            guna2Button4.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button4.CustomizableEdges = customizableEdges5;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.FromArgb(212, 5, 17);
-            guna2Button4.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button4.ForeColor = Color.White;
-            guna2Button4.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button4.HoverState.FillColor = SystemColors.Control;
-            guna2Button4.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button4.Location = new Point(26, 114);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button4.Size = new Size(110, 28);
-            guna2Button4.TabIndex = 0;
-            guna2Button4.Text = "PICK";
-            // 
-            // guna2Panel11
-            // 
-            guna2Panel11.BackColor = Color.Transparent;
-            guna2Panel11.BorderColor = Color.FromArgb(255, 204, 0);
-            guna2Panel11.BorderRadius = 9;
-            guna2Panel11.BorderThickness = 1;
-            guna2Panel11.Controls.Add(OptionPanelPrice5);
-            guna2Panel11.CustomizableEdges = customizableEdges9;
-            guna2Panel11.FillColor = Color.FromArgb(255, 204, 0);
-            guna2Panel11.Location = new Point(2, 2);
-            guna2Panel11.Name = "guna2Panel11";
-            guna2Panel11.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel11.Size = new Size(162, 82);
-            guna2Panel11.TabIndex = 0;
-            guna2Panel11.UseTransparentBackground = true;
-            // 
-            // OptionPanelPrice5
-            // 
-            OptionPanelPrice5.BackColor = Color.Transparent;
-            OptionPanelPrice5.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelPrice5.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelPrice5.Location = new Point(1, 9);
-            OptionPanelPrice5.Name = "OptionPanelPrice5";
-            OptionPanelPrice5.Size = new Size(160, 32);
-            OptionPanelPrice5.TabIndex = 6;
-            OptionPanelPrice5.Text = "10,49 €";
-            OptionPanelPrice5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel12
-            // 
-            guna2Panel12.Anchor = AnchorStyles.None;
-            guna2Panel12.BackColor = Color.Transparent;
-            guna2Panel12.BorderColor = Color.FromArgb(154, 204, 156);
-            guna2Panel12.BorderRadius = 10;
-            guna2Panel12.Controls.Add(guna2Panel13);
-            guna2Panel12.Controls.Add(guna2Panel14);
-            guna2Panel12.CustomizableEdges = customizableEdges19;
-            guna2Panel12.FillColor = Color.Transparent;
-            guna2Panel12.Location = new Point(188, 243);
-            guna2Panel12.Name = "guna2Panel12";
-            guna2Panel12.ShadowDecoration.BorderRadius = 10;
-            guna2Panel12.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Panel12.ShadowDecoration.Depth = 20;
-            guna2Panel12.ShadowDecoration.Shadow = new Padding(5, 0, 5, 8);
-            guna2Panel12.Size = new Size(166, 214);
-            guna2Panel12.TabIndex = 10;
-            guna2Panel12.UseTransparentBackground = true;
-            // 
-            // guna2Panel13
-            // 
-            guna2Panel13.BackColor = Color.Transparent;
-            guna2Panel13.BorderColor = SystemColors.Control;
-            guna2Panel13.BorderRadius = 9;
-            guna2Panel13.BorderThickness = 1;
-            guna2Panel13.Controls.Add(label13);
-            guna2Panel13.Controls.Add(OptionPanelName6);
-            guna2Panel13.Controls.Add(guna2Button5);
-            customizableEdges15.TopLeft = false;
-            customizableEdges15.TopRight = false;
-            guna2Panel13.CustomizableEdges = customizableEdges15;
-            guna2Panel13.FillColor = SystemColors.Control;
-            guna2Panel13.Location = new Point(2, 54);
-            guna2Panel13.Name = "guna2Panel13";
-            guna2Panel13.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            guna2Panel13.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Panel13.Size = new Size(162, 158);
-            guna2Panel13.TabIndex = 9;
-            guna2Panel13.UseTransparentBackground = true;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(20, 69);
-            label13.Name = "label13";
-            label13.Size = new Size(116, 15);
-            label13.TabIndex = 8;
-            label13.Text = "max. 60 x 30 x 15 cm";
-            // 
-            // OptionPanelName6
-            // 
-            OptionPanelName6.BackColor = Color.Transparent;
-            OptionPanelName6.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelName6.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelName6.Location = new Point(1, 8);
-            OptionPanelName6.Name = "OptionPanelName6";
-            OptionPanelName6.Size = new Size(160, 32);
-            OptionPanelName6.TabIndex = 7;
-            OptionPanelName6.Text = "2 kg - Package S";
-            OptionPanelName6.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // guna2Button5
-            // 
-            guna2Button5.Animated = true;
-            guna2Button5.BorderColor = Color.Transparent;
-            guna2Button5.BorderRadius = 5;
-            guna2Button5.BorderThickness = 2;
-            guna2Button5.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button5.CheckedState.FillColor = SystemColors.Control;
-            guna2Button5.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button5.CustomizableEdges = customizableEdges13;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.FromArgb(212, 5, 17);
-            guna2Button5.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button5.ForeColor = Color.White;
-            guna2Button5.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button5.HoverState.FillColor = SystemColors.Control;
-            guna2Button5.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button5.Location = new Point(26, 114);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Button5.Size = new Size(110, 28);
-            guna2Button5.TabIndex = 0;
-            guna2Button5.Text = "PICK";
-            // 
-            // guna2Panel14
-            // 
-            guna2Panel14.BackColor = Color.Transparent;
-            guna2Panel14.BorderColor = Color.FromArgb(255, 204, 0);
-            guna2Panel14.BorderRadius = 9;
-            guna2Panel14.BorderThickness = 1;
-            guna2Panel14.Controls.Add(OptionPanelPrice6);
-            guna2Panel14.CustomizableEdges = customizableEdges17;
-            guna2Panel14.FillColor = Color.FromArgb(255, 204, 0);
-            guna2Panel14.Location = new Point(2, 2);
-            guna2Panel14.Name = "guna2Panel14";
-            guna2Panel14.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Panel14.Size = new Size(162, 82);
-            guna2Panel14.TabIndex = 0;
-            guna2Panel14.UseTransparentBackground = true;
-            // 
-            // OptionPanelPrice6
-            // 
-            OptionPanelPrice6.BackColor = Color.Transparent;
-            OptionPanelPrice6.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelPrice6.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelPrice6.Location = new Point(1, 9);
-            OptionPanelPrice6.Name = "OptionPanelPrice6";
-            OptionPanelPrice6.Size = new Size(160, 32);
-            OptionPanelPrice6.TabIndex = 6;
-            OptionPanelPrice6.Text = "10,49 €";
-            OptionPanelPrice6.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OptionPanelBase4
-            // 
-            OptionPanelBase4.Anchor = AnchorStyles.None;
-            OptionPanelBase4.BackColor = Color.Transparent;
-            OptionPanelBase4.BorderColor = Color.FromArgb(154, 204, 156);
-            OptionPanelBase4.BorderRadius = 10;
-            OptionPanelBase4.Controls.Add(guna2Panel16);
-            OptionPanelBase4.Controls.Add(guna2Panel17);
-            OptionPanelBase4.CustomizableEdges = customizableEdges27;
-            OptionPanelBase4.FillColor = Color.Transparent;
-            OptionPanelBase4.Location = new Point(551, 9);
-            OptionPanelBase4.Name = "OptionPanelBase4";
-            OptionPanelBase4.ShadowDecoration.BorderRadius = 10;
-            OptionPanelBase4.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            OptionPanelBase4.ShadowDecoration.Depth = 20;
-            OptionPanelBase4.ShadowDecoration.Shadow = new Padding(5, 0, 5, 8);
-            OptionPanelBase4.Size = new Size(166, 214);
-            OptionPanelBase4.TabIndex = 10;
-            OptionPanelBase4.UseTransparentBackground = true;
-            // 
-            // guna2Panel16
-            // 
-            guna2Panel16.BackColor = Color.Transparent;
-            guna2Panel16.BorderColor = SystemColors.Control;
-            guna2Panel16.BorderRadius = 9;
-            guna2Panel16.BorderThickness = 1;
-            guna2Panel16.Controls.Add(label16);
-            guna2Panel16.Controls.Add(OptionPanelName4);
-            guna2Panel16.Controls.Add(guna2Button6);
-            customizableEdges23.TopLeft = false;
-            customizableEdges23.TopRight = false;
-            guna2Panel16.CustomizableEdges = customizableEdges23;
-            guna2Panel16.FillColor = SystemColors.Control;
-            guna2Panel16.Location = new Point(2, 54);
-            guna2Panel16.Name = "guna2Panel16";
-            guna2Panel16.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            guna2Panel16.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2Panel16.Size = new Size(162, 158);
-            guna2Panel16.TabIndex = 9;
-            guna2Panel16.UseTransparentBackground = true;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(20, 69);
-            label16.Name = "label16";
-            label16.Size = new Size(116, 15);
-            label16.TabIndex = 8;
-            label16.Text = "max. 60 x 30 x 15 cm";
-            // 
-            // OptionPanelName4
-            // 
-            OptionPanelName4.BackColor = Color.Transparent;
-            OptionPanelName4.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelName4.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelName4.Location = new Point(1, 8);
-            OptionPanelName4.Name = "OptionPanelName4";
-            OptionPanelName4.Size = new Size(160, 32);
-            OptionPanelName4.TabIndex = 7;
-            OptionPanelName4.Text = "2 kg - Package S";
-            OptionPanelName4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // guna2Button6
-            // 
-            guna2Button6.Animated = true;
-            guna2Button6.BorderColor = Color.Transparent;
-            guna2Button6.BorderRadius = 5;
-            guna2Button6.BorderThickness = 2;
-            guna2Button6.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button6.CheckedState.FillColor = SystemColors.Control;
-            guna2Button6.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button6.CustomizableEdges = customizableEdges21;
-            guna2Button6.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = Color.FromArgb(212, 5, 17);
-            guna2Button6.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button6.ForeColor = Color.White;
-            guna2Button6.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
-            guna2Button6.HoverState.FillColor = SystemColors.Control;
-            guna2Button6.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button6.Location = new Point(26, 114);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2Button6.Size = new Size(110, 28);
-            guna2Button6.TabIndex = 0;
-            guna2Button6.Text = "PICK";
-            // 
-            // guna2Panel17
-            // 
-            guna2Panel17.BackColor = Color.Transparent;
-            guna2Panel17.BorderColor = Color.FromArgb(255, 204, 0);
-            guna2Panel17.BorderRadius = 9;
-            guna2Panel17.BorderThickness = 1;
-            guna2Panel17.Controls.Add(OptionPanelPrice4);
-            guna2Panel17.CustomizableEdges = customizableEdges25;
-            guna2Panel17.FillColor = Color.FromArgb(255, 204, 0);
-            guna2Panel17.Location = new Point(2, 2);
-            guna2Panel17.Name = "guna2Panel17";
-            guna2Panel17.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2Panel17.Size = new Size(162, 82);
-            guna2Panel17.TabIndex = 0;
-            guna2Panel17.UseTransparentBackground = true;
-            // 
-            // OptionPanelPrice4
-            // 
-            OptionPanelPrice4.BackColor = Color.Transparent;
-            OptionPanelPrice4.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelPrice4.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelPrice4.Location = new Point(1, 9);
-            OptionPanelPrice4.Name = "OptionPanelPrice4";
-            OptionPanelPrice4.Size = new Size(160, 32);
-            OptionPanelPrice4.TabIndex = 6;
-            OptionPanelPrice4.Text = "10,49 €";
-            OptionPanelPrice4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // guna2Button7
             // 
             guna2Button7.Animated = true;
@@ -624,7 +296,7 @@
             guna2Button7.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
             guna2Button7.CheckedState.FillColor = SystemColors.Control;
             guna2Button7.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            guna2Button7.CustomizableEdges = customizableEdges29;
+            guna2Button7.CustomizableEdges = customizableEdges69;
             guna2Button7.DisabledState.BorderColor = Color.DarkGray;
             guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -637,7 +309,7 @@
             guna2Button7.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
             guna2Button7.Location = new Point(376, 414);
             guna2Button7.Name = "guna2Button7";
-            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges70;
             guna2Button7.Size = new Size(345, 39);
             guna2Button7.TabIndex = 11;
             guna2Button7.Text = "Continue to address input";
@@ -652,10 +324,10 @@
             guna2ImageButton1.ImageOffset = new Point(0, 0);
             guna2ImageButton1.ImageRotate = 0F;
             guna2ImageButton1.ImageSize = new Size(16, 16);
-            guna2ImageButton1.Location = new Point(408, 303);
+            guna2ImageButton1.Location = new Point(425, 323);
             guna2ImageButton1.Name = "guna2ImageButton1";
             guna2ImageButton1.PressedState.ImageSize = new Size(64, 64);
-            guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges31;
+            guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges71;
             guna2ImageButton1.Size = new Size(64, 54);
             guna2ImageButton1.TabIndex = 12;
             // 
@@ -675,7 +347,7 @@
             guna2CircleButton1.Name = "guna2CircleButton1";
             guna2CircleButton1.PressedColor = Color.Transparent;
             guna2CircleButton1.PressedDepth = 0;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges72;
             guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CircleButton1.Size = new Size(24, 24);
             guna2CircleButton1.TabIndex = 13;
@@ -691,11 +363,11 @@
             OptionPanelBase1.Controls.Add(OptionPanelMask1);
             OptionPanelBase1.Controls.Add(OptinPanelWhitePanel1);
             OptionPanelBase1.Controls.Add(OptionPanelHeader1);
-            OptionPanelBase1.CustomizableEdges = customizableEdges37;
-            OptionPanelBase1.Location = new Point(7, 9);
+            OptionPanelBase1.CustomizableEdges = customizableEdges77;
+            OptionPanelBase1.Location = new Point(13, 14);
             OptionPanelBase1.Name = "OptionPanelBase1";
             OptionPanelBase1.ShadowDecoration.BorderRadius = 12;
-            OptionPanelBase1.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            OptionPanelBase1.ShadowDecoration.CustomizableEdges = customizableEdges78;
             OptionPanelBase1.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
             OptionPanelBase1.Size = new Size(166, 214);
             OptionPanelBase1.TabIndex = 15;
@@ -707,12 +379,12 @@
             OptionPanelMask1.BorderRadius = 9;
             OptionPanelMask1.Clicked = false;
             OptionPanelMask1.Controls.Add(OptionPanelButton1);
-            OptionPanelMask1.CustomizableEdges = customizableEdges35;
+            OptionPanelMask1.CustomizableEdges = customizableEdges75;
             OptionPanelMask1.Dock = DockStyle.Fill;
             OptionPanelMask1.ForeColor = SystemColors.ControlLightLight;
             OptionPanelMask1.Location = new Point(0, 0);
             OptionPanelMask1.Name = "OptionPanelMask1";
-            OptionPanelMask1.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            OptionPanelMask1.ShadowDecoration.CustomizableEdges = customizableEdges76;
             OptionPanelMask1.Size = new Size(166, 214);
             OptionPanelMask1.TabIndex = 10;
             OptionPanelMask1.UseTransparentBackground = true;
@@ -725,7 +397,7 @@
             OptionPanelButton1.BorderColor = Color.Transparent;
             OptionPanelButton1.BorderRadius = 5;
             OptionPanelButton1.BorderThickness = 2;
-            OptionPanelButton1.CustomizableEdges = customizableEdges33;
+            OptionPanelButton1.CustomizableEdges = customizableEdges73;
             OptionPanelButton1.DisabledState.BorderColor = Color.DarkGray;
             OptionPanelButton1.DisabledState.CustomBorderColor = Color.DarkGray;
             OptionPanelButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -739,55 +411,591 @@
             OptionPanelButton1.IsHovered = false;
             OptionPanelButton1.Location = new Point(28, 168);
             OptionPanelButton1.Name = "OptionPanelButton1";
-            OptionPanelButton1.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            OptionPanelButton1.ShadowDecoration.CustomizableEdges = customizableEdges74;
             OptionPanelButton1.Size = new Size(110, 28);
             OptionPanelButton1.TabIndex = 17;
             OptionPanelButton1.Text = "PICK";
             OptionPanelButton1.MouseEnter += OptionPanelButton1_MouseEnter;
             // 
-            // OptionPanelBase3
+            // MainPanel
             // 
-            OptionPanelBase3.Anchor = AnchorStyles.None;
-            OptionPanelBase3.BackColor = Color.Transparent;
-            OptionPanelBase3.BorderColor = Color.FromArgb(94, 183, 97);
-            OptionPanelBase3.BorderRadius = 6;
-            OptionPanelBase3.Clicked = false;
-            OptionPanelBase3.Controls.Add(OptinPanelWhitePanel3);
-            OptionPanelBase3.Controls.Add(OptionPanelHeader3);
-            OptionPanelBase3.CustomizableEdges = customizableEdges45;
-            OptionPanelBase3.FillColor = Color.Transparent;
-            OptionPanelBase3.Location = new Point(369, 9);
-            OptionPanelBase3.Name = "OptionPanelBase3";
-            OptionPanelBase3.ShadowDecoration.BorderRadius = 12;
-            OptionPanelBase3.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            OptionPanelBase3.ShadowDecoration.Depth = 20;
-            OptionPanelBase3.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
-            OptionPanelBase3.Size = new Size(166, 214);
-            OptionPanelBase3.TabIndex = 16;
-            OptionPanelBase3.UseTransparentBackground = true;
+            MainPanel.Controls.Add(optionPanel9);
+            MainPanel.Controls.Add(optionPanel7);
+            MainPanel.Controls.Add(optionPanel5);
+            MainPanel.Controls.Add(optionPanel3);
+            MainPanel.Controls.Add(optionPanel1);
+            MainPanel.Controls.Add(OptionPanelBase1);
+            MainPanel.Controls.Add(guna2ImageButton1);
+            MainPanel.Dock = DockStyle.Fill;
+            MainPanel.Location = new Point(0, 0);
+            MainPanel.Name = "MainPanel";
+            MainPanel.Size = new Size(733, 477);
+            MainPanel.TabIndex = 18;
             // 
-            // OptinPanelWhitePanel3
+            // optionPanel9
             // 
-            OptinPanelWhitePanel3.BackColor = Color.Transparent;
-            OptinPanelWhitePanel3.BorderColor = SystemColors.Control;
-            OptinPanelWhitePanel3.BorderRadius = 9;
-            OptinPanelWhitePanel3.BorderThickness = 1;
-            OptinPanelWhitePanel3.Controls.Add(OptionPanelTraking3);
-            OptinPanelWhitePanel3.Controls.Add(OptionPanelLiability3);
-            OptinPanelWhitePanel3.Controls.Add(OptionPanelSizeDescription3);
-            OptinPanelWhitePanel3.Controls.Add(OptionPanelName3);
-            OptinPanelWhitePanel3.Controls.Add(OptionPanelButton3);
-            customizableEdges41.TopLeft = false;
-            customizableEdges41.TopRight = false;
-            OptinPanelWhitePanel3.CustomizableEdges = customizableEdges41;
-            OptinPanelWhitePanel3.FillColor = SystemColors.Control;
-            OptinPanelWhitePanel3.Location = new Point(2, 54);
-            OptinPanelWhitePanel3.Name = "OptinPanelWhitePanel3";
-            OptinPanelWhitePanel3.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            OptinPanelWhitePanel3.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            OptinPanelWhitePanel3.Size = new Size(162, 158);
-            OptinPanelWhitePanel3.TabIndex = 11;
-            OptinPanelWhitePanel3.UseTransparentBackground = true;
+            optionPanel9.Anchor = AnchorStyles.None;
+            optionPanel9.BackColor = Color.Transparent;
+            optionPanel9.BorderColor = Color.FromArgb(94, 183, 97);
+            optionPanel9.BorderRadius = 6;
+            optionPanel9.Clicked = false;
+            optionPanel9.Controls.Add(optionPanel10);
+            optionPanel9.Controls.Add(guna2Panel9);
+            optionPanel9.Controls.Add(guna2Panel10);
+            optionPanel9.CustomizableEdges = customizableEdges87;
+            optionPanel9.Location = new Point(193, 249);
+            optionPanel9.Name = "optionPanel9";
+            optionPanel9.ShadowDecoration.BorderRadius = 12;
+            optionPanel9.ShadowDecoration.CustomizableEdges = customizableEdges88;
+            optionPanel9.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
+            optionPanel9.Size = new Size(166, 214);
+            optionPanel9.TabIndex = 20;
+            optionPanel9.UseTransparentBackground = true;
+            // 
+            // optionPanel10
+            // 
+            optionPanel10.BackColor = Color.Transparent;
+            optionPanel10.BorderRadius = 9;
+            optionPanel10.Clicked = false;
+            optionPanel10.Controls.Add(hoverButton5);
+            optionPanel10.CustomizableEdges = customizableEdges81;
+            optionPanel10.Dock = DockStyle.Fill;
+            optionPanel10.ForeColor = SystemColors.ControlLightLight;
+            optionPanel10.Location = new Point(0, 0);
+            optionPanel10.Name = "optionPanel10";
+            optionPanel10.ShadowDecoration.CustomizableEdges = customizableEdges82;
+            optionPanel10.Size = new Size(166, 214);
+            optionPanel10.TabIndex = 10;
+            optionPanel10.UseTransparentBackground = true;
+            // 
+            // hoverButton5
+            // 
+            hoverButton5.BorderColor = Color.Transparent;
+            hoverButton5.BorderRadius = 5;
+            hoverButton5.BorderThickness = 2;
+            hoverButton5.CustomizableEdges = customizableEdges79;
+            hoverButton5.DisabledState.BorderColor = Color.DarkGray;
+            hoverButton5.DisabledState.CustomBorderColor = Color.DarkGray;
+            hoverButton5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            hoverButton5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            hoverButton5.FillColor = Color.FromArgb(212, 5, 17);
+            hoverButton5.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hoverButton5.ForeColor = Color.White;
+            hoverButton5.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
+            hoverButton5.HoverState.FillColor = SystemColors.Control;
+            hoverButton5.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
+            hoverButton5.IsHovered = false;
+            hoverButton5.Location = new Point(28, 168);
+            hoverButton5.Name = "hoverButton5";
+            hoverButton5.ShadowDecoration.CustomizableEdges = customizableEdges80;
+            hoverButton5.Size = new Size(110, 28);
+            hoverButton5.TabIndex = 17;
+            hoverButton5.Text = "PICK";
+            // 
+            // guna2Panel9
+            // 
+            guna2Panel9.BackColor = Color.Transparent;
+            guna2Panel9.BorderColor = SystemColors.Control;
+            guna2Panel9.BorderRadius = 9;
+            guna2Panel9.BorderThickness = 1;
+            guna2Panel9.Controls.Add(OptionPanelTraking6);
+            guna2Panel9.Controls.Add(OptionPanelLiability6);
+            guna2Panel9.Controls.Add(OptionPanelSizeDescription6);
+            guna2Panel9.Controls.Add(OptionPanelName6);
+            customizableEdges83.TopLeft = false;
+            customizableEdges83.TopRight = false;
+            guna2Panel9.CustomizableEdges = customizableEdges83;
+            guna2Panel9.FillColor = SystemColors.Control;
+            guna2Panel9.Location = new Point(2, 54);
+            guna2Panel9.Name = "guna2Panel9";
+            guna2Panel9.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
+            guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges84;
+            guna2Panel9.Size = new Size(162, 158);
+            guna2Panel9.TabIndex = 9;
+            guna2Panel9.UseTransparentBackground = true;
+            // 
+            // OptionPanelTraking6
+            // 
+            OptionPanelTraking6.AutoSize = true;
+            OptionPanelTraking6.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelTraking6.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelTraking6.Image = Properties.Resources.rotCross1;
+            OptionPanelTraking6.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelTraking6.Location = new Point(14, 83);
+            OptionPanelTraking6.Name = "OptionPanelTraking6";
+            OptionPanelTraking6.Size = new Size(116, 15);
+            OptionPanelTraking6.TabIndex = 10;
+            OptionPanelTraking6.Text = "    Shipment tracking";
+            OptionPanelTraking6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelLiability6
+            // 
+            OptionPanelLiability6.AutoSize = true;
+            OptionPanelLiability6.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelLiability6.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelLiability6.Image = Properties.Resources.rotCross1;
+            OptionPanelLiability6.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelLiability6.Location = new Point(14, 65);
+            OptionPanelLiability6.Name = "OptionPanelLiability6";
+            OptionPanelLiability6.Size = new Size(60, 15);
+            OptionPanelLiability6.TabIndex = 9;
+            OptionPanelLiability6.Text = "    Liability";
+            OptionPanelLiability6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelSizeDescription6
+            // 
+            OptionPanelSizeDescription6.AutoSize = true;
+            OptionPanelSizeDescription6.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelSizeDescription6.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelSizeDescription6.Location = new Point(25, 46);
+            OptionPanelSizeDescription6.Name = "OptionPanelSizeDescription6";
+            OptionPanelSizeDescription6.Size = new Size(113, 15);
+            OptionPanelSizeDescription6.TabIndex = 8;
+            OptionPanelSizeDescription6.Text = "max. 30 x 25 x 10 cm";
+            // 
+            // OptionPanelName6
+            // 
+            OptionPanelName6.BackColor = Color.Transparent;
+            OptionPanelName6.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelName6.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelName6.Location = new Point(1, 8);
+            OptionPanelName6.Name = "OptionPanelName6";
+            OptionPanelName6.Size = new Size(160, 32);
+            OptionPanelName6.TabIndex = 7;
+            OptionPanelName6.Text = "2 kg - Package S";
+            OptionPanelName6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel10
+            // 
+            guna2Panel10.BackColor = Color.Transparent;
+            guna2Panel10.BorderColor = Color.FromArgb(255, 204, 0);
+            guna2Panel10.BorderRadius = 9;
+            guna2Panel10.BorderThickness = 1;
+            guna2Panel10.Controls.Add(OptionPanelPrice6);
+            guna2Panel10.CustomizableEdges = customizableEdges85;
+            guna2Panel10.FillColor = Color.FromArgb(255, 204, 0);
+            guna2Panel10.Location = new Point(2, 2);
+            guna2Panel10.Name = "guna2Panel10";
+            guna2Panel10.ShadowDecoration.CustomizableEdges = customizableEdges86;
+            guna2Panel10.Size = new Size(162, 82);
+            guna2Panel10.TabIndex = 0;
+            guna2Panel10.UseTransparentBackground = true;
+            // 
+            // OptionPanelPrice6
+            // 
+            OptionPanelPrice6.BackColor = Color.Transparent;
+            OptionPanelPrice6.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelPrice6.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelPrice6.Location = new Point(1, 9);
+            OptionPanelPrice6.Name = "OptionPanelPrice6";
+            OptionPanelPrice6.Size = new Size(160, 32);
+            OptionPanelPrice6.TabIndex = 6;
+            OptionPanelPrice6.Text = "3,99 €";
+            OptionPanelPrice6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // optionPanel7
+            // 
+            optionPanel7.Anchor = AnchorStyles.None;
+            optionPanel7.BackColor = Color.Transparent;
+            optionPanel7.BorderColor = Color.FromArgb(94, 183, 97);
+            optionPanel7.BorderRadius = 6;
+            optionPanel7.Clicked = false;
+            optionPanel7.Controls.Add(optionPanel8);
+            optionPanel7.Controls.Add(guna2Panel7);
+            optionPanel7.Controls.Add(guna2Panel8);
+            optionPanel7.CustomizableEdges = customizableEdges97;
+            optionPanel7.Location = new Point(555, 14);
+            optionPanel7.Name = "optionPanel7";
+            optionPanel7.ShadowDecoration.BorderRadius = 12;
+            optionPanel7.ShadowDecoration.CustomizableEdges = customizableEdges98;
+            optionPanel7.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
+            optionPanel7.Size = new Size(166, 214);
+            optionPanel7.TabIndex = 19;
+            optionPanel7.UseTransparentBackground = true;
+            // 
+            // optionPanel8
+            // 
+            optionPanel8.BackColor = Color.Transparent;
+            optionPanel8.BorderRadius = 9;
+            optionPanel8.Clicked = false;
+            optionPanel8.Controls.Add(hoverButton4);
+            optionPanel8.CustomizableEdges = customizableEdges91;
+            optionPanel8.Dock = DockStyle.Fill;
+            optionPanel8.ForeColor = SystemColors.ControlLightLight;
+            optionPanel8.Location = new Point(0, 0);
+            optionPanel8.Name = "optionPanel8";
+            optionPanel8.ShadowDecoration.CustomizableEdges = customizableEdges92;
+            optionPanel8.Size = new Size(166, 214);
+            optionPanel8.TabIndex = 10;
+            optionPanel8.UseTransparentBackground = true;
+            // 
+            // hoverButton4
+            // 
+            hoverButton4.BorderColor = Color.Transparent;
+            hoverButton4.BorderRadius = 5;
+            hoverButton4.BorderThickness = 2;
+            hoverButton4.CustomizableEdges = customizableEdges89;
+            hoverButton4.DisabledState.BorderColor = Color.DarkGray;
+            hoverButton4.DisabledState.CustomBorderColor = Color.DarkGray;
+            hoverButton4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            hoverButton4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            hoverButton4.FillColor = Color.FromArgb(212, 5, 17);
+            hoverButton4.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hoverButton4.ForeColor = Color.White;
+            hoverButton4.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
+            hoverButton4.HoverState.FillColor = SystemColors.Control;
+            hoverButton4.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
+            hoverButton4.IsHovered = false;
+            hoverButton4.Location = new Point(28, 168);
+            hoverButton4.Name = "hoverButton4";
+            hoverButton4.ShadowDecoration.CustomizableEdges = customizableEdges90;
+            hoverButton4.Size = new Size(110, 28);
+            hoverButton4.TabIndex = 17;
+            hoverButton4.Text = "PICK";
+            // 
+            // guna2Panel7
+            // 
+            guna2Panel7.BackColor = Color.Transparent;
+            guna2Panel7.BorderColor = SystemColors.Control;
+            guna2Panel7.BorderRadius = 9;
+            guna2Panel7.BorderThickness = 1;
+            guna2Panel7.Controls.Add(OptionPanelTraking4);
+            guna2Panel7.Controls.Add(OptionPanelLiability4);
+            guna2Panel7.Controls.Add(OptionPanelSizeDescription4);
+            guna2Panel7.Controls.Add(OptionPanelName4);
+            customizableEdges93.TopLeft = false;
+            customizableEdges93.TopRight = false;
+            guna2Panel7.CustomizableEdges = customizableEdges93;
+            guna2Panel7.FillColor = SystemColors.Control;
+            guna2Panel7.Location = new Point(2, 54);
+            guna2Panel7.Name = "guna2Panel7";
+            guna2Panel7.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
+            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges94;
+            guna2Panel7.Size = new Size(162, 158);
+            guna2Panel7.TabIndex = 9;
+            guna2Panel7.UseTransparentBackground = true;
+            // 
+            // OptionPanelTraking4
+            // 
+            OptionPanelTraking4.AutoSize = true;
+            OptionPanelTraking4.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelTraking4.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelTraking4.Image = Properties.Resources.rotCross1;
+            OptionPanelTraking4.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelTraking4.Location = new Point(14, 83);
+            OptionPanelTraking4.Name = "OptionPanelTraking4";
+            OptionPanelTraking4.Size = new Size(116, 15);
+            OptionPanelTraking4.TabIndex = 10;
+            OptionPanelTraking4.Text = "    Shipment tracking";
+            OptionPanelTraking4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelLiability4
+            // 
+            OptionPanelLiability4.AutoSize = true;
+            OptionPanelLiability4.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelLiability4.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelLiability4.Image = Properties.Resources.rotCross1;
+            OptionPanelLiability4.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelLiability4.Location = new Point(14, 65);
+            OptionPanelLiability4.Name = "OptionPanelLiability4";
+            OptionPanelLiability4.Size = new Size(60, 15);
+            OptionPanelLiability4.TabIndex = 9;
+            OptionPanelLiability4.Text = "    Liability";
+            OptionPanelLiability4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelSizeDescription4
+            // 
+            OptionPanelSizeDescription4.AutoSize = true;
+            OptionPanelSizeDescription4.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelSizeDescription4.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelSizeDescription4.Location = new Point(25, 46);
+            OptionPanelSizeDescription4.Name = "OptionPanelSizeDescription4";
+            OptionPanelSizeDescription4.Size = new Size(113, 15);
+            OptionPanelSizeDescription4.TabIndex = 8;
+            OptionPanelSizeDescription4.Text = "max. 30 x 25 x 10 cm";
+            // 
+            // OptionPanelName4
+            // 
+            OptionPanelName4.BackColor = Color.Transparent;
+            OptionPanelName4.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelName4.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelName4.Location = new Point(1, 8);
+            OptionPanelName4.Name = "OptionPanelName4";
+            OptionPanelName4.Size = new Size(160, 32);
+            OptionPanelName4.TabIndex = 7;
+            OptionPanelName4.Text = "2 kg - Package S";
+            OptionPanelName4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel8
+            // 
+            guna2Panel8.BackColor = Color.Transparent;
+            guna2Panel8.BorderColor = Color.FromArgb(255, 204, 0);
+            guna2Panel8.BorderRadius = 9;
+            guna2Panel8.BorderThickness = 1;
+            guna2Panel8.Controls.Add(OptionPanelPrice4);
+            guna2Panel8.CustomizableEdges = customizableEdges95;
+            guna2Panel8.FillColor = Color.FromArgb(255, 204, 0);
+            guna2Panel8.Location = new Point(2, 2);
+            guna2Panel8.Name = "guna2Panel8";
+            guna2Panel8.ShadowDecoration.CustomizableEdges = customizableEdges96;
+            guna2Panel8.Size = new Size(162, 82);
+            guna2Panel8.TabIndex = 0;
+            guna2Panel8.UseTransparentBackground = true;
+            // 
+            // OptionPanelPrice4
+            // 
+            OptionPanelPrice4.BackColor = Color.Transparent;
+            OptionPanelPrice4.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelPrice4.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelPrice4.Location = new Point(1, 9);
+            OptionPanelPrice4.Name = "OptionPanelPrice4";
+            OptionPanelPrice4.Size = new Size(160, 32);
+            OptionPanelPrice4.TabIndex = 6;
+            OptionPanelPrice4.Text = "3,99 €";
+            OptionPanelPrice4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // optionPanel5
+            // 
+            optionPanel5.Anchor = AnchorStyles.None;
+            optionPanel5.BackColor = Color.Transparent;
+            optionPanel5.BorderColor = Color.FromArgb(94, 183, 97);
+            optionPanel5.BorderRadius = 6;
+            optionPanel5.Clicked = false;
+            optionPanel5.Controls.Add(optionPanel6);
+            optionPanel5.Controls.Add(guna2Panel5);
+            optionPanel5.Controls.Add(guna2Panel6);
+            optionPanel5.CustomizableEdges = customizableEdges107;
+            optionPanel5.Location = new Point(14, 249);
+            optionPanel5.Name = "optionPanel5";
+            optionPanel5.ShadowDecoration.BorderRadius = 12;
+            optionPanel5.ShadowDecoration.CustomizableEdges = customizableEdges108;
+            optionPanel5.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
+            optionPanel5.Size = new Size(166, 214);
+            optionPanel5.TabIndex = 18;
+            optionPanel5.UseTransparentBackground = true;
+            // 
+            // optionPanel6
+            // 
+            optionPanel6.BackColor = Color.Transparent;
+            optionPanel6.BorderRadius = 9;
+            optionPanel6.Clicked = false;
+            optionPanel6.Controls.Add(hoverButton3);
+            optionPanel6.CustomizableEdges = customizableEdges101;
+            optionPanel6.Dock = DockStyle.Fill;
+            optionPanel6.ForeColor = SystemColors.ControlLightLight;
+            optionPanel6.Location = new Point(0, 0);
+            optionPanel6.Name = "optionPanel6";
+            optionPanel6.ShadowDecoration.CustomizableEdges = customizableEdges102;
+            optionPanel6.Size = new Size(166, 214);
+            optionPanel6.TabIndex = 10;
+            optionPanel6.UseTransparentBackground = true;
+            // 
+            // hoverButton3
+            // 
+            hoverButton3.BorderColor = Color.Transparent;
+            hoverButton3.BorderRadius = 5;
+            hoverButton3.BorderThickness = 2;
+            hoverButton3.CustomizableEdges = customizableEdges99;
+            hoverButton3.DisabledState.BorderColor = Color.DarkGray;
+            hoverButton3.DisabledState.CustomBorderColor = Color.DarkGray;
+            hoverButton3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            hoverButton3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            hoverButton3.FillColor = Color.FromArgb(212, 5, 17);
+            hoverButton3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hoverButton3.ForeColor = Color.White;
+            hoverButton3.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
+            hoverButton3.HoverState.FillColor = SystemColors.Control;
+            hoverButton3.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
+            hoverButton3.IsHovered = false;
+            hoverButton3.Location = new Point(28, 168);
+            hoverButton3.Name = "hoverButton3";
+            hoverButton3.ShadowDecoration.CustomizableEdges = customizableEdges100;
+            hoverButton3.Size = new Size(110, 28);
+            hoverButton3.TabIndex = 17;
+            hoverButton3.Text = "PICK";
+            // 
+            // guna2Panel5
+            // 
+            guna2Panel5.BackColor = Color.Transparent;
+            guna2Panel5.BorderColor = SystemColors.Control;
+            guna2Panel5.BorderRadius = 9;
+            guna2Panel5.BorderThickness = 1;
+            guna2Panel5.Controls.Add(OptionPanelTraking5);
+            guna2Panel5.Controls.Add(OptionPanelLiability5);
+            guna2Panel5.Controls.Add(OptionPanelSizeDescription5);
+            guna2Panel5.Controls.Add(OptionPanelName5);
+            customizableEdges103.TopLeft = false;
+            customizableEdges103.TopRight = false;
+            guna2Panel5.CustomizableEdges = customizableEdges103;
+            guna2Panel5.FillColor = SystemColors.Control;
+            guna2Panel5.Location = new Point(2, 54);
+            guna2Panel5.Name = "guna2Panel5";
+            guna2Panel5.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
+            guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges104;
+            guna2Panel5.Size = new Size(162, 158);
+            guna2Panel5.TabIndex = 9;
+            guna2Panel5.UseTransparentBackground = true;
+            // 
+            // OptionPanelTraking5
+            // 
+            OptionPanelTraking5.AutoSize = true;
+            OptionPanelTraking5.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelTraking5.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelTraking5.Image = Properties.Resources.rotCross1;
+            OptionPanelTraking5.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelTraking5.Location = new Point(14, 83);
+            OptionPanelTraking5.Name = "OptionPanelTraking5";
+            OptionPanelTraking5.Size = new Size(116, 15);
+            OptionPanelTraking5.TabIndex = 10;
+            OptionPanelTraking5.Text = "    Shipment tracking";
+            OptionPanelTraking5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelLiability5
+            // 
+            OptionPanelLiability5.AutoSize = true;
+            OptionPanelLiability5.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelLiability5.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelLiability5.Image = Properties.Resources.rotCross1;
+            OptionPanelLiability5.ImageAlign = ContentAlignment.MiddleLeft;
+            OptionPanelLiability5.Location = new Point(14, 65);
+            OptionPanelLiability5.Name = "OptionPanelLiability5";
+            OptionPanelLiability5.Size = new Size(60, 15);
+            OptionPanelLiability5.TabIndex = 9;
+            OptionPanelLiability5.Text = "    Liability";
+            OptionPanelLiability5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OptionPanelSizeDescription5
+            // 
+            OptionPanelSizeDescription5.AutoSize = true;
+            OptionPanelSizeDescription5.Font = new Font("Leelawadee UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            OptionPanelSizeDescription5.ForeColor = Color.FromArgb(90, 90, 90);
+            OptionPanelSizeDescription5.Location = new Point(25, 46);
+            OptionPanelSizeDescription5.Name = "OptionPanelSizeDescription5";
+            OptionPanelSizeDescription5.Size = new Size(113, 15);
+            OptionPanelSizeDescription5.TabIndex = 8;
+            OptionPanelSizeDescription5.Text = "max. 30 x 25 x 10 cm";
+            // 
+            // OptionPanelName5
+            // 
+            OptionPanelName5.BackColor = Color.Transparent;
+            OptionPanelName5.Font = new Font("Leelawadee UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelName5.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelName5.Location = new Point(1, 8);
+            OptionPanelName5.Name = "OptionPanelName5";
+            OptionPanelName5.Size = new Size(160, 32);
+            OptionPanelName5.TabIndex = 7;
+            OptionPanelName5.Text = "2 kg - Package S";
+            OptionPanelName5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel6
+            // 
+            guna2Panel6.BackColor = Color.Transparent;
+            guna2Panel6.BorderColor = Color.FromArgb(255, 204, 0);
+            guna2Panel6.BorderRadius = 9;
+            guna2Panel6.BorderThickness = 1;
+            guna2Panel6.Controls.Add(OptionPanelPrice5);
+            guna2Panel6.CustomizableEdges = customizableEdges105;
+            guna2Panel6.FillColor = Color.FromArgb(255, 204, 0);
+            guna2Panel6.Location = new Point(2, 2);
+            guna2Panel6.Name = "guna2Panel6";
+            guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges106;
+            guna2Panel6.Size = new Size(162, 82);
+            guna2Panel6.TabIndex = 0;
+            guna2Panel6.UseTransparentBackground = true;
+            // 
+            // OptionPanelPrice5
+            // 
+            OptionPanelPrice5.BackColor = Color.Transparent;
+            OptionPanelPrice5.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            OptionPanelPrice5.ForeColor = Color.FromArgb(50, 50, 50);
+            OptionPanelPrice5.Location = new Point(1, 9);
+            OptionPanelPrice5.Name = "OptionPanelPrice5";
+            OptionPanelPrice5.Size = new Size(160, 32);
+            OptionPanelPrice5.TabIndex = 6;
+            OptionPanelPrice5.Text = "3,99 €";
+            OptionPanelPrice5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // optionPanel3
+            // 
+            optionPanel3.Anchor = AnchorStyles.None;
+            optionPanel3.BackColor = Color.Transparent;
+            optionPanel3.BorderColor = Color.FromArgb(94, 183, 97);
+            optionPanel3.BorderRadius = 6;
+            optionPanel3.Clicked = false;
+            optionPanel3.Controls.Add(optionPanel4);
+            optionPanel3.Controls.Add(guna2Panel3);
+            optionPanel3.Controls.Add(guna2Panel4);
+            optionPanel3.CustomizableEdges = customizableEdges117;
+            optionPanel3.Location = new Point(374, 14);
+            optionPanel3.Name = "optionPanel3";
+            optionPanel3.ShadowDecoration.BorderRadius = 12;
+            optionPanel3.ShadowDecoration.CustomizableEdges = customizableEdges118;
+            optionPanel3.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
+            optionPanel3.Size = new Size(166, 214);
+            optionPanel3.TabIndex = 17;
+            optionPanel3.UseTransparentBackground = true;
+            // 
+            // optionPanel4
+            // 
+            optionPanel4.BackColor = Color.Transparent;
+            optionPanel4.BorderRadius = 9;
+            optionPanel4.Clicked = false;
+            optionPanel4.Controls.Add(hoverButton2);
+            optionPanel4.CustomizableEdges = customizableEdges111;
+            optionPanel4.Dock = DockStyle.Fill;
+            optionPanel4.ForeColor = SystemColors.ControlLightLight;
+            optionPanel4.Location = new Point(0, 0);
+            optionPanel4.Name = "optionPanel4";
+            optionPanel4.ShadowDecoration.CustomizableEdges = customizableEdges112;
+            optionPanel4.Size = new Size(166, 214);
+            optionPanel4.TabIndex = 10;
+            optionPanel4.UseTransparentBackground = true;
+            // 
+            // hoverButton2
+            // 
+            hoverButton2.BorderColor = Color.Transparent;
+            hoverButton2.BorderRadius = 5;
+            hoverButton2.BorderThickness = 2;
+            hoverButton2.CustomizableEdges = customizableEdges109;
+            hoverButton2.DisabledState.BorderColor = Color.DarkGray;
+            hoverButton2.DisabledState.CustomBorderColor = Color.DarkGray;
+            hoverButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            hoverButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            hoverButton2.FillColor = Color.FromArgb(212, 5, 17);
+            hoverButton2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hoverButton2.ForeColor = Color.White;
+            hoverButton2.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
+            hoverButton2.HoverState.FillColor = SystemColors.Control;
+            hoverButton2.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
+            hoverButton2.IsHovered = false;
+            hoverButton2.Location = new Point(28, 168);
+            hoverButton2.Name = "hoverButton2";
+            hoverButton2.ShadowDecoration.CustomizableEdges = customizableEdges110;
+            hoverButton2.Size = new Size(110, 28);
+            hoverButton2.TabIndex = 17;
+            hoverButton2.Text = "PICK";
+            // 
+            // guna2Panel3
+            // 
+            guna2Panel3.BackColor = Color.Transparent;
+            guna2Panel3.BorderColor = SystemColors.Control;
+            guna2Panel3.BorderRadius = 9;
+            guna2Panel3.BorderThickness = 1;
+            guna2Panel3.Controls.Add(OptionPanelTraking3);
+            guna2Panel3.Controls.Add(OptionPanelLiability3);
+            guna2Panel3.Controls.Add(OptionPanelSizeDescription3);
+            guna2Panel3.Controls.Add(OptionPanelName3);
+            customizableEdges113.TopLeft = false;
+            customizableEdges113.TopRight = false;
+            guna2Panel3.CustomizableEdges = customizableEdges113;
+            guna2Panel3.FillColor = SystemColors.Control;
+            guna2Panel3.Location = new Point(2, 54);
+            guna2Panel3.Name = "guna2Panel3";
+            guna2Panel3.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges114;
+            guna2Panel3.Size = new Size(162, 158);
+            guna2Panel3.TabIndex = 9;
+            guna2Panel3.UseTransparentBackground = true;
             // 
             // OptionPanelTraking3
             // 
@@ -826,7 +1034,7 @@
             OptionPanelSizeDescription3.Name = "OptionPanelSizeDescription3";
             OptionPanelSizeDescription3.Size = new Size(113, 15);
             OptionPanelSizeDescription3.TabIndex = 8;
-            OptionPanelSizeDescription3.Text = "max. 60 x 30 x 15 cm";
+            OptionPanelSizeDescription3.Text = "max. 30 x 25 x 10 cm";
             // 
             // OptionPanelName3
             // 
@@ -837,119 +1045,118 @@
             OptionPanelName3.Name = "OptionPanelName3";
             OptionPanelName3.Size = new Size(160, 32);
             OptionPanelName3.TabIndex = 7;
-            OptionPanelName3.Text = "2 kg - Package M";
+            OptionPanelName3.Text = "2 kg - Package S";
             OptionPanelName3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // OptionPanelButton3
+            // guna2Panel4
             // 
-            OptionPanelButton3.Animated = true;
-            OptionPanelButton3.BorderColor = Color.Transparent;
-            OptionPanelButton3.BorderRadius = 5;
-            OptionPanelButton3.BorderThickness = 2;
-            OptionPanelButton3.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton3.CheckedState.FillColor = SystemColors.Control;
-            OptionPanelButton3.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton3.CustomizableEdges = customizableEdges39;
-            OptionPanelButton3.DisabledState.BorderColor = Color.DarkGray;
-            OptionPanelButton3.DisabledState.CustomBorderColor = Color.DarkGray;
-            OptionPanelButton3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            OptionPanelButton3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            OptionPanelButton3.FillColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            OptionPanelButton3.ForeColor = Color.White;
-            OptionPanelButton3.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton3.HoverState.FillColor = SystemColors.Control;
-            OptionPanelButton3.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton3.Location = new Point(26, 114);
-            OptionPanelButton3.Name = "OptionPanelButton3";
-            OptionPanelButton3.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            OptionPanelButton3.Size = new Size(110, 28);
-            OptionPanelButton3.TabIndex = 0;
-            OptionPanelButton3.Text = "PICK";
+            guna2Panel4.BackColor = Color.Transparent;
+            guna2Panel4.BorderColor = Color.FromArgb(255, 204, 0);
+            guna2Panel4.BorderRadius = 9;
+            guna2Panel4.BorderThickness = 1;
+            guna2Panel4.Controls.Add(label10OptionPanelPrice3);
+            guna2Panel4.CustomizableEdges = customizableEdges115;
+            guna2Panel4.FillColor = Color.FromArgb(255, 204, 0);
+            guna2Panel4.Location = new Point(2, 2);
+            guna2Panel4.Name = "guna2Panel4";
+            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges116;
+            guna2Panel4.Size = new Size(162, 82);
+            guna2Panel4.TabIndex = 0;
+            guna2Panel4.UseTransparentBackground = true;
             // 
-            // OptionPanelHeader3
+            // label10OptionPanelPrice3
             // 
-            OptionPanelHeader3.BackColor = Color.Transparent;
-            OptionPanelHeader3.BorderColor = Color.FromArgb(255, 204, 0);
-            OptionPanelHeader3.BorderRadius = 9;
-            OptionPanelHeader3.BorderThickness = 1;
-            OptionPanelHeader3.Controls.Add(OptionPanelPrice3);
-            OptionPanelHeader3.CustomizableEdges = customizableEdges43;
-            OptionPanelHeader3.FillColor = Color.FromArgb(255, 204, 0);
-            OptionPanelHeader3.Location = new Point(2, 2);
-            OptionPanelHeader3.Name = "OptionPanelHeader3";
-            OptionPanelHeader3.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            OptionPanelHeader3.Size = new Size(162, 82);
-            OptionPanelHeader3.TabIndex = 0;
-            OptionPanelHeader3.UseTransparentBackground = true;
+            label10OptionPanelPrice3.BackColor = Color.Transparent;
+            label10OptionPanelPrice3.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label10OptionPanelPrice3.ForeColor = Color.FromArgb(50, 50, 50);
+            label10OptionPanelPrice3.Location = new Point(1, 9);
+            label10OptionPanelPrice3.Name = "label10OptionPanelPrice3";
+            label10OptionPanelPrice3.Size = new Size(160, 32);
+            label10OptionPanelPrice3.TabIndex = 6;
+            label10OptionPanelPrice3.Text = "3,99 €";
+            label10OptionPanelPrice3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // OptionPanelPrice3
+            // optionPanel1
             // 
-            OptionPanelPrice3.BackColor = Color.Transparent;
-            OptionPanelPrice3.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            OptionPanelPrice3.ForeColor = Color.FromArgb(50, 50, 50);
-            OptionPanelPrice3.Location = new Point(1, 9);
-            OptionPanelPrice3.Name = "OptionPanelPrice3";
-            OptionPanelPrice3.Size = new Size(160, 32);
-            OptionPanelPrice3.TabIndex = 6;
-            OptionPanelPrice3.Text = "3,99 €";
-            OptionPanelPrice3.TextAlign = ContentAlignment.MiddleCenter;
+            optionPanel1.Anchor = AnchorStyles.None;
+            optionPanel1.BackColor = Color.Transparent;
+            optionPanel1.BorderColor = Color.FromArgb(94, 183, 97);
+            optionPanel1.BorderRadius = 6;
+            optionPanel1.Clicked = false;
+            optionPanel1.Controls.Add(optionPanel2);
+            optionPanel1.Controls.Add(guna2Panel1);
+            optionPanel1.Controls.Add(guna2Panel2);
+            optionPanel1.CustomizableEdges = customizableEdges127;
+            optionPanel1.Location = new Point(193, 14);
+            optionPanel1.Name = "optionPanel1";
+            optionPanel1.ShadowDecoration.BorderRadius = 12;
+            optionPanel1.ShadowDecoration.CustomizableEdges = customizableEdges128;
+            optionPanel1.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
+            optionPanel1.Size = new Size(166, 214);
+            optionPanel1.TabIndex = 16;
+            optionPanel1.UseTransparentBackground = true;
+            // 
+            // optionPanel2
+            // 
+            optionPanel2.BackColor = Color.Transparent;
+            optionPanel2.BorderRadius = 9;
+            optionPanel2.Clicked = false;
+            optionPanel2.Controls.Add(hoverButton1);
+            optionPanel2.CustomizableEdges = customizableEdges121;
+            optionPanel2.Dock = DockStyle.Fill;
+            optionPanel2.ForeColor = SystemColors.ControlLightLight;
+            optionPanel2.Location = new Point(0, 0);
+            optionPanel2.Name = "optionPanel2";
+            optionPanel2.ShadowDecoration.CustomizableEdges = customizableEdges122;
+            optionPanel2.Size = new Size(166, 214);
+            optionPanel2.TabIndex = 10;
+            optionPanel2.UseTransparentBackground = true;
+            // 
+            // hoverButton1
+            // 
+            hoverButton1.BorderColor = Color.Transparent;
+            hoverButton1.BorderRadius = 5;
+            hoverButton1.BorderThickness = 2;
+            hoverButton1.CustomizableEdges = customizableEdges119;
+            hoverButton1.DisabledState.BorderColor = Color.DarkGray;
+            hoverButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            hoverButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            hoverButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            hoverButton1.FillColor = Color.FromArgb(212, 5, 17);
+            hoverButton1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hoverButton1.ForeColor = Color.White;
+            hoverButton1.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
+            hoverButton1.HoverState.FillColor = SystemColors.Control;
+            hoverButton1.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
+            hoverButton1.IsHovered = false;
+            hoverButton1.Location = new Point(28, 168);
+            hoverButton1.Name = "hoverButton1";
+            hoverButton1.ShadowDecoration.CustomizableEdges = customizableEdges120;
+            hoverButton1.Size = new Size(110, 28);
+            hoverButton1.TabIndex = 17;
+            hoverButton1.Text = "PICK";
             // 
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.Transparent;
-            guna2Panel1.CustomizableEdges = customizableEdges47;
-            guna2Panel1.ForeColor = SystemColors.ControlLightLight;
-            guna2Panel1.Location = new Point(422, 271);
+            guna2Panel1.BorderColor = SystemColors.Control;
+            guna2Panel1.BorderRadius = 9;
+            guna2Panel1.BorderThickness = 1;
+            guna2Panel1.Controls.Add(OptionPanelTraking2);
+            guna2Panel1.Controls.Add(OptionPanelLiability2);
+            guna2Panel1.Controls.Add(OptionPanelSizeDescription2);
+            guna2Panel1.Controls.Add(OptionPanelName2);
+            customizableEdges123.TopLeft = false;
+            customizableEdges123.TopRight = false;
+            guna2Panel1.CustomizableEdges = customizableEdges123;
+            guna2Panel1.FillColor = SystemColors.Control;
+            guna2Panel1.Location = new Point(2, 54);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            guna2Panel1.Size = new Size(166, 21);
-            guna2Panel1.TabIndex = 10;
+            guna2Panel1.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges124;
+            guna2Panel1.Size = new Size(162, 158);
+            guna2Panel1.TabIndex = 9;
             guna2Panel1.UseTransparentBackground = true;
-            // 
-            // OptionPanelBase2
-            // 
-            OptionPanelBase2.Anchor = AnchorStyles.None;
-            OptionPanelBase2.BackColor = Color.Transparent;
-            OptionPanelBase2.BorderColor = Color.FromArgb(94, 183, 97);
-            OptionPanelBase2.BorderRadius = 6;
-            OptionPanelBase2.Clicked = false;
-            OptionPanelBase2.Controls.Add(OptinPanelWhitePanel2);
-            OptionPanelBase2.Controls.Add(OptionPanelHeader2);
-            OptionPanelBase2.CustomizableEdges = customizableEdges55;
-            OptionPanelBase2.FillColor = Color.Transparent;
-            OptionPanelBase2.Location = new Point(188, 9);
-            OptionPanelBase2.Name = "OptionPanelBase2";
-            OptionPanelBase2.ShadowDecoration.BorderRadius = 12;
-            OptionPanelBase2.ShadowDecoration.CustomizableEdges = customizableEdges56;
-            OptionPanelBase2.ShadowDecoration.Depth = 20;
-            OptionPanelBase2.ShadowDecoration.Shadow = new Padding(5, 0, 5, 6);
-            OptionPanelBase2.Size = new Size(166, 214);
-            OptionPanelBase2.TabIndex = 17;
-            OptionPanelBase2.UseTransparentBackground = true;
-            // 
-            // OptinPanelWhitePanel2
-            // 
-            OptinPanelWhitePanel2.BackColor = Color.Transparent;
-            OptinPanelWhitePanel2.BorderColor = SystemColors.Control;
-            OptinPanelWhitePanel2.BorderRadius = 9;
-            OptinPanelWhitePanel2.BorderThickness = 1;
-            OptinPanelWhitePanel2.Controls.Add(OptionPanelTraking2);
-            OptinPanelWhitePanel2.Controls.Add(OptionPanelLiability2);
-            OptinPanelWhitePanel2.Controls.Add(OptionPanelSizeDescription2);
-            OptinPanelWhitePanel2.Controls.Add(OptionPanelName2);
-            OptinPanelWhitePanel2.Controls.Add(OptionPanelButton2);
-            customizableEdges51.TopLeft = false;
-            customizableEdges51.TopRight = false;
-            OptinPanelWhitePanel2.CustomizableEdges = customizableEdges51;
-            OptinPanelWhitePanel2.FillColor = SystemColors.Control;
-            OptinPanelWhitePanel2.Location = new Point(2, 54);
-            OptinPanelWhitePanel2.Name = "OptinPanelWhitePanel2";
-            OptinPanelWhitePanel2.ShadowDecoration.Color = Color.FromArgb(64, 64, 64);
-            OptinPanelWhitePanel2.ShadowDecoration.CustomizableEdges = customizableEdges52;
-            OptinPanelWhitePanel2.Size = new Size(162, 158);
-            OptinPanelWhitePanel2.TabIndex = 11;
-            OptinPanelWhitePanel2.UseTransparentBackground = true;
             // 
             // OptionPanelTraking2
             // 
@@ -988,7 +1195,7 @@
             OptionPanelSizeDescription2.Name = "OptionPanelSizeDescription2";
             OptionPanelSizeDescription2.Size = new Size(113, 15);
             OptionPanelSizeDescription2.TabIndex = 8;
-            OptionPanelSizeDescription2.Text = "max. 60 x 30 x 15 cm";
+            OptionPanelSizeDescription2.Text = "max. 30 x 25 x 10 cm";
             // 
             // OptionPanelName2
             // 
@@ -999,51 +1206,24 @@
             OptionPanelName2.Name = "OptionPanelName2";
             OptionPanelName2.Size = new Size(160, 32);
             OptionPanelName2.TabIndex = 7;
-            OptionPanelName2.Text = "2 kg - Package M";
+            OptionPanelName2.Text = "2 kg - Package S";
             OptionPanelName2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // OptionPanelButton2
+            // guna2Panel2
             // 
-            OptionPanelButton2.Animated = true;
-            OptionPanelButton2.BorderColor = Color.Transparent;
-            OptionPanelButton2.BorderRadius = 5;
-            OptionPanelButton2.BorderThickness = 2;
-            OptionPanelButton2.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton2.CheckedState.FillColor = SystemColors.Control;
-            OptionPanelButton2.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton2.CustomizableEdges = customizableEdges49;
-            OptionPanelButton2.DisabledState.BorderColor = Color.DarkGray;
-            OptionPanelButton2.DisabledState.CustomBorderColor = Color.DarkGray;
-            OptionPanelButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            OptionPanelButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            OptionPanelButton2.FillColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            OptionPanelButton2.ForeColor = Color.White;
-            OptionPanelButton2.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton2.HoverState.FillColor = SystemColors.Control;
-            OptionPanelButton2.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            OptionPanelButton2.Location = new Point(26, 114);
-            OptionPanelButton2.Name = "OptionPanelButton2";
-            OptionPanelButton2.ShadowDecoration.CustomizableEdges = customizableEdges50;
-            OptionPanelButton2.Size = new Size(110, 28);
-            OptionPanelButton2.TabIndex = 0;
-            OptionPanelButton2.Text = "PICK";
-            // 
-            // OptionPanelHeader2
-            // 
-            OptionPanelHeader2.BackColor = Color.Transparent;
-            OptionPanelHeader2.BorderColor = Color.FromArgb(255, 204, 0);
-            OptionPanelHeader2.BorderRadius = 9;
-            OptionPanelHeader2.BorderThickness = 1;
-            OptionPanelHeader2.Controls.Add(OptionPanelPrice2);
-            OptionPanelHeader2.CustomizableEdges = customizableEdges53;
-            OptionPanelHeader2.FillColor = Color.FromArgb(255, 204, 0);
-            OptionPanelHeader2.Location = new Point(2, 2);
-            OptionPanelHeader2.Name = "OptionPanelHeader2";
-            OptionPanelHeader2.ShadowDecoration.CustomizableEdges = customizableEdges54;
-            OptionPanelHeader2.Size = new Size(162, 82);
-            OptionPanelHeader2.TabIndex = 0;
-            OptionPanelHeader2.UseTransparentBackground = true;
+            guna2Panel2.BackColor = Color.Transparent;
+            guna2Panel2.BorderColor = Color.FromArgb(255, 204, 0);
+            guna2Panel2.BorderRadius = 9;
+            guna2Panel2.BorderThickness = 1;
+            guna2Panel2.Controls.Add(OptionPanelPrice2);
+            guna2Panel2.CustomizableEdges = customizableEdges125;
+            guna2Panel2.FillColor = Color.FromArgb(255, 204, 0);
+            guna2Panel2.Location = new Point(2, 2);
+            guna2Panel2.Name = "guna2Panel2";
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges126;
+            guna2Panel2.Size = new Size(162, 82);
+            guna2Panel2.TabIndex = 0;
+            guna2Panel2.UseTransparentBackground = true;
             // 
             // OptionPanelPrice2
             // 
@@ -1054,29 +1234,8 @@
             OptionPanelPrice2.Name = "OptionPanelPrice2";
             OptionPanelPrice2.Size = new Size(160, 32);
             OptionPanelPrice2.TabIndex = 6;
-            OptionPanelPrice2.Text = "4,79 €";
+            OptionPanelPrice2.Text = "3,99 €";
             OptionPanelPrice2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // packages_tableLayout
-            // 
-            packages_tableLayout.ColumnCount = 4;
-            packages_tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            packages_tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            packages_tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            packages_tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            packages_tableLayout.Controls.Add(OptionPanelBase1, 0, 0);
-            packages_tableLayout.Controls.Add(OptionPanelBase2, 1, 0);
-            packages_tableLayout.Controls.Add(OptionPanelBase3, 2, 0);
-            packages_tableLayout.Controls.Add(OptionPanelBase4, 3, 0);
-            packages_tableLayout.Controls.Add(guna2Panel9, 0, 1);
-            packages_tableLayout.Controls.Add(guna2Panel12, 1, 1);
-            packages_tableLayout.Location = new Point(4, 4);
-            packages_tableLayout.Name = "packages_tableLayout";
-            packages_tableLayout.RowCount = 2;
-            packages_tableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            packages_tableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            packages_tableLayout.Size = new Size(726, 467);
-            packages_tableLayout.TabIndex = 18;
             // 
             // NewPackageForm
             // 
@@ -1085,39 +1244,42 @@
             BackColor = Color.FromArgb(46, 51, 73);
             ClientSize = new Size(733, 477);
             Controls.Add(guna2CircleButton1);
-            Controls.Add(guna2ImageButton1);
             Controls.Add(guna2Button7);
-            Controls.Add(packages_tableLayout);
-            Controls.Add(guna2Panel1);
+            Controls.Add(MainPanel);
             FormBorderStyle = FormBorderStyle.None;
             Name = "NewPackageForm";
             Text = "NewPackageForm";
             OptinPanelWhitePanel1.ResumeLayout(false);
             OptinPanelWhitePanel1.PerformLayout();
             OptionPanelHeader1.ResumeLayout(false);
-            guna2Panel9.ResumeLayout(false);
-            guna2Panel10.ResumeLayout(false);
-            guna2Panel10.PerformLayout();
-            guna2Panel11.ResumeLayout(false);
-            guna2Panel12.ResumeLayout(false);
-            guna2Panel13.ResumeLayout(false);
-            guna2Panel13.PerformLayout();
-            guna2Panel14.ResumeLayout(false);
-            OptionPanelBase4.ResumeLayout(false);
-            guna2Panel16.ResumeLayout(false);
-            guna2Panel16.PerformLayout();
-            guna2Panel17.ResumeLayout(false);
             OptionPanelBase1.ResumeLayout(false);
             OptionPanelMask1.ResumeLayout(false);
-            OptionPanelBase3.ResumeLayout(false);
-            OptinPanelWhitePanel3.ResumeLayout(false);
-            OptinPanelWhitePanel3.PerformLayout();
-            OptionPanelHeader3.ResumeLayout(false);
-            OptionPanelBase2.ResumeLayout(false);
-            OptinPanelWhitePanel2.ResumeLayout(false);
-            OptinPanelWhitePanel2.PerformLayout();
-            OptionPanelHeader2.ResumeLayout(false);
-            packages_tableLayout.ResumeLayout(false);
+            MainPanel.ResumeLayout(false);
+            optionPanel9.ResumeLayout(false);
+            optionPanel10.ResumeLayout(false);
+            guna2Panel9.ResumeLayout(false);
+            guna2Panel9.PerformLayout();
+            guna2Panel10.ResumeLayout(false);
+            optionPanel7.ResumeLayout(false);
+            optionPanel8.ResumeLayout(false);
+            guna2Panel7.ResumeLayout(false);
+            guna2Panel7.PerformLayout();
+            guna2Panel8.ResumeLayout(false);
+            optionPanel5.ResumeLayout(false);
+            optionPanel6.ResumeLayout(false);
+            guna2Panel5.ResumeLayout(false);
+            guna2Panel5.PerformLayout();
+            guna2Panel6.ResumeLayout(false);
+            optionPanel3.ResumeLayout(false);
+            optionPanel4.ResumeLayout(false);
+            guna2Panel3.ResumeLayout(false);
+            guna2Panel3.PerformLayout();
+            guna2Panel4.ResumeLayout(false);
+            optionPanel1.ResumeLayout(false);
+            optionPanel2.ResumeLayout(false);
+            guna2Panel1.ResumeLayout(false);
+            guna2Panel1.PerformLayout();
+            guna2Panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -1129,32 +1291,9 @@
         private Label OptionPanelPrice1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
-        private Label OptionPanelSizeDescription2;
-        private Label label7;
+        private Label OptionPanelLiability3;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Label OptionPanelPrice2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
-        private Label label10;
-        private Label OptionPanelName5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
-        private Label OptionPanelPrice5;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
-        private Label label13;
-        private Label OptionPanelName6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
-        private Label OptionPanelPrice6;
-        private Guna.UI2.WinForms.Guna2Panel OptionPanelBase4;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
-        private Label label16;
-        private Label OptionPanelName4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel17;
-        private Label OptionPanelPrice4;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
@@ -1162,27 +1301,55 @@
         private Label OptionPanelLiability1;
         private Guna.UI2.WinForms.Guna2Panel OptionPanelMask2;
         private Label OptionPanelDescription2;
-        private Label OptionPanelName2;
-        private Label label19;
+        private Label OptionPanelName4;
         private Controls.OptionPanel OptionPanelMask1;
         private Controls.OptionPanel OptionPanelBase1;
-        private Controls.OptionPanel OptionPanelBase3;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel OptionPanelHeader3;
-        private Label OptionPanelPrice3;
-        private Guna.UI2.WinForms.Guna2Panel OptinPanelWhitePanel3;
-        private Label OptionPanelTraking3;
-        private Label OptionPanelLiability3;
-        private Label OptionPanelSizeDescription3;
-        private Label OptionPanelName3;
-        private Guna.UI2.WinForms.Guna2Button OptionPanelButton3;
         private Controls.HoverButton OptionPanelButton1;
-        private Controls.OptionPanel OptionPanelBase2;
-        private Guna.UI2.WinForms.Guna2Panel OptinPanelWhitePanel2;
+        private Panel MainPanel;
+        private Controls.OptionPanel optionPanel1;
+        private Controls.OptionPanel optionPanel2;
+        private Controls.HoverButton hoverButton1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Label OptionPanelTraking2;
         private Label OptionPanelLiability2;
-        private Guna.UI2.WinForms.Guna2Button OptionPanelButton2;
-        private Guna.UI2.WinForms.Guna2Panel OptionPanelHeader2;
-        private TableLayoutPanel packages_tableLayout;
+        private Label OptionPanelSizeDescription2;
+        private Label OptionPanelName2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Label OptionPanelPrice2;
+        private Controls.OptionPanel optionPanel7;
+        private Controls.OptionPanel optionPanel8;
+        private Controls.HoverButton hoverButton4;
+        private Label OptionPanelTraking4;
+        private Label OptionPanelLiability4;
+        private Label OptionPanelSizeDescription4;
+        private Label OptionPanelPrice4;
+        private Controls.OptionPanel optionPanel5;
+        private Controls.OptionPanel optionPanel6;
+        private Controls.HoverButton hoverButton3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Label OptionPanelTraking5;
+        private Label OptionPanelLiability5;
+        private Label OptionPanelSizeDescription5;
+        private Label OptionPanelName5;
+        private Label OptionPanelPrice5;
+        private Controls.OptionPanel optionPanel3;
+        private Controls.OptionPanel optionPanel4;
+        private Controls.HoverButton hoverButton2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Label OptionPanelTraking3;
+        private Label OptionPanelSizeDescription3;
+        private Label OptionPanelName3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Label label10OptionPanelPrice3;
+        private Controls.OptionPanel optionPanel9;
+        private Controls.OptionPanel optionPanel10;
+        private Controls.HoverButton hoverButton5;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private Label OptionPanelTraking6;
+        private Label OptionPanelLiability6;
+        private Label OptionPanelSizeDescription6;
+        private Label OptionPanelName6;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
+        private Label OptionPanelPrice6;
     }
 }
