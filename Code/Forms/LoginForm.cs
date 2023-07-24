@@ -17,7 +17,7 @@ namespace Forms
             InitializeComponent();
             SetButton();
             //textBox_login.Text = BCrypt.Net.BCrypt.HashPassword("user");
-            login_button.Click += (sender, args) => Invoke(Login); 
+            login_button.Click += (sender, args) => Invoke(Login);
         }
 
         private new void Invoke(Action action)

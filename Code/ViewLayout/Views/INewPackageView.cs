@@ -9,6 +9,10 @@ namespace ViewLayout.Views
 {
     public interface INewPackageView : IView
     {
+        /*IControl? lastBackOptionPanel;
+        public Dictionary<IControl, IPackageModel> PanelsToPackages { get; set; }*/
+        event Action NextPage;
+        public IPackageModel GetSelectedPackage();
         public void LoadStartPackages(List<IPackageModel> packages);
 
     }

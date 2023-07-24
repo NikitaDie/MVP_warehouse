@@ -62,7 +62,7 @@
             panel_Menu.MaximumSize = new Size(300, 0);
             panel_Menu.MinimumSize = new Size(200, 0);
             panel_Menu.Name = "panel_Menu";
-            panel_Menu.Size = new Size(200, 577);
+            panel_Menu.Size = new Size(200, 700);
             panel_Menu.TabIndex = 0;
             // 
             // panel_AdminBtns
@@ -133,7 +133,7 @@
             back_button.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             back_button.ForeColor = Color.FromArgb(0, 126, 249);
             back_button.Image = Properties.Resources.noun_go_back_5418737_1__Traced_1;
-            back_button.Location = new Point(0, 535);
+            back_button.Location = new Point(0, 658);
             back_button.Name = "back_button";
             back_button.Size = new Size(200, 42);
             back_button.TabIndex = 1;
@@ -235,10 +235,10 @@
             // 
             // panel_SectionLoader
             // 
-            panel_SectionLoader.Dock = DockStyle.Bottom;
-            panel_SectionLoader.Location = new Point(200, 100);
+            panel_SectionLoader.Dock = DockStyle.Right;
+            panel_SectionLoader.Location = new Point(200, 0);
             panel_SectionLoader.Name = "panel_SectionLoader";
-            panel_SectionLoader.Size = new Size(751, 477);
+            panel_SectionLoader.Size = new Size(1000, 700);
             panel_SectionLoader.TabIndex = 1;
             // 
             // MenuForm
@@ -246,7 +246,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(951, 577);
+            ClientSize = new Size(1200, 700);
             Controls.Add(panel_SectionLoader);
             Controls.Add(panel_Menu);
             FormBorderStyle = FormBorderStyle.None;

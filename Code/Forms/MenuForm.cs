@@ -32,12 +32,15 @@ namespace Forms
             back_button.Click += (sender, args) => Invoke(BackToLoginPage);
 
             var controller = new ApplicationController(new LightInjectAdapder())
-               .RegisterView<INewPackageView, NewPackageForm>()
-               //.RegisterView<IMenuView, MenuForm>()
-               .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
-               .RegisterInstance<IBaseView>(this);
+                .RegisterView<INewPackageContainerView, NewPackageContainerForm>()
+                .RegisterInstance<IBaseView>(this);
+                /*.RegisterView<INewPackageView, NewPackageForm>()
+                .RegisterView<INewPackageUserDataView, NewPackageUserDataForm>()
+                //.RegisterView<IMenuView, MenuForm>()
+                .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
+                .RegisterInstance<IBaseView>(this);*/
 
-            controller.Run<NewPackagePresenter>();
+            controller.Run<NewPackageContainerPresenter>();
         }
         private new void Invoke(Action action)
         {

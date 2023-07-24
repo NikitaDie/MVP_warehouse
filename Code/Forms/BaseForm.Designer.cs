@@ -37,7 +37,7 @@
             panel_MainLoader.Dock = DockStyle.Fill;
             panel_MainLoader.Location = new Point(0, 0);
             panel_MainLoader.Name = "panel_MainLoader";
-            panel_MainLoader.Size = new Size(951, 577);
+            panel_MainLoader.Size = new Size(1200, 700);
             panel_MainLoader.TabIndex = 0;
             // 
             // BaseForm
@@ -45,7 +45,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(20, 30, 49);
-            ClientSize = new Size(951, 577);
+            ClientSize = new Size(1200, 700);
             Controls.Add(panel_MainLoader);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");

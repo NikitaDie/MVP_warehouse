@@ -24,7 +24,7 @@ namespace Forms
 
             var controller = new ApplicationController(new LightInjectAdapder())
                 .RegisterView<ILoginView, LoginForm>()
-                .RegisterView<IMenuView,  MenuForm>()
+                .RegisterView<IMenuView, MenuForm>()
                 //.RegisterView<IMainView, MainForm>()
                 //.RegisterView<IChangeUsernameView, ChangeUsernameForm>()
                 .RegisterService<ILoginService, LoginService>()

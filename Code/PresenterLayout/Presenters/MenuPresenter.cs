@@ -10,7 +10,7 @@ using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters
 {
-    internal class MenuPresenter : BasePresenter<IMenuView, User>
+    internal class MenuPresenter : BasePresenter<IMenuView, IUserModel>
     {
         //private readonly ILoginService _service;
         private readonly IBaseView _baseView;
@@ -19,7 +19,7 @@ namespace PresenterLayout.Presenters
             View.BackToLoginPage += () => BackToLoginPage();
         }
 
-        public override void Run(User user)
+        public override void Run(IUserModel user)
         {
             View.LoadUserSettings(user);
             BaseView.LoadNewForm(View);
