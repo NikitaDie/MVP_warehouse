@@ -27,11 +27,11 @@ namespace Forms.MenuForms.NewPackage
         public event Action? ReturnToNewPackagePage;
         public event Action? ReturnToNewPackageUserDataPage;
 
-        private new void Invoke(Action action)
+        private new void Invoke(Action? action)
         {
             try
             {
-                if (action != null) action();
+                action?.Invoke();
             }
             catch { throw; };
         }

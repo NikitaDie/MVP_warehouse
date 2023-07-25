@@ -41,10 +41,7 @@ namespace ServiceLayer.Services.Login
                     {
                         string strRole = reader.GetString(2);
 
-                        if (strRole == "admin")
-                            user.Role = Roles.admin;
-                        else
-                            user.Role = Roles.user;
+                        user.Role = strRole == "admin" ? Roles.admin : Roles.user;
                     }
                     catch (Exception) { user.Role = Roles.user; }
 

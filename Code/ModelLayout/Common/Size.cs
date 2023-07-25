@@ -25,11 +25,6 @@ namespace ModelLayout.Common
         [JsonProperty("Height")]
         public float Height { get; }
 
-        public object Clone()
-        {
-            throw new NotImplementedException();
-        }
-
         public float GetVolume()
         {
             return Length * Width * Height;
