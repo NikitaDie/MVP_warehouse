@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using ViewLayout.Views;
 using Label = System.Windows.Forms.Label;
 
-namespace Forms.MenuForms
+namespace Forms.MenuForms.NewPackage
 {
     public partial class NewPackageForm : Form, INewPackageView
     {
@@ -29,6 +29,8 @@ namespace Forms.MenuForms
         {
             InitializeComponent();
             main = MainPanel;
+
+            //btnNextPage.Text = changeCall ? "Return to Payment" : "Continue to address input";
 
             PanelsToPackages = new Dictionary<Panel, IPackageModel>();
 
@@ -57,11 +59,10 @@ namespace Forms.MenuForms
 
                             foreach (Control maskControl in control.Controls)
                             {
-                                if (maskControl is Guna2Button)
-                                {
-                                    optionPanelButton = maskControl as Guna2Button;
-                                    break;
-                                }
+                                if (maskControl is not Guna2Button button) continue;
+
+                                optionPanelButton = button;
+                                break;
                             }
                         }
                         else if (control.Name.ToLower().Contains(packageFormBack))
@@ -75,8 +76,10 @@ namespace Forms.MenuForms
                         optionPanelMask.Click += (sender, args) => optionPanel_Click(parentControl as OptionPanel, optionPanelBack as Guna2Panel);
                     //else call Admin, write logs
                 }
-                catch { }
-
+                catch
+                {
+                    // ignored
+                }
             }
         }
         private new void Invoke(Action action)
@@ -119,20 +122,25 @@ namespace Forms.MenuForms
                 else if (label.Name.ToLower().Contains("name"))
                     label.Text = PanelsToPackages[superParent].Name.ToString();
                 else if (label.Name.ToLower().Contains("sizedescription"))
-                    label.Text = $"max. {PanelsToPackages[superParent].SizeDescription.Width} x {PanelsToPackages[superParent].SizeDescription.Length} x {PanelsToPackages[superParent].SizeDescription.Height} cm";
+                    label.Text = $@"max. {PanelsToPackages[superParent].SizeDescription.Width} x {PanelsToPackages[superParent].SizeDescription.Length} x {PanelsToPackages[superParent].SizeDescription.Height} cm";
             }
             catch { return; }
         }
 
-        private void Find<T>(Panel panel, ref List<T> list)
+        private static void Find<T>(Panel panel, ref List<T> list)
             where T : Control
         {
             foreach (Control control in panel.Controls)
             {
-                if (control is Panel)
-                    Find<T>(control as Panel, ref list);
-                else if (control is T)
-                    list.Add(control as T);
+                switch (control)
+                {
+                    case Panel panel1:
+                        Find(panel1, ref list);
+                        break;
+                    case T control1:
+                        list.Add(control1);
+                        break;
+                }
             }
         }
         public void LoadStartPackages(List<IPackageModel> packages)
@@ -147,14 +155,14 @@ namespace Forms.MenuForms
             {
                 foreach (Control control in main.Controls)
                 {
-                    if (control is not Panel)
+                    if (control is not Panel panel)
                         continue;
 
                     List<Label> list = new List<Label>();
-                    Find<Label>(control as Panel, ref list);
+                    Find(panel, ref list);
 
                     foreach (Label label in list)
-                        NameLabel(label, control as Panel);
+                        NameLabel(label, panel);
 
                 }
             }

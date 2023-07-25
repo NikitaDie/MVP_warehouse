@@ -13,10 +13,10 @@ namespace PresenterLayout.Presenters
     internal class MenuPresenter : BasePresenter<IMenuView, IUserModel>
     {
         //private readonly ILoginService _service;
-        private readonly IBaseView _baseView;
+        //private readonly IBaseView _baseView;
         public MenuPresenter(IBaseView baseView, IApplicationController controller, IMenuView view) : base(controller, view, baseView)
         {
-            View.BackToLoginPage += () => BackToLoginPage();
+            View.BackToLoginPage += BackToLoginPage;
         }
 
         public override void Run(IUserModel user)

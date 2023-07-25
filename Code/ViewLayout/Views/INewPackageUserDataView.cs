@@ -8,12 +8,19 @@ namespace ViewLayout.Views
 {
     public interface INewPackageUserDataView : IView
     {
-        public string Location { get; set; }
-        public string Warehouse { get; set; }
-        public string TmpLocation { get; set; }
-        public string TmpWarehouse { get; set; }
+        public string RecipentName { get; }
+        public string RecipentPostCode { get; }
+        public string RecipentLocation { get; }
+        public string RecipentStreet { get; }
+        public string RecipentHouseNumber { get; }
+        public string RecipentEmail { get; }
+        public string SenderName { get; }
+        public string SenderPostCode { get; }
+        public string SenderLocation { get; }
+        public string SenderStreet { get; }
+        public string SenderHouseNumber { get; }
+        public string SenderEmail { get; }
 
-        public event Action FindLocation;
-        public event Action FindWarehouse;
+        public event Action NextPage;
     }
 }

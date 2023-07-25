@@ -14,43 +14,38 @@ namespace PresenterLayout.Presenters
     internal class NewPackageUserDataPresenter : BasePresenter<INewPackageUserDataView, UserPackage>
     {
         private UserPackage _userPackage;
-        private readonly IGetHitsService _getHitsService;
+        //private readonly IGetHitsService _getHitsService;
         public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IBaseView baseView) : base(controller, view, baseView)
         {
 
-            View.FindLocation += () => FindLocation();
-            View.FindWarehouse += () => FindWarehouse();
+            View.NextPage += () => NextPage();
         }
 
         public override void Run(UserPackage userPackage)
         {
             _userPackage = userPackage;
-            if (BaseView is INewPackageContainerView)
-                (BaseView as INewPackageContainerView).SetProgressBar(2);
+            if (BaseView is INewPackageContainerView view)
+                view.SetProgressBar(2);
             BaseView.LoadNewForm(View);
         }
 
         private void NextPage()
         {
-            //_userPackage.Reciver = View.
-           // Controller.Run<NewPackageUserDataPresenter, UserPackage>(userPackage);
+            _userPackage.RecipentName = View.RecipentName;
+            _userPackage.RecipentPostCode = View.RecipentPostCode;
+            _userPackage.RecipentLocation = View.RecipentLocation;
+            _userPackage.RecipentStreet = View.RecipentStreet;
+            _userPackage.RecipentHouseNumber = View.RecipentHouseNumber;
+            _userPackage.RecipentEmail = View.RecipentEmail;
+            _userPackage.SenderName = View.SenderName;
+            _userPackage.SenderPostCode = View.SenderPostCode;
+            _userPackage.SenderLocation = View.SenderLocation;
+            _userPackage.SenderStreet = View.SenderStreet;
+            _userPackage.SenderHouseNumber = View.SenderHouseNumber;
+            _userPackage.SenderEmail = View.SenderEmail;
+
+            Controller.Run<NewPackagePaymentPresenter, UserPackage>(_userPackage);
             View.Close();
-        }
-
-        private void FindLocation()
-        {
-            if (View.Warehouse is not null)
-                _getHitsService.FindLocationByWarehouse(View.Warehouse);
-            else
-                _getHitsService.FindLocation(View.TmpLocation);
-        }
-
-        private void FindWarehouse()
-        {
-            if (View.Location is not null)
-                _getHitsService.FindWarehouseByLocation(View.Location);
-            else
-                _getHitsService.FindWarehouse(View.TmpWarehouse);
         }
     }
 }

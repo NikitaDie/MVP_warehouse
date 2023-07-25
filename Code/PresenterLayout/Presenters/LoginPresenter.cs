@@ -26,9 +26,9 @@ namespace PresenterLayout.Presenters
         private void Login(string username, string password)
         {
             if (username == null)
-                throw new ArgumentNullException("username");
+                throw new ArgumentNullException(nameof(username));
             if (password == null)
-                throw new ArgumentNullException("password");
+                throw new ArgumentNullException(nameof(password));
             // make sha
             var user = new User(username, password);
             if (!_service.Login(user))

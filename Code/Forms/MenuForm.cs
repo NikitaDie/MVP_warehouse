@@ -1,4 +1,5 @@
 ﻿using Forms.MenuForms;
+using Forms.MenuForms.NewPackage;
 using ModelLayout.Models.User;
 using PresenterLayout.Common;
 using PresenterLayout.Presenters;
@@ -34,11 +35,6 @@ namespace Forms
             var controller = new ApplicationController(new LightInjectAdapder())
                 .RegisterView<INewPackageContainerView, NewPackageContainerForm>()
                 .RegisterInstance<IBaseView>(this);
-                /*.RegisterView<INewPackageView, NewPackageForm>()
-                .RegisterView<INewPackageUserDataView, NewPackageUserDataForm>()
-                //.RegisterView<IMenuView, MenuForm>()
-                .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
-                .RegisterInstance<IBaseView>(this);*/
 
             controller.Run<NewPackageContainerPresenter>();
         }

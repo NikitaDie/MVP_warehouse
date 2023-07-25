@@ -16,19 +16,21 @@ namespace PresenterLayout.Presenters
     {
         private readonly IGetStartPackagesService _getStartPackagesService;
         private readonly ILoginService _makeUserPackageService;
+        private bool changeCall;
 
         public NewPackagePresenter(IApplicationController controller, INewPackageView view, IBaseView baseView, IGetStartPackagesService getStartPackagesService) : base(controller, view, baseView)
         {
             _getStartPackagesService = getStartPackagesService;
 
             View.NextPage += () => NextPage(View.GetSelectedPackage());
+            this.changeCall = changeCall;
         }
 
         public override void Run()
         {
             View.LoadStartPackages(GetStartPackages());
-            if (BaseView is INewPackageContainerView)
-                (BaseView as INewPackageContainerView).SetProgressBar(1);
+            if (BaseView is INewPackageContainerView view)
+                view.SetProgressBar(1);
             BaseView.LoadNewForm(View);
         }
 
@@ -40,6 +42,7 @@ namespace PresenterLayout.Presenters
         private void NextPage(IPackageModel package)
         {
             UserPackage userPackage = new UserPackage(package);
+            //btnNextPage.Text = changeCall ? "Return to Payment" : "Continue to address input";
             Controller.Run<NewPackageUserDataPresenter, UserPackage>(userPackage);
             View.Close();
         }

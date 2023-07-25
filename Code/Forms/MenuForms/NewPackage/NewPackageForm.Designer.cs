@@ -1,4 +1,4 @@
-﻿namespace Forms.MenuForms
+﻿namespace Forms.MenuForms.NewPackage
 {
     partial class NewPackageForm
     {
