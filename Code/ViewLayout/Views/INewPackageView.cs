@@ -11,9 +11,13 @@ namespace ViewLayout.Views
     {
         /*IControl? lastBackOptionPanel;
         public Dictionary<IControl, IPackageModel> PanelsToPackages { get; set; }*/
+        public string PagesButtonText { set; }
+
         event Action NextPage;
         public IPackageModel GetSelectedPackage();
         public void LoadStartPackages(List<IPackageModel> packages);
+
+        public void SetCurrentOptionPanel(string name);
 
     }
 }

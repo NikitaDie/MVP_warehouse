@@ -9,12 +9,12 @@ namespace ModelLayout.Models.Package
 {
     public class UserPackage //: IPackageModel
     {
-        public double Price { get; }
-        public string Name { get; }
-        public Size SizeDescription { get; }
+        public double Price { get; set; }
+        public string Name { get; set; }
+        public Size SizeDescription { get; set; }
 
 
-        public uint ID { get; }
+        public uint ID { get; set; }
         public string RecipentName { get; set; }
         public string RecipentPostCode { get; set; }
         public string RecipentLocation { get; set; }
@@ -28,6 +28,8 @@ namespace ModelLayout.Models.Package
         public string SenderHouseNumber { get; set; }
         public string SenderEmail { get; set; }
         public string CurrentWarehouseID { set; get; }
+
+        public UserPackage() { }
 
         public UserPackage(IPackageModel packageBase)
         {

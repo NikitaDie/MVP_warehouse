@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using ModelLayout.Models.Package;
 using PresenterLayout.Common;
 using PresenterLayout.Presenters;
 using ServiceLayout.Services.GetStartPackages;
@@ -19,11 +20,12 @@ namespace Forms.MenuForms.NewPackage
                 .RegisterView<INewPackageUserDataView, NewPackageUserDataForm>()
                 .RegisterView<INewPackagePaymentView, NewPackagePaymentForm>()
                 .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
-                .RegisterInstance<IBaseView>(this);
+                .RegisterInstance<IBaseView>(this)
+                .RegisterInstance<UserPackage>(new UserPackage());
 
             SetProgressBar(0);
 
-            controller.Run<NewPackagePresenter>();
+            controller.Run<NewPackagePresenter, bool>(false);
         }
 
         public void LoadNewForm(IView newForm)

@@ -11,19 +11,18 @@ using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters
 {
-    internal class NewPackageUserDataPresenter : BasePresenter<INewPackageUserDataView, UserPackage>
+    internal class NewPackageUserDataPresenter : BasePresenter<INewPackageUserDataView>
     {
-        private UserPackage _userPackage;
+        private readonly UserPackage _userPackage;
         //private readonly IGetHitsService _getHitsService;
-        public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IBaseView baseView) : base(controller, view, baseView)
-        {
-
-            View.NextPage += () => NextPage();
-        }
-
-        public override void Run(UserPackage userPackage)
+        public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IBaseView baseView, UserPackage userPackage) : base(controller, view, baseView)
         {
             _userPackage = userPackage;
+            View.NextPage += NextPage;
+        }
+
+        public override void Run()
+        {
             if (BaseView is INewPackageContainerView view)
                 view.SetProgressBar(2);
             BaseView.LoadNewForm(View);
@@ -44,7 +43,7 @@ namespace PresenterLayout.Presenters
             _userPackage.SenderHouseNumber = View.SenderHouseNumber;
             _userPackage.SenderEmail = View.SenderEmail;
 
-            Controller.Run<NewPackagePaymentPresenter, UserPackage>(_userPackage);
+            Controller.Run<NewPackagePaymentPresenter>();
             View.Close();
         }
     }

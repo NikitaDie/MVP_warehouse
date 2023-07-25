@@ -430,7 +430,6 @@
             MainPanel.Name = "MainPanel";
             MainPanel.Size = new Size(1000, 600);
             MainPanel.TabIndex = 18;
-            MainPanel.Paint += MainPanel_Paint;
             // 
             // label1
             // 

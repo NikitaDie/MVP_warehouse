@@ -17,8 +17,19 @@ namespace Forms.MenuForms.NewPackage
         public NewPackagePaymentForm()
         {
             InitializeComponent();
+            changePackageButton.Click += (sender, argc) => Invoke(ReturnToNewPackagePage);
         }
 
+        public event Action? ReturnToNewPackagePage;
+
+        private new void Invoke(Action action)
+        {
+            try
+            {
+                if (action != null) action();
+            }
+            catch { throw; };
+        }
         public void LoadPackageInfo(UserPackage package)
         {
             packageName.Text = package.Name;

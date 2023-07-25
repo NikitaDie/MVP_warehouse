@@ -22,27 +22,46 @@ namespace Forms.MenuForms.NewPackage
         Guna2Panel? lastBackOptionPanel;
         Panel main;
         public Dictionary<Panel, IPackageModel> PanelsToPackages { get; set; }
+        public Dictionary<Panel, Guna2Button> BasesToButtons { get; set; }
 
-        public event Action NextPage;
+        public string PagesButtonText { set => btnNextPage.Text = value; }
+
+        public event Action? NextPage;
         //OptionPanel savedPanel;
         public NewPackageForm()
         {
             InitializeComponent();
             main = MainPanel;
 
-            //btnNextPage.Text = changeCall ? "Return to Payment" : "Continue to address input";
-
             PanelsToPackages = new Dictionary<Panel, IPackageModel>();
+            BasesToButtons = new Dictionary<Panel, Guna2Button>();
 
             btnNextPage.Click += (sender, args) => Invoke(NextPage);
+        }
 
+        private void SetOnClickPanels(Panel basePanel, Panel backPanel, Panel maskPanel, Guna2Button button)
+        {
+            button.Click += (sender, args) => optionPanel_Click(basePanel as OptionPanel, backPanel as Guna2Panel);
+            maskPanel.Click += (sender, args) => optionPanel_Click(basePanel as OptionPanel, backPanel as Guna2Panel);
+        }
 
+        private new void Invoke(Action? action)
+        {
+            try
+            {
+                action?.Invoke();
+            }
+            catch { throw; };
+        }
+
+        private void FillBasesToButtons(Control.ControlCollection panels) // I don't now how to call
+        {
             foreach (Control parentControl in main.Controls)
             {
-                if (parentControl is not Panel)
+                if (parentControl is not Panel panel)
                     continue;
 
-                string name2 = parentControl.Name;
+                string name2 = panel.Name;
 
                 Guna2Button? optionPanelButton = null;
                 Panel? optionPanelBack = null;
@@ -50,7 +69,7 @@ namespace Forms.MenuForms.NewPackage
 
                 try
                 {
-                    foreach (Panel control in parentControl.Controls)
+                    foreach (Panel control in panel.Controls)
                     {
                         string name = control.Name;
                         if (control.Name.ToLower().Contains(packageFormMask))
@@ -69,26 +88,14 @@ namespace Forms.MenuForms.NewPackage
                             optionPanelBack = control;
                     }
 
-                    if (optionPanelButton != null && optionPanelBack != null)
-                        optionPanelButton.Click += (sender, args) => optionPanel_Click(parentControl as OptionPanel, optionPanelBack as Guna2Panel);
+                    //null?
+                    BasesToButtons.Add(panel, optionPanelButton);
 
-                    if (optionPanelMask != null && optionPanelBack != null)
-                        optionPanelMask.Click += (sender, args) => optionPanel_Click(parentControl as OptionPanel, optionPanelBack as Guna2Panel);
-                    //else call Admin, write logs
-                }
-                catch
-                {
-                    // ignored
-                }
+                    if (optionPanelBack != null && optionPanelMask != null && optionPanelButton != null) //?
+                        SetOnClickPanels(panel, optionPanelBack, optionPanelMask, optionPanelButton);
+                    
+                } catch { }
             }
-        }
-        private new void Invoke(Action action)
-        {
-            try
-            {
-                if (action != null) action();
-            }
-            catch { throw; };
         }
 
         private void FillPanelsToPackages(List<IPackageModel> packages, Control.ControlCollection panels)
@@ -110,6 +117,17 @@ namespace Forms.MenuForms.NewPackage
                 }
                 catch { continue; }
 
+            }
+        }
+
+        public void SetCurrentOptionPanel(string name)
+        {
+            foreach (var item in PanelsToPackages)
+            {
+                if (item.Value.Name != name)
+                    continue;
+
+                InvokeOnClick(BasesToButtons[item.Key], null);
             }
         }
 
@@ -148,6 +166,7 @@ namespace Forms.MenuForms.NewPackage
             try
             {
                 FillPanelsToPackages(packages, main.Controls);
+                FillBasesToButtons(main.Controls);
             }
             catch { return; }
 
@@ -233,7 +252,7 @@ namespace Forms.MenuForms.NewPackage
         }
 
         //new
-        private void optionPanel_Click(OptionPanel basePanel, Guna2Panel backPanel)
+        private void optionPanel_Click(OptionPanel? basePanel, Guna2Panel? backPanel)
         {
             if (lastBaseOptionPanel != null && lastBackOptionPanel != null)
             {
@@ -264,11 +283,6 @@ namespace Forms.MenuForms.NewPackage
                 lastBaseOptionPanel = null;
                 lastBackOptionPanel = null;
             }
-        }
-
-        private void MainPanel_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         // --optionPanel_Hover
