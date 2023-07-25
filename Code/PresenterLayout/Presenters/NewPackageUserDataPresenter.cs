@@ -11,9 +11,10 @@ using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters
 {
-    internal class NewPackageUserDataPresenter : BasePresenter<INewPackageUserDataView>
+    internal class NewPackageUserDataPresenter : BasePresenter<INewPackageUserDataView, bool>
     {
         private readonly UserPackage _userPackage;
+        private bool _changeCall;
         //private readonly IGetHitsService _getHitsService;
         public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IBaseView baseView, UserPackage userPackage) : base(controller, view, baseView)
         {
@@ -21,8 +22,26 @@ namespace PresenterLayout.Presenters
             View.NextPage += NextPage;
         }
 
-        public override void Run()
+        public override void Run(bool changeCall)
         {
+            _changeCall = changeCall;
+
+            if (_changeCall)
+            {
+                View.RecipentName = _userPackage.RecipentName;
+                View.RecipentPostCode = _userPackage.RecipentPostCode;
+                View.RecipentLocation = _userPackage.RecipentLocation;
+                View.RecipentStreet = _userPackage.RecipentStreet;
+                View.RecipentHouseNumber = _userPackage.RecipentHouseNumber;
+                View.RecipentEmail = _userPackage.RecipentEmail;
+                View.SenderName = _userPackage.SenderName;
+                View.SenderPostCode = _userPackage.SenderPostCode;
+                View.SenderLocation = _userPackage.SenderLocation;
+                View.SenderStreet = _userPackage.SenderStreet;
+                View.SenderHouseNumber = _userPackage.SenderHouseNumber;
+                View.SenderEmail = _userPackage.SenderEmail;
+            }
+
             if (BaseView is INewPackageContainerView view)
                 view.SetProgressBar(2);
             BaseView.LoadNewForm(View);

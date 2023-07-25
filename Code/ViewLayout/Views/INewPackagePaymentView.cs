@@ -10,7 +10,8 @@ namespace ViewLayout.Views
     public interface INewPackagePaymentView : IView
     {
         event Action ReturnToNewPackagePage;
-        public void LoadPackageInfo(UserPackage package);
+        event Action ReturnToNewPackageUserDataPage;
 
+        public void LoadPackageInfo(UserPackage package);
     }
 }

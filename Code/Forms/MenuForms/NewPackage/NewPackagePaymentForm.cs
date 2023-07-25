@@ -17,10 +17,15 @@ namespace Forms.MenuForms.NewPackage
         public NewPackagePaymentForm()
         {
             InitializeComponent();
+
             changePackageButton.Click += (sender, argc) => Invoke(ReturnToNewPackagePage);
+            changeReceiverButton.Click += (sender, argc) => Invoke(ReturnToNewPackageUserDataPage);
+            changeSenderButton.Click += (sender, argc) => Invoke(ReturnToNewPackageUserDataPage);
+
         }
 
         public event Action? ReturnToNewPackagePage;
+        public event Action? ReturnToNewPackageUserDataPage;
 
         private new void Invoke(Action action)
         {
@@ -37,7 +42,7 @@ namespace Forms.MenuForms.NewPackage
             packagePrice.Text = $"{package.Price} €";
 
             receiverName.Text = package.RecipentName;
-            receiverStreet.Text = $"{package.RecipentStreet} {package.RecipentHouseNumber}$";
+            receiverStreet.Text = $"{package.RecipentStreet} {package.RecipentHouseNumber}";
             receiverLocation.Text = $"{package.RecipentPostCode} {package.RecipentLocation}";
             receiverCountry.Text = "Germany";
 

@@ -60,7 +60,7 @@ namespace PresenterLayout.Presenters
             if (_changeCall)
                 Controller.Run<NewPackagePaymentPresenter>();
             else
-                Controller.Run<NewPackageUserDataPresenter>();
+                Controller.Run<NewPackageUserDataPresenter, bool>(false);
 
             View.Close();
         }

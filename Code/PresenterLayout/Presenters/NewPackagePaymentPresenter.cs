@@ -16,6 +16,7 @@ namespace PresenterLayout.Presenters
         {
             _userPackage = userPackage;
             View.ReturnToNewPackagePage += ReturnToNewPackagePage;
+            View.ReturnToNewPackageUserDataPage += ReturnToNewPackageUserDataPage;
         }
 
         public override void Run()
@@ -31,6 +32,14 @@ namespace PresenterLayout.Presenters
            
             //btnNextPage.Text = changeCall ? "Return to Payment" : "Continue to address input";
             Controller.Run<NewPackagePresenter, bool>(true);
+            View.Close();
+        }
+
+        private void ReturnToNewPackageUserDataPage()
+        {
+
+            //btnNextPage.Text = changeCall ? "Return to Payment" : "Continue to address input";
+            Controller.Run<NewPackageUserDataPresenter, bool>(true);
             View.Close();
         }
     }
