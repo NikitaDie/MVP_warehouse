@@ -9,6 +9,7 @@ namespace ViewLayout.Views
 {
     public interface INewPackagePaymentView : IView
     {
+        event Action Pay;
         event Action ReturnToNewPackagePage;
         event Action ReturnToNewPackageUserDataPage;
 

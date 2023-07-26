@@ -18,12 +18,14 @@ namespace Forms.MenuForms.NewPackage
         {
             InitializeComponent();
 
+            btnPay.Click += (sender, argc) => Invoke(Pay);
             changePackageButton.Click += (sender, argc) => Invoke(ReturnToNewPackagePage);
             changeReceiverButton.Click += (sender, argc) => Invoke(ReturnToNewPackageUserDataPage);
             changeSenderButton.Click += (sender, argc) => Invoke(ReturnToNewPackageUserDataPage);
 
         }
 
+        public event Action? Pay;
         public event Action? ReturnToNewPackagePage;
         public event Action? ReturnToNewPackageUserDataPage;
 
@@ -50,6 +52,11 @@ namespace Forms.MenuForms.NewPackage
             senderStreet.Text = $"{package.SenderStreet} {package.SenderHouseNumber}";
             senderLocation.Text = $"{package.SenderPostCode} {package.SenderLocation}";
             senderCountry.Text = "Germany";
+
+        }
+
+        private void receiverName_Click(object sender, EventArgs e)
+        {
 
         }
     }

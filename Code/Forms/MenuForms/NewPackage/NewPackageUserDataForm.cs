@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Guna.UI2.WinForms;
 using ViewLayout.Views;
-using static Guna.UI2.Native.WinApi;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 
 namespace Forms.MenuForms.NewPackage
 {
@@ -87,23 +78,74 @@ namespace Forms.MenuForms.NewPackage
             set => senderEmail_textBox.Text = value;
         }
 
-        public event Action NextPage;
+        public event Action? NextPage;
+
         public NewPackageUserDataForm()
         {
             InitializeComponent();
 
-            btnNextPage.Click += (send, args) => Invoke(NextPage);
+            btnNextPage.Click += (send, args) => ManagePagesButtonBehavior();
         }
 
-        private new static void Invoke(Action action)
+        private new static void Invoke(Action? action)
         {
             try
             {
-                if (action != null) action();
+                action?.Invoke();
             }
-            catch { throw; };
+            catch
+            {
+                throw;
+            }
         }
 
+        private void ManagePagesButtonBehavior()
+        {
+            if (IsComplete())
+                Invoke(NextPage);
+            //else Popup?
+        }
 
+        private bool IsComplete() //too much, rename, delegate?
+        {
+            bool isComplete = true;
+            try
+            {
+                foreach (Panel panel in ReceiverTextboxPanel.Controls)
+                {
+                    foreach (Control control in panel.Controls)
+                    {
+                        if (control is not Guna2TextBox textBox) continue;
+
+                        if (textBox.Text != "") continue;
+
+                        textBox.BorderColor = Color.Red;
+                        textBox.TextChanged += (send, args) => textBox.BorderColor = Color.Black;
+                        isComplete = false;
+                    }
+                }
+
+                foreach (Panel panel in SenderTextboxPanel.Controls)
+                {
+                    foreach (Control control in panel.Controls)
+                    {
+                        if (control is not Guna2TextBox textBox) continue;
+
+                        if (textBox.Text != "") continue;
+
+                        textBox.BorderColor = Color.Red;
+                        textBox.TextChanged += (send, args) => textBox.BorderColor = Color.Black;
+                        isComplete = false;
+                    }
+                }
+            }
+            catch
+            {
+                return false;
+                //?
+            }
+
+            return isComplete;
+        }
     }
 }

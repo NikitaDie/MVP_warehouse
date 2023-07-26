@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ViewLayout;
-using LightInject;
 
 namespace PresenterLayout.Common
 {

@@ -28,35 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             recipentName_textBox = new Guna.UI2.WinForms.Guna2TextBox();
             label1 = new Label();
             panel1 = new Panel();
@@ -69,17 +67,14 @@
             panel4 = new Panel();
             label9 = new Label();
             recipentStreet_textBox = new Guna.UI2.WinForms.Guna2TextBox();
-            panel5 = new Panel();
-            label2 = new Label();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            tableLayoutPanel1 = new TableLayoutPanel();
+            ReceiverTextboxPanel = new TableLayoutPanel();
             panel7 = new Panel();
             label4 = new Label();
             recipentEmail_textBox = new Guna.UI2.WinForms.Guna2TextBox();
             panel6 = new Panel();
             label3 = new Label();
             recipentHouseNumber_textBox = new Guna.UI2.WinForms.Guna2TextBox();
-            tableLayoutPanel2 = new TableLayoutPanel();
+            SenderTextboxPanel = new TableLayoutPanel();
             panel8 = new Panel();
             label5 = new Label();
             senderEmail_textBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -100,15 +95,17 @@
             senderLocation_textBox = new Guna.UI2.WinForms.Guna2TextBox();
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             btnNextPage = new Guna.UI2.WinForms.Guna2Button();
+            label14 = new Label();
+            label15 = new Label();
+            label2 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
-            panel5.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
+            ReceiverTextboxPanel.SuspendLayout();
             panel7.SuspendLayout();
             panel6.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
+            SenderTextboxPanel.SuspendLayout();
             panel8.SuspendLayout();
             panel9.SuspendLayout();
             panel10.SuspendLayout();
@@ -122,7 +119,7 @@
             recipentName_textBox.Animated = true;
             recipentName_textBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             recipentName_textBox.BorderColor = Color.Black;
-            recipentName_textBox.CustomizableEdges = customizableEdges30;
+            recipentName_textBox.CustomizableEdges = customizableEdges1;
             recipentName_textBox.DefaultText = "";
             recipentName_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentName_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -140,7 +137,7 @@
             recipentName_textBox.PlaceholderText = "Mark Twain";
             recipentName_textBox.SelectedText = "";
             recipentName_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentName_textBox.ShadowDecoration.CustomizableEdges = customizableEdges31;
+            recipentName_textBox.ShadowDecoration.CustomizableEdges = customizableEdges2;
             recipentName_textBox.Size = new Size(442, 44);
             recipentName_textBox.TabIndex = 0;
             recipentName_textBox.TextOffset = new Point(0, 5);
@@ -195,7 +192,7 @@
             // 
             recipentPostCode_textBox.Animated = true;
             recipentPostCode_textBox.BorderColor = Color.Black;
-            recipentPostCode_textBox.CustomizableEdges = customizableEdges32;
+            recipentPostCode_textBox.CustomizableEdges = customizableEdges3;
             recipentPostCode_textBox.DefaultText = "";
             recipentPostCode_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentPostCode_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -213,7 +210,7 @@
             recipentPostCode_textBox.PlaceholderText = "52525";
             recipentPostCode_textBox.SelectedText = "";
             recipentPostCode_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentPostCode_textBox.ShadowDecoration.CustomizableEdges = customizableEdges33;
+            recipentPostCode_textBox.ShadowDecoration.CustomizableEdges = customizableEdges4;
             recipentPostCode_textBox.Size = new Size(442, 44);
             recipentPostCode_textBox.TabIndex = 0;
             recipentPostCode_textBox.TextOffset = new Point(0, 5);
@@ -245,7 +242,7 @@
             // 
             recipentLocation_textBox.Animated = true;
             recipentLocation_textBox.BorderColor = Color.Black;
-            recipentLocation_textBox.CustomizableEdges = customizableEdges34;
+            recipentLocation_textBox.CustomizableEdges = customizableEdges5;
             recipentLocation_textBox.DefaultText = "";
             recipentLocation_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentLocation_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -263,7 +260,7 @@
             recipentLocation_textBox.PlaceholderText = "Hartford";
             recipentLocation_textBox.SelectedText = "";
             recipentLocation_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentLocation_textBox.ShadowDecoration.CustomizableEdges = customizableEdges35;
+            recipentLocation_textBox.ShadowDecoration.CustomizableEdges = customizableEdges6;
             recipentLocation_textBox.Size = new Size(442, 44);
             recipentLocation_textBox.TabIndex = 0;
             recipentLocation_textBox.TextOffset = new Point(0, 5);
@@ -295,7 +292,7 @@
             // 
             recipentStreet_textBox.Animated = true;
             recipentStreet_textBox.BorderColor = Color.Black;
-            recipentStreet_textBox.CustomizableEdges = customizableEdges36;
+            recipentStreet_textBox.CustomizableEdges = customizableEdges7;
             recipentStreet_textBox.DefaultText = "";
             recipentStreet_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentStreet_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -313,82 +310,32 @@
             recipentStreet_textBox.PlaceholderText = "Farmington Ave";
             recipentStreet_textBox.SelectedText = "";
             recipentStreet_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentStreet_textBox.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            recipentStreet_textBox.ShadowDecoration.CustomizableEdges = customizableEdges8;
             recipentStreet_textBox.Size = new Size(442, 44);
             recipentStreet_textBox.TabIndex = 0;
             recipentStreet_textBox.TextOffset = new Point(0, 5);
             // 
-            // panel5
+            // ReceiverTextboxPanel
             // 
-            panel5.Anchor = AnchorStyles.None;
-            panel5.Controls.Add(label2);
-            panel5.Controls.Add(guna2TextBox2);
-            panel5.Location = new Point(346, 489);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(442, 44);
-            panel5.TabIndex = 25;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.White;
-            label2.Font = new Font("Leelawadee UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.FromArgb(125, 137, 149);
-            label2.Location = new Point(5, 3);
-            label2.Margin = new Padding(0);
-            label2.Name = "label2";
-            label2.Size = new Size(44, 13);
-            label2.TabIndex = 10;
-            label2.Text = "STREET";
-            // 
-            // guna2TextBox2
-            // 
-            guna2TextBox2.Animated = true;
-            guna2TextBox2.AutoCompleteMode = AutoCompleteMode.Append;
-            guna2TextBox2.BorderColor = Color.Black;
-            guna2TextBox2.CustomizableEdges = customizableEdges38;
-            guna2TextBox2.DefaultText = "fdgf";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox2.ForeColor = Color.Black;
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(0, 0);
-            guna2TextBox2.Margin = new Padding(4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            guna2TextBox2.Size = new Size(442, 44);
-            guna2TextBox2.TabIndex = 0;
-            guna2TextBox2.TextOffset = new Point(0, 5);
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Controls.Add(panel7, 0, 5);
-            tableLayoutPanel1.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel1.Controls.Add(panel6, 0, 4);
-            tableLayoutPanel1.Controls.Add(panel2, 0, 1);
-            tableLayoutPanel1.Controls.Add(panel4, 0, 3);
-            tableLayoutPanel1.Controls.Add(panel3, 0, 2);
-            tableLayoutPanel1.Location = new Point(12, 48);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 6;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.Size = new Size(457, 327);
-            tableLayoutPanel1.TabIndex = 26;
+            ReceiverTextboxPanel.ColumnCount = 1;
+            ReceiverTextboxPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            ReceiverTextboxPanel.Controls.Add(panel7, 0, 5);
+            ReceiverTextboxPanel.Controls.Add(panel1, 0, 0);
+            ReceiverTextboxPanel.Controls.Add(panel6, 0, 4);
+            ReceiverTextboxPanel.Controls.Add(panel2, 0, 1);
+            ReceiverTextboxPanel.Controls.Add(panel4, 0, 3);
+            ReceiverTextboxPanel.Controls.Add(panel3, 0, 2);
+            ReceiverTextboxPanel.Location = new Point(12, 48);
+            ReceiverTextboxPanel.Name = "ReceiverTextboxPanel";
+            ReceiverTextboxPanel.RowCount = 6;
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            ReceiverTextboxPanel.Size = new Size(457, 327);
+            ReceiverTextboxPanel.TabIndex = 26;
             // 
             // panel7
             // 
@@ -417,7 +364,7 @@
             // 
             recipentEmail_textBox.Animated = true;
             recipentEmail_textBox.BorderColor = Color.Black;
-            recipentEmail_textBox.CustomizableEdges = customizableEdges40;
+            recipentEmail_textBox.CustomizableEdges = customizableEdges9;
             recipentEmail_textBox.DefaultText = "";
             recipentEmail_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentEmail_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -435,7 +382,7 @@
             recipentEmail_textBox.PlaceholderText = "mark.twain@gmail.com";
             recipentEmail_textBox.SelectedText = "";
             recipentEmail_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentEmail_textBox.ShadowDecoration.CustomizableEdges = customizableEdges41;
+            recipentEmail_textBox.ShadowDecoration.CustomizableEdges = customizableEdges10;
             recipentEmail_textBox.Size = new Size(442, 44);
             recipentEmail_textBox.TabIndex = 0;
             recipentEmail_textBox.TextOffset = new Point(0, 5);
@@ -467,7 +414,7 @@
             // 
             recipentHouseNumber_textBox.Animated = true;
             recipentHouseNumber_textBox.BorderColor = Color.Black;
-            recipentHouseNumber_textBox.CustomizableEdges = customizableEdges42;
+            recipentHouseNumber_textBox.CustomizableEdges = customizableEdges11;
             recipentHouseNumber_textBox.DefaultText = "";
             recipentHouseNumber_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             recipentHouseNumber_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -485,32 +432,32 @@
             recipentHouseNumber_textBox.PlaceholderText = "351";
             recipentHouseNumber_textBox.SelectedText = "";
             recipentHouseNumber_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            recipentHouseNumber_textBox.ShadowDecoration.CustomizableEdges = customizableEdges43;
+            recipentHouseNumber_textBox.ShadowDecoration.CustomizableEdges = customizableEdges12;
             recipentHouseNumber_textBox.Size = new Size(442, 44);
             recipentHouseNumber_textBox.TabIndex = 0;
             recipentHouseNumber_textBox.TextOffset = new Point(0, 5);
             // 
-            // tableLayoutPanel2
+            // SenderTextboxPanel
             // 
-            tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Controls.Add(panel8, 0, 5);
-            tableLayoutPanel2.Controls.Add(panel9, 0, 0);
-            tableLayoutPanel2.Controls.Add(panel10, 0, 4);
-            tableLayoutPanel2.Controls.Add(panel11, 0, 1);
-            tableLayoutPanel2.Controls.Add(panel12, 0, 3);
-            tableLayoutPanel2.Controls.Add(panel13, 0, 2);
-            tableLayoutPanel2.Location = new Point(531, 48);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 6;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.Size = new Size(457, 327);
-            tableLayoutPanel2.TabIndex = 27;
+            SenderTextboxPanel.ColumnCount = 1;
+            SenderTextboxPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            SenderTextboxPanel.Controls.Add(panel8, 0, 5);
+            SenderTextboxPanel.Controls.Add(panel9, 0, 0);
+            SenderTextboxPanel.Controls.Add(panel10, 0, 4);
+            SenderTextboxPanel.Controls.Add(panel11, 0, 1);
+            SenderTextboxPanel.Controls.Add(panel12, 0, 3);
+            SenderTextboxPanel.Controls.Add(panel13, 0, 2);
+            SenderTextboxPanel.Location = new Point(531, 48);
+            SenderTextboxPanel.Name = "SenderTextboxPanel";
+            SenderTextboxPanel.RowCount = 6;
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            SenderTextboxPanel.Size = new Size(457, 327);
+            SenderTextboxPanel.TabIndex = 27;
             // 
             // panel8
             // 
@@ -539,8 +486,8 @@
             // 
             senderEmail_textBox.Animated = true;
             senderEmail_textBox.BorderColor = Color.Black;
-            senderEmail_textBox.CustomizableEdges = customizableEdges44;
-            senderEmail_textBox.DefaultText = "fdgf";
+            senderEmail_textBox.CustomizableEdges = customizableEdges13;
+            senderEmail_textBox.DefaultText = "";
             senderEmail_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderEmail_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderEmail_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -553,10 +500,11 @@
             senderEmail_textBox.Margin = new Padding(4);
             senderEmail_textBox.Name = "senderEmail_textBox";
             senderEmail_textBox.PasswordChar = '\0';
-            senderEmail_textBox.PlaceholderText = "";
+            senderEmail_textBox.PlaceholderForeColor = Color.DimGray;
+            senderEmail_textBox.PlaceholderText = "harry.potter@gmail.com";
             senderEmail_textBox.SelectedText = "";
             senderEmail_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderEmail_textBox.ShadowDecoration.CustomizableEdges = customizableEdges45;
+            senderEmail_textBox.ShadowDecoration.CustomizableEdges = customizableEdges14;
             senderEmail_textBox.Size = new Size(442, 44);
             senderEmail_textBox.TabIndex = 0;
             senderEmail_textBox.TextOffset = new Point(0, 5);
@@ -588,8 +536,8 @@
             // 
             senderName_textBox.Animated = true;
             senderName_textBox.BorderColor = Color.Black;
-            senderName_textBox.CustomizableEdges = customizableEdges46;
-            senderName_textBox.DefaultText = "fdgf";
+            senderName_textBox.CustomizableEdges = customizableEdges15;
+            senderName_textBox.DefaultText = "";
             senderName_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderName_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderName_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -602,10 +550,11 @@
             senderName_textBox.Margin = new Padding(4);
             senderName_textBox.Name = "senderName_textBox";
             senderName_textBox.PasswordChar = '\0';
-            senderName_textBox.PlaceholderText = "";
+            senderName_textBox.PlaceholderForeColor = Color.DimGray;
+            senderName_textBox.PlaceholderText = "Harry Potter";
             senderName_textBox.SelectedText = "";
             senderName_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderName_textBox.ShadowDecoration.CustomizableEdges = customizableEdges47;
+            senderName_textBox.ShadowDecoration.CustomizableEdges = customizableEdges16;
             senderName_textBox.Size = new Size(442, 44);
             senderName_textBox.TabIndex = 0;
             senderName_textBox.TextOffset = new Point(0, 5);
@@ -637,8 +586,8 @@
             // 
             senderHouseNumber_textBox.Animated = true;
             senderHouseNumber_textBox.BorderColor = Color.Black;
-            senderHouseNumber_textBox.CustomizableEdges = customizableEdges48;
-            senderHouseNumber_textBox.DefaultText = "fdgf";
+            senderHouseNumber_textBox.CustomizableEdges = customizableEdges17;
+            senderHouseNumber_textBox.DefaultText = "";
             senderHouseNumber_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderHouseNumber_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderHouseNumber_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -651,10 +600,11 @@
             senderHouseNumber_textBox.Margin = new Padding(4);
             senderHouseNumber_textBox.Name = "senderHouseNumber_textBox";
             senderHouseNumber_textBox.PasswordChar = '\0';
-            senderHouseNumber_textBox.PlaceholderText = "";
+            senderHouseNumber_textBox.PlaceholderForeColor = Color.DimGray;
+            senderHouseNumber_textBox.PlaceholderText = "4";
             senderHouseNumber_textBox.SelectedText = "";
             senderHouseNumber_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderHouseNumber_textBox.ShadowDecoration.CustomizableEdges = customizableEdges49;
+            senderHouseNumber_textBox.ShadowDecoration.CustomizableEdges = customizableEdges18;
             senderHouseNumber_textBox.Size = new Size(442, 44);
             senderHouseNumber_textBox.TabIndex = 0;
             senderHouseNumber_textBox.TextOffset = new Point(0, 5);
@@ -686,8 +636,8 @@
             // 
             senderPostCode_textBox.Animated = true;
             senderPostCode_textBox.BorderColor = Color.Black;
-            senderPostCode_textBox.CustomizableEdges = customizableEdges50;
-            senderPostCode_textBox.DefaultText = "fdgf";
+            senderPostCode_textBox.CustomizableEdges = customizableEdges19;
+            senderPostCode_textBox.DefaultText = "";
             senderPostCode_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderPostCode_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderPostCode_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -700,10 +650,11 @@
             senderPostCode_textBox.Margin = new Padding(4);
             senderPostCode_textBox.Name = "senderPostCode_textBox";
             senderPostCode_textBox.PasswordChar = '\0';
-            senderPostCode_textBox.PlaceholderText = "";
+            senderPostCode_textBox.PlaceholderForeColor = Color.DimGray;
+            senderPostCode_textBox.PlaceholderText = "RG12";
             senderPostCode_textBox.SelectedText = "";
             senderPostCode_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderPostCode_textBox.ShadowDecoration.CustomizableEdges = customizableEdges51;
+            senderPostCode_textBox.ShadowDecoration.CustomizableEdges = customizableEdges20;
             senderPostCode_textBox.Size = new Size(442, 44);
             senderPostCode_textBox.TabIndex = 0;
             senderPostCode_textBox.TextOffset = new Point(0, 5);
@@ -735,8 +686,8 @@
             // 
             senderStreet_textBox.Animated = true;
             senderStreet_textBox.BorderColor = Color.Black;
-            senderStreet_textBox.CustomizableEdges = customizableEdges52;
-            senderStreet_textBox.DefaultText = "fdgf";
+            senderStreet_textBox.CustomizableEdges = customizableEdges21;
+            senderStreet_textBox.DefaultText = "";
             senderStreet_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderStreet_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderStreet_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -749,10 +700,11 @@
             senderStreet_textBox.Margin = new Padding(4);
             senderStreet_textBox.Name = "senderStreet_textBox";
             senderStreet_textBox.PasswordChar = '\0';
-            senderStreet_textBox.PlaceholderText = "";
+            senderStreet_textBox.PlaceholderForeColor = Color.DimGray;
+            senderStreet_textBox.PlaceholderText = "Privet Drive";
             senderStreet_textBox.SelectedText = "";
             senderStreet_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderStreet_textBox.ShadowDecoration.CustomizableEdges = customizableEdges53;
+            senderStreet_textBox.ShadowDecoration.CustomizableEdges = customizableEdges22;
             senderStreet_textBox.Size = new Size(442, 44);
             senderStreet_textBox.TabIndex = 0;
             senderStreet_textBox.TextOffset = new Point(0, 5);
@@ -784,8 +736,8 @@
             // 
             senderLocation_textBox.Animated = true;
             senderLocation_textBox.BorderColor = Color.Black;
-            senderLocation_textBox.CustomizableEdges = customizableEdges54;
-            senderLocation_textBox.DefaultText = "fdgf";
+            senderLocation_textBox.CustomizableEdges = customizableEdges23;
+            senderLocation_textBox.DefaultText = "";
             senderLocation_textBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             senderLocation_textBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             senderLocation_textBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -798,10 +750,11 @@
             senderLocation_textBox.Margin = new Padding(4);
             senderLocation_textBox.Name = "senderLocation_textBox";
             senderLocation_textBox.PasswordChar = '\0';
-            senderLocation_textBox.PlaceholderText = "";
+            senderLocation_textBox.PlaceholderForeColor = Color.DimGray;
+            senderLocation_textBox.PlaceholderText = "Little Whinging";
             senderLocation_textBox.SelectedText = "";
             senderLocation_textBox.ShadowDecoration.Color = Color.FromArgb(94, 148, 255);
-            senderLocation_textBox.ShadowDecoration.CustomizableEdges = customizableEdges55;
+            senderLocation_textBox.ShadowDecoration.CustomizableEdges = customizableEdges24;
             senderLocation_textBox.Size = new Size(442, 44);
             senderLocation_textBox.TabIndex = 0;
             senderLocation_textBox.TextOffset = new Point(0, 5);
@@ -818,11 +771,11 @@
             guna2CircleButton1.ForeColor = Color.White;
             guna2CircleButton1.Image = Properties.Resources.plus;
             guna2CircleButton1.ImageSize = new Size(16, 16);
-            guna2CircleButton1.Location = new Point(85, 413);
+            guna2CircleButton1.Location = new Point(19, 454);
             guna2CircleButton1.Name = "guna2CircleButton1";
             guna2CircleButton1.PressedColor = Color.Transparent;
             guna2CircleButton1.PressedDepth = 0;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges56;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges25;
             guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CircleButton1.Size = new Size(24, 24);
             guna2CircleButton1.TabIndex = 29;
@@ -836,7 +789,7 @@
             btnNextPage.CheckedState.BorderColor = Color.FromArgb(212, 5, 17);
             btnNextPage.CheckedState.FillColor = SystemColors.Control;
             btnNextPage.CheckedState.ForeColor = Color.FromArgb(212, 5, 17);
-            btnNextPage.CustomizableEdges = customizableEdges57;
+            btnNextPage.CustomizableEdges = customizableEdges26;
             btnNextPage.DisabledState.BorderColor = Color.DarkGray;
             btnNextPage.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNextPage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -847,12 +800,45 @@
             btnNextPage.HoverState.BorderColor = Color.FromArgb(212, 5, 17);
             btnNextPage.HoverState.FillColor = Color.Transparent;
             btnNextPage.HoverState.ForeColor = Color.FromArgb(212, 5, 17);
-            btnNextPage.Location = new Point(12, 549);
+            btnNextPage.Location = new Point(19, 542);
             btnNextPage.Name = "btnNextPage";
-            btnNextPage.ShadowDecoration.CustomizableEdges = customizableEdges58;
+            btnNextPage.ShadowDecoration.CustomizableEdges = customizableEdges27;
             btnNextPage.Size = new Size(345, 39);
             btnNextPage.TabIndex = 28;
             btnNextPage.Text = "Continue to payment";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.FromArgb(10, 10, 10);
+            label14.Location = new Point(531, 18);
+            label14.Name = "label14";
+            label14.Size = new Size(93, 32);
+            label14.TabIndex = 30;
+            label14.Text = "Sender";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.FromArgb(10, 10, 10);
+            label15.Location = new Point(12, 18);
+            label15.Name = "label15";
+            label15.Size = new Size(111, 32);
+            label15.TabIndex = 31;
+            label15.Text = "Receiver";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Leelawadee UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(10, 10, 10);
+            label2.Location = new Point(12, 409);
+            label2.Name = "label2";
+            label2.Size = new Size(323, 32);
+            label2.TabIndex = 32;
+            label2.Text = "Complete shipping options";
             // 
             // NewPackageUserDataForm
             // 
@@ -860,11 +846,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
             ClientSize = new Size(1000, 600);
+            Controls.Add(label2);
+            Controls.Add(label15);
+            Controls.Add(label14);
             Controls.Add(guna2CircleButton1);
             Controls.Add(btnNextPage);
-            Controls.Add(tableLayoutPanel2);
-            Controls.Add(tableLayoutPanel1);
-            Controls.Add(panel5);
+            Controls.Add(SenderTextboxPanel);
+            Controls.Add(ReceiverTextboxPanel);
             FormBorderStyle = FormBorderStyle.None;
             Name = "NewPackageUserDataForm";
             Text = "NewPackageUserDataForm";
@@ -876,14 +864,12 @@
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            tableLayoutPanel1.ResumeLayout(false);
+            ReceiverTextboxPanel.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
-            tableLayoutPanel2.ResumeLayout(false);
+            SenderTextboxPanel.ResumeLayout(false);
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
             panel9.ResumeLayout(false);
@@ -897,6 +883,7 @@
             panel13.ResumeLayout(false);
             panel13.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -913,17 +900,14 @@
         private Panel panel4;
         private Label label9;
         private Guna.UI2.WinForms.Guna2TextBox recipentStreet_textBox;
-        private Panel panel5;
-        private Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel ReceiverTextboxPanel;
         private Panel panel7;
         private Label label4;
         private Guna.UI2.WinForms.Guna2TextBox recipentEmail_textBox;
         private Panel panel6;
         private Label label3;
         private Guna.UI2.WinForms.Guna2TextBox recipentHouseNumber_textBox;
-        private TableLayoutPanel tableLayoutPanel2;
+        private TableLayoutPanel SenderTextboxPanel;
         private Panel panel8;
         private Label label5;
         private Guna.UI2.WinForms.Guna2TextBox senderEmail_textBox;
@@ -944,5 +928,8 @@
         private Panel panel13;
         private Label label13;
         private Guna.UI2.WinForms.Guna2TextBox senderLocation_textBox;
+        private Label label14;
+        private Label label15;
+        private Label label2;
     }
 }

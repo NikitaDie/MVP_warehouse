@@ -3,6 +3,7 @@ using ModelLayout.Models.Package;
 using PresenterLayout.Common;
 using PresenterLayout.Presenters;
 using ServiceLayout.Services.GetStartPackages;
+using ServiceLayout.Services.Label;
 using ViewLayout;
 using ViewLayout.Views;
 
@@ -19,9 +20,11 @@ namespace Forms.MenuForms.NewPackage
                 .RegisterView<INewPackageView, NewPackageForm>()
                 .RegisterView<INewPackageUserDataView, NewPackageUserDataForm>()
                 .RegisterView<INewPackagePaymentView, NewPackagePaymentForm>()
+                .RegisterView<INewPackageFinalLabelView, NewPackageFinalLabelForm>()
                 .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
+                .RegisterService<ILabelService, LabelService>()
                 .RegisterInstance<IBaseView>(this)
-                .RegisterInstance<UserPackage>(new UserPackage());
+                .RegisterInstance<UserPackage>(new UserPackage("134768948102"));
 
             SetProgressBar(0);
 
@@ -50,38 +53,38 @@ namespace Forms.MenuForms.NewPackage
                 switch (control)
                 {
                     case Guna2CircleProgressBar circleProgressBar:
-                    {
-                        circleProgressBar.Value = 0;
+                        {
+                            circleProgressBar.Value = 0;
 
-                        if (j == step)
-                        {
-                            circleProgressBar.FillColor = Color.FromArgb(212, 5, 17);
-                            circleProgressBar.InnerColor = Color.FromArgb(212, 5, 17);
-                            circleProgressBar.ForeColor = Color.White;
-                        }
-                        else if (j > step)
-                        {
-                            circleProgressBar.FillColor = Color.FromArgb(200, 213, 218, 223);
-                            circleProgressBar.InnerColor = Color.Transparent;
-                            circleProgressBar.ForeColor = Color.FromArgb(102, 102, 102);
-                        }
-                        else
-                        {
-                            circleProgressBar.FillColor = Color.FromArgb(72, 180, 81);
-                            circleProgressBar.InnerColor = Color.Transparent;
-                            circleProgressBar.ForeColor = Color.FromArgb(72, 180, 81);
-                        }
+                            if (j == step)
+                            {
+                                circleProgressBar.FillColor = Color.FromArgb(212, 5, 17);
+                                circleProgressBar.InnerColor = Color.FromArgb(212, 5, 17);
+                                circleProgressBar.ForeColor = Color.White;
+                            }
+                            else if (j > step)
+                            {
+                                circleProgressBar.FillColor = Color.FromArgb(200, 213, 218, 223);
+                                circleProgressBar.InnerColor = Color.Transparent;
+                                circleProgressBar.ForeColor = Color.FromArgb(102, 102, 102);
+                            }
+                            else
+                            {
+                                circleProgressBar.FillColor = Color.FromArgb(72, 180, 81);
+                                circleProgressBar.InnerColor = Color.Transparent;
+                                circleProgressBar.ForeColor = Color.FromArgb(72, 180, 81);
+                            }
 
-                        break;
-                    }
+                            break;
+                        }
                     case Guna2ProgressBar progressBar:
-                    {
-                        progressBar.Value = 0;
+                        {
+                            progressBar.Value = 0;
 
-                        progressBar.FillColor = j >= step ? Color.FromArgb(200, 213, 218, 223) : Color.FromArgb(72, 180, 81);
+                            progressBar.FillColor = j >= step ? Color.FromArgb(200, 213, 218, 223) : Color.FromArgb(72, 180, 81);
 
-                        break;
-                    }
+                            break;
+                        }
                 }
 
             }

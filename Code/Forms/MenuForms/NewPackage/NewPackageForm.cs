@@ -37,6 +37,7 @@ namespace Forms.MenuForms.NewPackage
             BasesToButtons = new Dictionary<Panel, Guna2Button>();
 
             btnNextPage.Click += (sender, args) => Invoke(NextPage);
+            btnNextPage.Enabled = false;
         }
 
         private void SetOnClickPanels(Panel basePanel, Panel backPanel, Panel maskPanel, Guna2Button button)
@@ -93,8 +94,9 @@ namespace Forms.MenuForms.NewPackage
 
                     if (optionPanelBack != null && optionPanelMask != null && optionPanelButton != null) //?
                         SetOnClickPanels(panel, optionPanelBack, optionPanelMask, optionPanelButton);
-                    
-                } catch { }
+
+                }
+                catch { }
             }
         }
 
@@ -265,12 +267,17 @@ namespace Forms.MenuForms.NewPackage
 
             if (lastBaseOptionPanel != basePanel)
             {
+                btnNextPage.Enabled = true;
                 lastBaseOptionPanel = basePanel;
                 lastBackOptionPanel = backPanel;
                 basePanel.Clicked = true;
-                FluentTransitions.Transition.With(basePanel, nameof(Top), lastBaseOptionPanel.Location.Y - 10).HookOnCompletionInUiThread(basePanel, () => basePanel.ShadowDecoration.Enabled = true).Accelerate(TimeSpan.FromMilliseconds(100));
+                FluentTransitions.Transition.With(basePanel, nameof(Top), lastBaseOptionPanel.Location.Y - 10).
+                    HookOnCompletionInUiThread(basePanel, () => basePanel.ShadowDecoration.Enabled = true).
+                    HookOnCompletionInUiThread(basePanel,  () => basePanel.BorderThickness = 10).
+                    Accelerate(TimeSpan.FromMilliseconds(200));
+
                 backPanel.FillColor = Color.FromArgb(223, 239, 217);
-                basePanel.BorderThickness = 10;
+                //basePanel.BorderThickness = 10;
 
                 //basePanel.SetBounds(basePanel.Location.X, basePanel.Location.Y - 10, basePanel.Width, basePanel.Height);
                 //basePanel.ShadowDecoration.Shadow = new Padding(5, 5, 5, 0);
@@ -280,6 +287,7 @@ namespace Forms.MenuForms.NewPackage
             }
             else
             {
+                btnNextPage.Enabled = false;
                 lastBaseOptionPanel = null;
                 lastBackOptionPanel = null;
             }

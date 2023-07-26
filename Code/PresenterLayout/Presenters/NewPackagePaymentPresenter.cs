@@ -1,4 +1,5 @@
-﻿using ModelLayout.Models.Package;
+﻿using Microsoft.AspNetCore.Mvc;
+using ModelLayout.Models.Package;
 using PresenterLayout.Common;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace PresenterLayout.Presenters
         public NewPackagePaymentPresenter(IApplicationController controller, INewPackagePaymentView view, IBaseView baseView, UserPackage userPackage) : base(controller, view, baseView)
         {
             _userPackage = userPackage;
+            View.Pay += PayAndGoForward;
             View.ReturnToNewPackagePage += ReturnToNewPackagePage;
             View.ReturnToNewPackageUserDataPage += ReturnToNewPackageUserDataPage;
         }
@@ -25,6 +27,13 @@ namespace PresenterLayout.Presenters
             if (BaseView is INewPackageContainerView view)
                 view.SetProgressBar(3);
             BaseView.LoadNewForm(View);
+        }
+
+        private void PayAndGoForward()
+        {
+            //if (Pay())
+            Controller.Run<NewPackageFinalLabelPresenter>();
+            View.Close();
         }
 
         private void ReturnToNewPackagePage()

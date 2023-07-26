@@ -177,7 +177,7 @@
             ProgressBar_tableLayoutPanel.Controls.Add(guna2CircleProgressBar2, 4, 0);
             ProgressBar_tableLayoutPanel.Controls.Add(guna2vProgressBar4, 3, 0);
             ProgressBar_tableLayoutPanel.Controls.Add(guna2CircleProgressBar5, 2, 0);
-            ProgressBar_tableLayoutPanel.Location = new Point(12, 5);
+            ProgressBar_tableLayoutPanel.Location = new Point(12, 18);
             ProgressBar_tableLayoutPanel.Name = "ProgressBar_tableLayoutPanel";
             ProgressBar_tableLayoutPanel.RowCount = 1;
             ProgressBar_tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));

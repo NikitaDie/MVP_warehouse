@@ -17,7 +17,7 @@ namespace PresenterLayout.Presenters
     {
         //private UserPackage _userPackage; ?
         private readonly IGetStartPackagesService _getStartPackagesService;
-        private readonly ILoginService _makeUserPackageService;
+        //private readonly ILoginService _makeUserPackageService;
         private UserPackage _userPackage;
         private bool _changeCall;
 
