@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using Microsoft.VisualBasic.ApplicationServices;
 using ModelLayout.Models.Package;
 using PresenterLayout.Common;
 using PresenterLayout.Presenters;
@@ -24,7 +25,8 @@ namespace Forms.MenuForms.NewPackage
                 .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
                 .RegisterService<ILabelService, LabelService>()
                 .RegisterInstance<IBaseView>(this)
-                .RegisterInstance<UserPackage>(new UserPackage("134768948102"));
+                .RegisterModel<UserPackage>();
+                //.RegisterInstance<UserPackage>(new UserPackage("134768948102"));
 
             SetProgressBar(0);
 

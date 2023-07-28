@@ -39,6 +39,13 @@ namespace PresenterLayout.Common
             return this;
         }
 
+        public IApplicationController RegisterModel<TModel>()
+            where TModel : class
+        {
+            _container.Register<TModel>();
+            return this;
+        }
+
         public void Run<TPresenter>() where TPresenter : class, IPresenter
         {
             if (!_container.IsRegistered<TPresenter>())

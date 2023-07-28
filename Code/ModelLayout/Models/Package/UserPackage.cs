@@ -49,17 +49,17 @@ namespace ModelLayout.Models.Package
         [JsonProperty("CurrentWarehouseID")]
         public string CurrentWarehouseID { set; get; }
 
-        //public UserPackage() { }
+        public UserPackage() { }
         public UserPackage(string id)
         {
             ID = id;
         }
 
-        /*public UserPackage(IPackageModel packageBase)
+        public UserPackage(IPackageModel packageBase)
         {
             Price = packageBase.Price;
             Name = packageBase.Name;
             SizeDescription = packageBase.SizeDescription;
-        }*/
+        }
     }
 }

@@ -273,7 +273,7 @@ namespace Forms.MenuForms.NewPackage
                 basePanel.Clicked = true;
                 FluentTransitions.Transition.With(basePanel, nameof(Top), lastBaseOptionPanel.Location.Y - 10).
                     HookOnCompletionInUiThread(basePanel, () => basePanel.ShadowDecoration.Enabled = true).
-                    HookOnCompletionInUiThread(basePanel,  () => basePanel.BorderThickness = 10).
+                    HookOnCompletionInUiThread(basePanel, () => basePanel.BorderThickness = 10).
                     Accelerate(TimeSpan.FromMilliseconds(200));
 
                 backPanel.FillColor = Color.FromArgb(223, 239, 217);

@@ -1,14 +1,10 @@
-﻿using ModelLayout.Models.Package;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Size = System.Drawing.Size;
 
 namespace ServiceLayout.Services.Label
 {
     public interface ILabelService
     {
-        public string GetBarcode(string label);
+        public string TurnBarcodeVerticaly(string path);
+        public string GetBarcode(string label, Size size);
     }
 }

@@ -11,7 +11,7 @@ namespace Forms
 {
     public class LightInjectAdapder : IContainer
     {
-        private readonly ServiceContainer _container = new ServiceContainer();
+        private readonly ServiceContainer _container = new ServiceContainer(options => options.EnableOptionalArguments = true);//change
 
         public void Register<TService, TImplementation>() where TImplementation : TService
         {
@@ -21,6 +21,11 @@ namespace Forms
         public void Register<TService>()
         {
             _container.Register<TService>();
+        }
+
+        public void Register2<TService>(TService argument)
+        {
+            _container.GetInstance(typeof(TService)) = argument;
         }
 
         public void RegisterInstance<T>(T instance)

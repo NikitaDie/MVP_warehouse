@@ -10,21 +10,33 @@ using System.Windows.Forms;
 using System.Drawing.Printing;
 using Guna.UI2.WinForms;
 using ViewLayout.Views;
+using System.IO;
 
 namespace Forms.MenuForms.NewPackage
 {
     public partial class NewPackageFinalLabelForm : Form, INewPackageFinalLabelView
     {
+        public event Action? NewPackage;
+        public Size BigBarcodeSize => imgBarcode.Size;
+        public Size SmallBarcodeSize => new Size(imgSmallBarcode.Size.Height, imgSmallBarcode.Size.Width);
+        public string BigBarcodeImage { set => imgBarcode.ImageLocation = value; }
+        public string SmallBarcodeImage { set => imgSmallBarcode.ImageLocation = value; }
+
         public NewPackageFinalLabelForm()
         {
             InitializeComponent();
 
             printdoc1.PrintPage += new PrintPageEventHandler(printdoc1_PrintPage);
+            btnNewPackage.Click += (sender, args) => Invoke(NewPackage);
         }
 
-        public void SetBarcode(string path)
+        private new void Invoke(Action? action)
         {
-            imgBarcode.ImageLocation = path;
+            try
+            {
+                action?.Invoke();
+            }
+            catch { throw; };
         }
 
         private void btnPrintLabel_Click(object sender, EventArgs e)
@@ -72,5 +84,6 @@ namespace Forms.MenuForms.NewPackage
             previewdlg.Document = printdoc1;
             previewdlg.ShowDialog();
         }
+
     }
 }

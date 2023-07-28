@@ -18,11 +18,11 @@ namespace PresenterLayout.Presenters
         //private UserPackage _userPackage; ?
         private readonly IGetStartPackagesService _getStartPackagesService;
         //private readonly ILoginService _makeUserPackageService;
-        private UserPackage _userPackage;
+        private UserPackage? _userPackage;
         private bool _changeCall;
 
         public NewPackagePresenter(IApplicationController controller, INewPackageView view, IBaseView baseView,
-            IGetStartPackagesService getStartPackagesService, UserPackage userPackage) : base(controller, view, baseView)
+            IGetStartPackagesService getStartPackagesService, UserPackage? userPackage) : base(controller, view, baseView)
         {
             _userPackage = userPackage;
             _getStartPackagesService = getStartPackagesService;
@@ -36,7 +36,7 @@ namespace PresenterLayout.Presenters
             View.PagesButtonText = _changeCall ? "Return to Payment" : "Continue to address input";
             View.LoadStartPackages(GetStartPackages());
 
-            if (_userPackage.Name != null)
+            if (_userPackage != null)
             {
                 View.SetCurrentOptionPanel(_userPackage.Name);
             }
@@ -53,14 +53,18 @@ namespace PresenterLayout.Presenters
 
         private void NextPage(IPackageModel package)
         {
-            _userPackage.Price = package.Price;
+            /*_userPackage.Price = package.Price;
             _userPackage.Name = package.Name;
-            _userPackage.SizeDescription = package.SizeDescription;
+            _userPackage.SizeDescription = package.SizeDescription;*/
 
             if (_changeCall)
                 Controller.Run<NewPackagePaymentPresenter>();
             else
+            {
+                _userPackage = new UserPackage(package);
+                //Controller.RegisterInstance<UserPackage>(new UserPackage(package));
                 Controller.Run<NewPackageUserDataPresenter, bool>(false);
+            }
 
             View.Close();
         }

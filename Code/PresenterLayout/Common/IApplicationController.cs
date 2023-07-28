@@ -18,6 +18,9 @@ namespace PresenterLayout.Common
         IApplicationController RegisterService<TService, TImplementation>()
             where TImplementation : class, TService;
 
+        public IApplicationController RegisterModel<TModel>()
+            where TModel : class;
+
         void Run<TPresenter>()
             where TPresenter : class, IPresenter;
 
