@@ -18,7 +18,7 @@ namespace ServiceLayout.Services.GetStartPackages
 
         public GetStartPackagesService()
         {
-            const string usersAutorizationConnection = "Host=warehouse-database.cessnsd4sw0t.eu-north-1.rds.amazonaws.com;Username=postgres;Password=Warehouse2048;Database=packages;";
+            const string usersAutorizationConnection = "server";
             this.DB = new DBDataSource(usersAutorizationConnection);
         }
         public List<IPackageModel> GetStartPackages()

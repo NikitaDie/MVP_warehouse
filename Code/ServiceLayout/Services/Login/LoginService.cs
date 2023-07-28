@@ -8,7 +8,7 @@ namespace ServiceLayer.Services.Login
         public DBDataSource DB { get; set; }
         public LoginService()
         {
-            string usersAutorizationConnection = "Host=warehouse-database.cessnsd4sw0t.eu-north-1.rds.amazonaws.com;Username=postgres;Password=Warehouse2048;Database=users;";
+            string usersAutorizationConnection = "server";
             this.DB = new DBDataSource(usersAutorizationConnection);
         }
 
