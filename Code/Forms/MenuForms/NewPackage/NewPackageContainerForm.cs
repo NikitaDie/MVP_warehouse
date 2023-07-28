@@ -18,7 +18,7 @@ namespace Forms.MenuForms.NewPackage
         {
             //this.panel_MainLoader.Controls.Clear();
             _currentForm = newForm as Form;
-            _currentForm.Dock = DockStyle.Fill;
+            //_currentForm.Dock = DockStyle.Fill; *****
             _currentForm.TopLevel = false;
             _currentForm.TopMost = true;
             _currentForm.FormBorderStyle = FormBorderStyle.None;

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
 using ViewLayout.Views;
 using Label = System.Windows.Forms.Label;
 
@@ -26,7 +27,7 @@ namespace Forms.MenuForms.NewPackage
         public string PagesButtonText { set => btnNextPage.Text = value; }
 
         public event Action? NextPage;
-        //OptionPanel savedPanel;
+
         public NewPackageForm()
         {
             InitializeComponent();
@@ -37,6 +38,19 @@ namespace Forms.MenuForms.NewPackage
 
             btnNextPage.Click += (sender, args) => Invoke(NextPage);
             btnNextPage.Enabled = false;
+        }
+
+        public int Xz
+        {
+            get => Location.X;
+            set => Location = new Point(value, Location.Y);
+        } 
+        public void Close()
+        {
+            FluentTransitions.Transition.With(this, nameof(Xz), Location.X - Width).
+                HookOnCompletionInUiThread(this, () => base.Close()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
+            //base.Close();
         }
 
         private void SetOnClickPanels(Panel basePanel, Panel backPanel, Panel maskPanel, Guna2Button button)

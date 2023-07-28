@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using ViewLayout;
 using ViewLayout.Views;
 
 
@@ -85,6 +86,13 @@ namespace Forms.MenuForms.NewPackage
             InitializeComponent();
 
             btnNextPage.Click += (send, args) => ManagePagesButtonBehavior();
+        }
+
+        void IView.Show()
+        {
+            FluentTransitions.Transition.With(this.Location, nameof(Location.X), Location.X + Width).
+                HookOnCompletionInUiThread(this, () => base.Show()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         private new static void Invoke(Action? action)

@@ -1,14 +1,6 @@
 ﻿using ModelLayout.Models.Package;
-using ModelLayout.Models.User;
 using PresenterLayout.Common;
-using ServiceLayer.Services.Login;
 using ServiceLayout.Services.GetStartPackages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters
@@ -60,7 +52,7 @@ namespace PresenterLayout.Presenters
             {
                 //_userPackage = new UserPackage(package);
                 //Controller.RegisterInstance<UserPackage>(new UserPackage(package));
-                Controller.Run<NewPackageUserDataPresenter, bool>(false);
+                //Controller.Run<NewPackageUserDataPresenter, bool>(false);
             }
 
             View.Close();

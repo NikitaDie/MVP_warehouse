@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices.JavaScript;
-using ModelLayout.Models.Package;
+﻿using ModelLayout.Models.Package;
 using PresenterLayout.Common;
 using ServiceLayout.Services.Label;
 using ViewLayout.Views;
@@ -20,8 +19,8 @@ namespace PresenterLayout.Presenters
 
         public override void Run()
         {
-            View.BigBarcodeImage = _labelService.GetBarcode(_userPackage.ID.ToString(), View.BigBarcodeSize);
-            View.SmallBarcodeImage = _labelService.TurnBarcodeVerticaly(_labelService.GetBarcode(_userPackage.ID.ToString(), View.SmallBarcodeSize));
+            View.BigBarcodeImage = _labelService.GetBarcode(_userPackage.ID, View.BigBarcodeSize);
+            View.SmallBarcodeImage = _labelService.TurnBarcodeVerticaly(_labelService.GetBarcode(_userPackage.ID, View.SmallBarcodeSize));
             
             (ParentPresenter as NewPackageContainerPresenter)?.SetProgressBar(4);
             ParentPresenter.LoadNewForm(View);
