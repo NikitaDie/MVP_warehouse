@@ -14,13 +14,16 @@ namespace PresenterLayout.Presenters
     public class LoginPresenter : BasePresenter<ILoginView>
     {
         private readonly ILoginService _service;
-        private readonly IBaseView _baseView;
 
-        public LoginPresenter(IBaseView baseView, IApplicationController controller, ILoginView view, ILoginService service) : base(controller, view, baseView)
+        public LoginPresenter(IApplicationController controller, ILoginView view, ILoginService service, IParentPresenter parentPresenter) : base(controller, view, parentPresenter)
         {
             _service = service;
-            _baseView = baseView;
             View.Login += () => Login(View.Username, View.Password);
+        }
+
+        public override void Run()
+        {
+            ParentPresenter?.LoadNewForm(View);
         }
 
         private void Login(string username, string password)
@@ -42,5 +45,6 @@ namespace PresenterLayout.Presenters
                 View.Close();
             }
         }
+
     }
 }

@@ -75,7 +75,7 @@ namespace Forms.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap clipart_pen_pen_icon_3_1gray__Traced_ {
             get {
-                object obj = ResourceManager.GetObject("clipart-pen-pen-icon-3 1gray (Traced)", resourceCulture);
+                object obj = ResourceManager.GetObject("clipart_pen_pen_icon_3_1gray__Traced_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

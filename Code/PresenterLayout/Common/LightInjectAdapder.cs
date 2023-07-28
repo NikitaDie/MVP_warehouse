@@ -1,17 +1,16 @@
-﻿using LightInject;
-using PresenterLayout.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using LightInject;
 
-namespace Forms
+namespace PresenterLayout.Common
 {
     public class LightInjectAdapder : IContainer
     {
-        private readonly ServiceContainer _container = new ServiceContainer(options => options.EnableOptionalArguments = true);//change
+        private readonly ServiceContainer _container = new ServiceContainer();
 
         public void Register<TService, TImplementation>() where TImplementation : TService
         {
@@ -23,11 +22,6 @@ namespace Forms
             _container.Register<TService>();
         }
 
-        public void Register2<TService>(TService argument)
-        {
-            _container.GetInstance(typeof(TService)) = argument;
-        }
-
         public void RegisterInstance<T>(T instance)
         {
             _container.RegisterInstance(instance);
@@ -36,6 +30,11 @@ namespace Forms
         public void Register<TService, TArgument>(Expression<Func<TArgument, TService>> factory)
         {
             _container.Register(serviceFactory => factory);
+        }
+
+        public T GetInstance<T>()
+        {
+            return _container.GetInstance<T>();
         }
 
         public TService Resolve<TService>()

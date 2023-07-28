@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
@@ -11,17 +11,47 @@
   <ItemGroup>
     <PackageReference Include="FluentTransitions" Version="2.0.1" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
-    <PackageReference Include="LightInject" Version="6.6.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ModelLayout\ModelLayout.csproj" />
-    <ProjectReference Include="..\PresenterLayout\PresenterLayout.csproj" />
-    <ProjectReference Include="..\ServiceLayout\ServiceLayout.csproj" />
     <ProjectReference Include="..\ViewLayout\ViewLayout.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="AdvancedElements\AdvancedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdvancedElements\HoverButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="AdvancedElements\OptionPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="AdvancedElements\RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForms\NewPackage\NewPackageContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForms\NewPackage\NewPackageFinalLabelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForms\NewPackage\NewPackageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForms\NewPackage\NewPackagePaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForms\NewPackage\NewPackageUserDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

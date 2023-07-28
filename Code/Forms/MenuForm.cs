@@ -1,21 +1,5 @@
 ﻿using Forms.MenuForms;
-using Forms.MenuForms.NewPackage;
 using ModelLayout.Models.User;
-using PresenterLayout.Common;
-using PresenterLayout.Presenters;
-using ServiceLayer.Services.Login;
-using ServiceLayout.Services;
-using ServiceLayout.Services.GetStartPackages;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Xml.Linq;
 using ViewLayout;
 using ViewLayout.Views;
 
@@ -32,11 +16,6 @@ namespace Forms
 
             back_button.Click += (sender, args) => Invoke(BackToLoginPage);
 
-            var controller = new ApplicationController(new LightInjectAdapder())
-                .RegisterView<INewPackageContainerView, NewPackageContainerForm>()
-                .RegisterInstance<IBaseView>(this);
-
-            controller.Run<NewPackageContainerPresenter>();
         }
         private new void Invoke(Action action)
         {

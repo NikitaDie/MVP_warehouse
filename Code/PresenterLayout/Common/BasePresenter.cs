@@ -12,34 +12,41 @@ namespace PresenterLayout.Common
         where TView : IView
     {
         protected TView View { get; private set; }
-        protected IBaseView BaseView { get; private set; }
+        protected IParentPresenter? ParentPresenter { get; private set; }
         protected IApplicationController Controller { get; private set; }
 
-        protected BasePresenter(IApplicationController controller, TView view, IBaseView baseView)
+        protected BasePresenter(IApplicationController controller, TView view, IParentPresenter parentPresenter)
         {
             Controller = controller;
             View = view;
-            BaseView = baseView;
+            ParentPresenter = parentPresenter;
         }
 
-        public virtual void Run()
+        protected BasePresenter(IApplicationController controller, TView view)
         {
-            BaseView.LoadNewForm(View);
+            Controller = controller;
+            View = view;
         }
+
+        public abstract void Run();
+        /*public virtual void Run()
+        {
+            ParentPresenter.LoadNewForm(View);
+        }*/
     }
 
     public abstract class BasePresenter<TView, TArg> : IPresenter<TArg>
         where TView : IView
     {
         protected TView View { get; private set; }
-        protected IBaseView BaseView { get; private set; }
+        protected IParentPresenter ParentPresenter { get; private set; }
         protected IApplicationController Controller { get; private set; }
 
-        protected BasePresenter(IApplicationController controller, TView view, IBaseView baseView)
+        protected BasePresenter(IApplicationController controller, TView view, IParentPresenter parentPresenter)
         {
             Controller = controller;
             View = view;
-            BaseView = baseView;
+            ParentPresenter = parentPresenter;
         }
 
         public abstract void Run(TArg argument);

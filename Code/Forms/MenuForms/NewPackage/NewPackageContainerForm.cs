@@ -1,10 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.VisualBasic.ApplicationServices;
 using ModelLayout.Models.Package;
-using PresenterLayout.Common;
-using PresenterLayout.Presenters;
-using ServiceLayout.Services.GetStartPackages;
-using ServiceLayout.Services.Label;
 using ViewLayout;
 using ViewLayout.Views;
 
@@ -16,21 +12,6 @@ namespace Forms.MenuForms.NewPackage
         public NewPackageContainerForm()
         {
             InitializeComponent();
-
-            var controller = new ApplicationController(new LightInjectAdapder())
-                .RegisterView<INewPackageView, NewPackageForm>()
-                .RegisterView<INewPackageUserDataView, NewPackageUserDataForm>()
-                .RegisterView<INewPackagePaymentView, NewPackagePaymentForm>()
-                .RegisterView<INewPackageFinalLabelView, NewPackageFinalLabelForm>()
-                .RegisterService<IGetStartPackagesService, GetStartPackagesService>()
-                .RegisterService<ILabelService, LabelService>()
-                .RegisterInstance<IBaseView>(this)
-                .RegisterModel<UserPackage>();
-                //.RegisterInstance<UserPackage>(new UserPackage("134768948102"));
-
-            SetProgressBar(0);
-
-            controller.Run<NewPackagePresenter, bool>(false);
         }
 
         public void LoadNewForm(IView newForm)

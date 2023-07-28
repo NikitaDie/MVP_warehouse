@@ -9,6 +9,9 @@ namespace PresenterLayout.Common
         void Register<TService, TImplementation>() where TImplementation : TService;
         void Register<TService>();
         void RegisterInstance<T>(T instance);
+
+        public T GetInstance<T>();
+  
         TService Resolve<TService>();
         bool IsRegistered<TService>();
         void Register<TService, TArgument>(Expression<Func<TArgument, TService>> factory);

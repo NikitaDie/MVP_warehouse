@@ -13,7 +13,7 @@ namespace PresenterLayout.Presenters
     public class NewPackagePaymentPresenter : BasePresenter<INewPackagePaymentView>
     {
         private readonly UserPackage _userPackage;
-        public NewPackagePaymentPresenter(IApplicationController controller, INewPackagePaymentView view, IBaseView baseView, UserPackage userPackage) : base(controller, view, baseView)
+        public NewPackagePaymentPresenter(IApplicationController controller, INewPackagePaymentView view, IParentPresenter parentPresenter, UserPackage userPackage) : base(controller, view, parentPresenter)
         {
             _userPackage = userPackage;
             View.Pay += PayAndGoForward;
@@ -24,9 +24,9 @@ namespace PresenterLayout.Presenters
         public override void Run()
         {
             View.LoadPackageInfo(_userPackage);
-            if (BaseView is INewPackageContainerView view)
-                view.SetProgressBar(3);
-            BaseView.LoadNewForm(View);
+
+            (ParentPresenter as NewPackageContainerPresenter)?.SetProgressBar(3);
+            ParentPresenter.LoadNewForm(View);
         }
 
         private void PayAndGoForward()

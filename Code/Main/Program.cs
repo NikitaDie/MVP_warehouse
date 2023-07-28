@@ -1,8 +1,10 @@
+using Forms;
 using PresenterLayout.Common;
 using PresenterLayout.Presenters;
+using ServiceLayer.Services.Login;
 using ViewLayout.Views;
 
-namespace Forms
+namespace Main
 {
     internal static class Program
     {
@@ -13,8 +15,12 @@ namespace Forms
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            var s = new BaseForm();
-            Application.Run(s);
+
+            var presenter = new BaseFormPresenter(new BaseForm()); // Dependency Injection
+            presenter.Run();
+
+            /*var s = new BaseForm();
+            Application.Run(s);*/
 
         }
     }

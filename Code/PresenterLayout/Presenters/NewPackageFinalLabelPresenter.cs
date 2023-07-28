@@ -10,24 +10,27 @@ namespace PresenterLayout.Presenters
     {
         private readonly ILabelService _labelService;
         private readonly UserPackage _userPackage;
-        public NewPackageFinalLabelPresenter(IApplicationController controller, INewPackageFinalLabelView view, IBaseView baseView, ILabelService labelService, UserPackage userPackage) : base(controller, view, baseView)
+        public NewPackageFinalLabelPresenter(IApplicationController controller, INewPackageFinalLabelView view, IParentPresenter parentPresenter, ILabelService labelService, UserPackage userPackage) : base(controller, view, parentPresenter)
         {
             _userPackage = userPackage;
             _labelService = labelService;
+
+            View.NewPackage += NewPackage;
         }
 
         public override void Run()
         {
             View.BigBarcodeImage = _labelService.GetBarcode(_userPackage.ID.ToString(), View.BigBarcodeSize);
             View.SmallBarcodeImage = _labelService.TurnBarcodeVerticaly(_labelService.GetBarcode(_userPackage.ID.ToString(), View.SmallBarcodeSize));
-            if (BaseView is INewPackageContainerView view)
-                view.SetProgressBar(4);
-            BaseView.LoadNewForm(View);
+            
+            (ParentPresenter as NewPackageContainerPresenter)?.SetProgressBar(4);
+            ParentPresenter.LoadNewForm(View);
         }
 
         private void NewPackage()
         {
-            //Package.
+            View.Close();
+            (ParentPresenter as NewPackageContainerPresenter)?.NewPackage();
         }
     }
 }

@@ -1,7 +1,4 @@
 using ViewLayout.Views;
-using System;
-using System.Windows.Forms;
-using Microsoft.AspNetCore.Mvc.ViewEngines;
 
 namespace Forms
 {

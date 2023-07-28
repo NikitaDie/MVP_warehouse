@@ -1,36 +1,20 @@
-﻿using PresenterLayout.Common;
-using PresenterLayout.Presenters;
-using ServiceLayer.Services.Login;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using ViewLayout;
+﻿using ViewLayout;
 using ViewLayout.Views;
 
-namespace Forms
+namespace Main
 {
     public partial class BaseForm : Form, IBaseView
     {
-        Form currentForm;
+        Form? currentForm;
         public BaseForm()
         {
             InitializeComponent();
 
-            var controller = new ApplicationController(new LightInjectAdapder())
-                .RegisterView<ILoginView, LoginForm>()
-                .RegisterView<IMenuView, MenuForm>()
-                //.RegisterView<IMainView, MainForm>()
-                //.RegisterView<IChangeUsernameView, ChangeUsernameForm>()
-                .RegisterService<ILoginService, LoginService>()
-                .RegisterInstance<IBaseView>(this);
+        }
 
-            controller.Run<LoginPresenter>();
+        public new void Show()
+        {
+            Application.Run(this);
         }
 
         public void LoadNewForm(IView newForm)

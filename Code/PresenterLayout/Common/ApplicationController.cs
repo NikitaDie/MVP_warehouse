@@ -39,11 +39,9 @@ namespace PresenterLayout.Common
             return this;
         }
 
-        public IApplicationController RegisterModel<TModel>()
-            where TModel : class
+        public T GetInstance<T>()
         {
-            _container.Register<TModel>();
-            return this;
+            return _container.GetInstance<T>();
         }
 
         public void Run<TPresenter>() where TPresenter : class, IPresenter

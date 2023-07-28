@@ -16,9 +16,10 @@ namespace PresenterLayout.Presenters
         private readonly UserPackage _userPackage;
         private bool _changeCall;
         //private readonly IGetHitsService _getHitsService;
-        public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IBaseView baseView, UserPackage userPackage) : base(controller, view, baseView)
+        public NewPackageUserDataPresenter(IApplicationController controller, INewPackageUserDataView view, IParentPresenter parentPresenter, UserPackage userPackage) : base(controller, view, parentPresenter)
         {
             _userPackage = userPackage;
+
             View.NextPage += NextPage;
         }
 
@@ -26,7 +27,7 @@ namespace PresenterLayout.Presenters
         {
             _changeCall = changeCall;
 
-            if (_changeCall)
+            if (_changeCall) //make private method
             {
                 View.RecipentName = _userPackage.RecipentName;
                 View.RecipentPostCode = _userPackage.RecipentPostCode;
@@ -42,9 +43,8 @@ namespace PresenterLayout.Presenters
                 View.SenderEmail = _userPackage.SenderEmail;
             }
 
-            if (BaseView is INewPackageContainerView view)
-                view.SetProgressBar(2);
-            BaseView.LoadNewForm(View);
+            (ParentPresenter as NewPackageContainerPresenter)?.SetProgressBar(2);
+            ParentPresenter.LoadNewForm(View);
         }
 
         private void NextPage()
