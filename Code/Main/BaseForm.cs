@@ -21,12 +21,12 @@ namespace Main
         {
             //this.panel_MainLoader.Controls.Clear();
             currentForm = newForm as Form;
-            currentForm.Dock = DockStyle.Fill;
+            //currentForm.Dock = DockStyle.Fill;
             currentForm.TopLevel = false;
             currentForm.TopMost = true;
             currentForm.FormBorderStyle = FormBorderStyle.None;
             this.panel_MainLoader.Controls.Add(currentForm);
-            currentForm.Show();
+            newForm.Show();
         }
 
         /*public void NewForm(Form newForm)

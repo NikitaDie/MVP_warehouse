@@ -79,6 +79,12 @@ namespace Forms.MenuForms.NewPackage
             set => senderEmail_textBox.Text = value;
         }
 
+        public int X
+        {
+            get => Location.X;
+            set => Location = new Point(value, Location.Y);
+        }
+
         public event Action? NextPage;
 
         public NewPackageUserDataForm()
@@ -88,11 +94,19 @@ namespace Forms.MenuForms.NewPackage
             btnNextPage.Click += (send, args) => ManagePagesButtonBehavior();
         }
 
-        void IView.Show()
+        public void Close()
         {
-            FluentTransitions.Transition.With(this.Location, nameof(Location.X), Location.X + Width).
-                HookOnCompletionInUiThread(this, () => base.Show()).
+            FluentTransitions.Transition.With(this, nameof(X), Location.X - Width).
+                HookOnCompletionInUiThread(this, () => base.Close()).
                 Accelerate(TimeSpan.FromMilliseconds(200));
+        }
+
+        public new void Show()
+        {
+           Location = new Point(Location.X + Width, Location.Y);
+           base.Show();
+           FluentTransitions.Transition.With(this, nameof(X), 0).
+               Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         private new static void Invoke(Action? action)

@@ -15,10 +15,22 @@ namespace PresenterLayout.Presenters
 {
     public class NewPackageContainerPresenter : BasePresenter<INewPackageContainerView>, IParentPresenter
     {
-        IApplicationController? _controller;
+        IApplicationController _controller;
         public NewPackageContainerPresenter(IApplicationController controller, INewPackageContainerView view, IParentPresenter parentPresenter) : base(controller, view, parentPresenter)
         {
+            _controller = GetController();
 
+            /*View.LaunchLastForm += () =>
+            {
+                if (View.CurrentForm is INewPackageUserDataView)
+                    _controller.Run<NewPackageUserDataPresenter, bool>(false);
+                else if (View.CurrentForm is INewPackagePaymentView)
+                    _controller.Run<NewPackagePaymentPresenter>();
+                else if (View.CurrentForm is INewPackageFinalLabelView)
+                    _controller.Run<NewPackageFinalLabelPresenter>();
+                else
+                    _controller.Run<NewPackagePresenter, bool>(false);
+            };*/
         }
 
         public override void Run()
@@ -30,11 +42,11 @@ namespace PresenterLayout.Presenters
         public void NewPackage()
         {
             SetProgressBar(0);
-            _controller = getController();
+            _controller = GetController();
             _controller.Run<NewPackagePresenter, bool>(false);
         }
 
-        private IApplicationController getController()
+        private IApplicationController GetController()
         {
             var controller = new ApplicationController(new LightInjectAdapder())
                 .RegisterView<INewPackageView, NewPackageForm>()

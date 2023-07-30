@@ -25,6 +25,12 @@ namespace Forms.MenuForms.NewPackage
 
         }
 
+        public int X
+        {
+            get => Location.X;
+            set => Location = new Point(value, Location.Y);
+        }
+
         public event Action? Pay;
         public event Action? ReturnToNewPackagePage;
         public event Action? ReturnToNewPackageUserDataPage;
@@ -36,6 +42,21 @@ namespace Forms.MenuForms.NewPackage
                 action?.Invoke();
             }
             catch { throw; };
+        }
+
+        public new void Close()
+        {
+            FluentTransitions.Transition.With(this, nameof(X), Location.X - Width).
+                HookOnCompletionInUiThread(this, () => base.Close()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
+        }
+
+        public new void Show()
+        {
+            Location = new Point(Location.X + Width, Location.Y);
+            base.Show();
+            FluentTransitions.Transition.With(this, nameof(X), 0).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
         public void LoadPackageInfo(UserPackage package)
         {

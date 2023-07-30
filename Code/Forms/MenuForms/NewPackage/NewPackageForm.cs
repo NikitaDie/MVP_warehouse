@@ -40,17 +40,23 @@ namespace Forms.MenuForms.NewPackage
             btnNextPage.Enabled = false;
         }
 
-        public int Xz
+        public int X
         {
             get => Location.X;
-            set => Location = new Point(value, Location.Y);
+            set => Location = Location with { X = value };
         } 
-        public void Close()
+        public new void Close()
         {
-            FluentTransitions.Transition.With(this, nameof(Xz), Location.X - Width).
+            FluentTransitions.Transition.With(this, nameof(X), Location.X - Width).
                 HookOnCompletionInUiThread(this, () => base.Close()).
                 Accelerate(TimeSpan.FromMilliseconds(200));
-            //base.Close();
+        }
+        public new void Show()
+        {
+            Location = new Point(Location.X + Width, Location.Y);
+            base.Show();
+            FluentTransitions.Transition.With(this, nameof(X), 0).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         private void SetOnClickPanels(Panel basePanel, Panel backPanel, Panel maskPanel, Guna2Button button)

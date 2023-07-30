@@ -1,14 +1,7 @@
 ﻿using ModelLayout.Common;
 using ModelLayout.Models.Package;
-using ModelLayout.Models.User;
 using Newtonsoft.Json;
 using ServiceLayer.CommonServices;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace ServiceLayout.Services.GetStartPackages
 {
@@ -18,7 +11,7 @@ namespace ServiceLayout.Services.GetStartPackages
 
         public GetStartPackagesService()
         {
-            const string usersAutorizationConnection = "server";
+            const string usersAutorizationConnection = "Host=warehouse-database.cessnsd4sw0t.eu-north-1.rds.amazonaws.com;Username=postgres;Password=Warehouse2048;Database=packages;";
             this.DB = new DBDataSource(usersAutorizationConnection);
         }
         public List<IPackageModel> GetStartPackages()

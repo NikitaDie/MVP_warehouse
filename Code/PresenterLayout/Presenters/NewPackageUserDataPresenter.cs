@@ -1,12 +1,5 @@
 ﻿using ModelLayout.Models.Package;
 using PresenterLayout.Common;
-using ServiceLayout.Services.GetAdressHitsService;
-using ServiceLayout.Services.GetStartPackages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters

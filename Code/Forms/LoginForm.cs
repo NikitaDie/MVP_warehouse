@@ -22,9 +22,25 @@ namespace Forms
             if (action != null) action();
         }
 
+        public int Y
+        {
+            get => Location.Y;
+            set => Location = Location with { Y = value };
+        }
+
         public new void Show()
         {
-            Application.Run(this);
+            Location = new Point(Location.X, Location.Y + Height);
+            base.Show();
+            FluentTransitions.Transition.With(this, nameof(Y), 0).
+                Accelerate(TimeSpan.FromMilliseconds(200));
+        }
+
+        public new void Close()
+        {
+            FluentTransitions.Transition.With(this, nameof(Y), Location.Y - Height).
+                HookOnCompletionInUiThread(this, () => base.Close()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         private void SetButton()

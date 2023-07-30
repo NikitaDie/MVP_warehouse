@@ -28,21 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel_Menu = new Panel();
+            btnPanel = new Panel();
             panel_AdminBtns = new Panel();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            back_button = new Button();
-            button2 = new Button();
-            button_SearchPackage = new Button();
-            button_NewPackage = new Button();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            btnSearchPackage = new Guna.UI2.WinForms.Guna2Button();
+            btnNewPackage = new Guna.UI2.WinForms.Guna2Button();
+            back_button = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
             label_Role = new Label();
             label_Username = new Label();
             pictureBox1 = new PictureBox();
             panel_SectionLoader = new Panel();
             panel_Menu.SuspendLayout();
+            btnPanel.SuspendLayout();
             panel_AdminBtns.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -51,11 +64,8 @@
             // panel_Menu
             // 
             panel_Menu.BackColor = Color.FromArgb(20, 30, 49);
-            panel_Menu.Controls.Add(panel_AdminBtns);
+            panel_Menu.Controls.Add(btnPanel);
             panel_Menu.Controls.Add(back_button);
-            panel_Menu.Controls.Add(button2);
-            panel_Menu.Controls.Add(button_SearchPackage);
-            panel_Menu.Controls.Add(button_NewPackage);
             panel_Menu.Controls.Add(panel2);
             panel_Menu.Dock = DockStyle.Left;
             panel_Menu.Location = new Point(0, 0);
@@ -65,129 +75,160 @@
             panel_Menu.Size = new Size(200, 700);
             panel_Menu.TabIndex = 0;
             // 
+            // btnPanel
+            // 
+            btnPanel.Controls.Add(panel_AdminBtns);
+            btnPanel.Controls.Add(btnSearchPackage);
+            btnPanel.Controls.Add(btnNewPackage);
+            btnPanel.Dock = DockStyle.Top;
+            btnPanel.Location = new Point(0, 144);
+            btnPanel.Name = "btnPanel";
+            btnPanel.Size = new Size(200, 251);
+            btnPanel.TabIndex = 5;
+            // 
             // panel_AdminBtns
             // 
-            panel_AdminBtns.Controls.Add(button3);
-            panel_AdminBtns.Controls.Add(button4);
-            panel_AdminBtns.Controls.Add(button5);
+            panel_AdminBtns.Controls.Add(guna2Button3);
+            panel_AdminBtns.Controls.Add(guna2Button4);
+            panel_AdminBtns.Controls.Add(guna2Button5);
             panel_AdminBtns.Dock = DockStyle.Top;
-            panel_AdminBtns.Location = new Point(0, 270);
+            panel_AdminBtns.Location = new Point(0, 86);
             panel_AdminBtns.Name = "panel_AdminBtns";
             panel_AdminBtns.Size = new Size(200, 126);
             panel_AdminBtns.TabIndex = 2;
             panel_AdminBtns.Visible = false;
             // 
-            // button3
+            // guna2Button3
             // 
-            button3.Dock = DockStyle.Top;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = Color.FromArgb(0, 126, 249);
-            button3.Image = Properties.Resources.package__1_;
-            button3.Location = new Point(0, 84);
-            button3.Name = "button3";
-            button3.Size = new Size(200, 42);
-            button3.TabIndex = 1;
-            button3.Text = "New Package";
-            button3.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button3.UseVisualStyleBackColor = true;
+            guna2Button3.CustomizableEdges = customizableEdges13;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.Dock = DockStyle.Top;
+            guna2Button3.FillColor = Color.Transparent;
+            guna2Button3.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button3.ForeColor = Color.FromArgb(0, 126, 249);
+            guna2Button3.Image = Properties.Resources.package__1_;
+            guna2Button3.ImageAlign = HorizontalAlignment.Right;
+            guna2Button3.ImageSize = new Size(30, 30);
+            guna2Button3.Location = new Point(0, 86);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2Button3.Size = new Size(200, 43);
+            guna2Button3.TabIndex = 2;
+            guna2Button3.Text = "New Package";
+            guna2Button3.TextAlign = HorizontalAlignment.Left;
             // 
-            // button4
+            // guna2Button4
             // 
-            button4.Dock = DockStyle.Top;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.ForeColor = Color.FromArgb(0, 126, 249);
-            button4.Image = Properties.Resources.package__1_;
-            button4.Location = new Point(0, 42);
-            button4.Name = "button4";
-            button4.Size = new Size(200, 42);
-            button4.TabIndex = 1;
-            button4.Text = "New Package";
-            button4.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button4.UseVisualStyleBackColor = true;
+            guna2Button4.CustomizableEdges = customizableEdges15;
+            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button4.Dock = DockStyle.Top;
+            guna2Button4.FillColor = Color.Transparent;
+            guna2Button4.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button4.ForeColor = Color.FromArgb(0, 126, 249);
+            guna2Button4.Image = Properties.Resources.package__1_;
+            guna2Button4.ImageAlign = HorizontalAlignment.Right;
+            guna2Button4.ImageSize = new Size(30, 30);
+            guna2Button4.Location = new Point(0, 43);
+            guna2Button4.Name = "guna2Button4";
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2Button4.Size = new Size(200, 43);
+            guna2Button4.TabIndex = 3;
+            guna2Button4.Text = "New Package";
+            guna2Button4.TextAlign = HorizontalAlignment.Left;
             // 
-            // button5
+            // guna2Button5
             // 
-            button5.Dock = DockStyle.Top;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.ForeColor = Color.FromArgb(0, 126, 249);
-            button5.Image = Properties.Resources.package__1_;
-            button5.Location = new Point(0, 0);
-            button5.Name = "button5";
-            button5.Size = new Size(200, 42);
-            button5.TabIndex = 1;
-            button5.Text = "New Package";
-            button5.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button5.UseVisualStyleBackColor = true;
+            guna2Button5.CustomizableEdges = customizableEdges17;
+            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button5.Dock = DockStyle.Top;
+            guna2Button5.FillColor = Color.Transparent;
+            guna2Button5.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button5.ForeColor = Color.FromArgb(0, 126, 249);
+            guna2Button5.Image = Properties.Resources.package__1_;
+            guna2Button5.ImageAlign = HorizontalAlignment.Right;
+            guna2Button5.ImageSize = new Size(30, 30);
+            guna2Button5.Location = new Point(0, 0);
+            guna2Button5.Name = "guna2Button5";
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2Button5.Size = new Size(200, 43);
+            guna2Button5.TabIndex = 4;
+            guna2Button5.Text = "New Package";
+            guna2Button5.TextAlign = HorizontalAlignment.Left;
+            // 
+            // btnSearchPackage
+            // 
+            btnSearchPackage.CustomizableEdges = customizableEdges19;
+            btnSearchPackage.DisabledState.BorderColor = Color.DarkGray;
+            btnSearchPackage.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSearchPackage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSearchPackage.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSearchPackage.Dock = DockStyle.Top;
+            btnSearchPackage.FillColor = Color.Transparent;
+            btnSearchPackage.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSearchPackage.ForeColor = Color.FromArgb(0, 126, 249);
+            btnSearchPackage.Image = Properties.Resources.search_box_1851804_1573560_1__Traced_;
+            btnSearchPackage.ImageAlign = HorizontalAlignment.Right;
+            btnSearchPackage.ImageSize = new Size(30, 30);
+            btnSearchPackage.Location = new Point(0, 43);
+            btnSearchPackage.Name = "btnSearchPackage";
+            btnSearchPackage.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnSearchPackage.Size = new Size(200, 43);
+            btnSearchPackage.TabIndex = 1;
+            btnSearchPackage.Text = "Search Package";
+            btnSearchPackage.TextAlign = HorizontalAlignment.Left;
+            // 
+            // btnNewPackage
+            // 
+            btnNewPackage.CustomizableEdges = customizableEdges21;
+            btnNewPackage.DisabledState.BorderColor = Color.DarkGray;
+            btnNewPackage.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNewPackage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNewPackage.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNewPackage.Dock = DockStyle.Top;
+            btnNewPackage.FillColor = Color.Transparent;
+            btnNewPackage.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNewPackage.ForeColor = Color.FromArgb(0, 126, 249);
+            btnNewPackage.Image = Properties.Resources.package__1_;
+            btnNewPackage.ImageAlign = HorizontalAlignment.Right;
+            btnNewPackage.ImageSize = new Size(30, 30);
+            btnNewPackage.Location = new Point(0, 0);
+            btnNewPackage.Name = "btnNewPackage";
+            btnNewPackage.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnNewPackage.Size = new Size(200, 43);
+            btnNewPackage.TabIndex = 0;
+            btnNewPackage.Text = "New Package";
+            btnNewPackage.TextAlign = HorizontalAlignment.Left;
             // 
             // back_button
             // 
+            back_button.CustomizableEdges = customizableEdges23;
+            back_button.DisabledState.BorderColor = Color.DarkGray;
+            back_button.DisabledState.CustomBorderColor = Color.DarkGray;
+            back_button.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            back_button.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             back_button.Dock = DockStyle.Bottom;
-            back_button.FlatAppearance.BorderSize = 0;
-            back_button.FlatStyle = FlatStyle.Flat;
+            back_button.FillColor = Color.Transparent;
             back_button.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             back_button.ForeColor = Color.FromArgb(0, 126, 249);
-            back_button.Image = Properties.Resources.noun_go_back_5418737_1__Traced_1;
-            back_button.Location = new Point(0, 658);
+            back_button.Image = Properties.Resources.noun_go_back_5418737_1__Traced_;
+            back_button.ImageAlign = HorizontalAlignment.Right;
+            back_button.ImageSize = new Size(25, 25);
+            back_button.Location = new Point(0, 657);
             back_button.Name = "back_button";
-            back_button.Size = new Size(200, 42);
-            back_button.TabIndex = 1;
+            back_button.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            back_button.Size = new Size(200, 43);
+            back_button.TabIndex = 5;
             back_button.Text = "Back";
-            back_button.TextImageRelation = TextImageRelation.TextBeforeImage;
-            back_button.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Dock = DockStyle.Top;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = Color.FromArgb(0, 126, 249);
-            button2.Image = Properties.Resources.noun_delivery_package_1777291_1__Traced_;
-            button2.Location = new Point(0, 228);
-            button2.Name = "button2";
-            button2.Size = new Size(200, 42);
-            button2.TabIndex = 1;
-            button2.Text = "Send Package";
-            button2.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button_SearchPackage
-            // 
-            button_SearchPackage.Dock = DockStyle.Top;
-            button_SearchPackage.FlatAppearance.BorderSize = 0;
-            button_SearchPackage.FlatStyle = FlatStyle.Flat;
-            button_SearchPackage.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button_SearchPackage.ForeColor = Color.FromArgb(0, 126, 249);
-            button_SearchPackage.Image = Properties.Resources.search_box_1851804_1573560_1__Traced_;
-            button_SearchPackage.Location = new Point(0, 186);
-            button_SearchPackage.Name = "button_SearchPackage";
-            button_SearchPackage.Size = new Size(200, 42);
-            button_SearchPackage.TabIndex = 1;
-            button_SearchPackage.Text = "Search Package";
-            button_SearchPackage.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button_SearchPackage.UseVisualStyleBackColor = true;
-            // 
-            // button_NewPackage
-            // 
-            button_NewPackage.Dock = DockStyle.Top;
-            button_NewPackage.FlatAppearance.BorderSize = 0;
-            button_NewPackage.FlatStyle = FlatStyle.Flat;
-            button_NewPackage.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button_NewPackage.ForeColor = Color.FromArgb(0, 126, 249);
-            button_NewPackage.Image = Properties.Resources.package__1_;
-            button_NewPackage.Location = new Point(0, 144);
-            button_NewPackage.Name = "button_NewPackage";
-            button_NewPackage.Size = new Size(200, 42);
-            button_NewPackage.TabIndex = 1;
-            button_NewPackage.Text = "New Package";
-            button_NewPackage.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button_NewPackage.UseVisualStyleBackColor = true;
+            back_button.TextAlign = HorizontalAlignment.Left;
             // 
             // panel2
             // 
@@ -216,7 +257,7 @@
             label_Username.Anchor = AnchorStyles.None;
             label_Username.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label_Username.ForeColor = Color.FromArgb(0, 126, 249);
-            label_Username.Location = new Point(20, 99);
+            label_Username.Location = new Point(20, -136);
             label_Username.Name = "label_Username";
             label_Username.Size = new Size(160, 16);
             label_Username.TabIndex = 1;
@@ -255,6 +296,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MenuForm";
             panel_Menu.ResumeLayout(false);
+            btnPanel.ResumeLayout(false);
             panel_AdminBtns.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -268,14 +310,14 @@
         private PictureBox pictureBox1;
         private Label label_Username;
         private Label label_Role;
-        private Button button_NewPackage;
-        private Button back_button;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button_SearchPackage;
         private Panel panel_AdminBtns;
         private Panel panel_SectionLoader;
+        private Guna.UI2.WinForms.Guna2Button btnNewPackage;
+        private Guna.UI2.WinForms.Guna2Button back_button;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Panel btnPanel;
+        private Guna.UI2.WinForms.Guna2Button btnSearchPackage;
     }
 }

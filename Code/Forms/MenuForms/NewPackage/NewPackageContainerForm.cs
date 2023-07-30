@@ -8,7 +8,7 @@ namespace Forms.MenuForms.NewPackage
 {
     public partial class NewPackageContainerForm : Form, INewPackageContainerView
     {
-        Form? _currentForm;
+        public IView CurrentForm { get; set; }
         public NewPackageContainerForm()
         {
             InitializeComponent();
@@ -16,14 +16,37 @@ namespace Forms.MenuForms.NewPackage
 
         public void LoadNewForm(IView newForm)
         {
+            Form _currentForm = newForm as Form;
             //this.panel_MainLoader.Controls.Clear();
-            _currentForm = newForm as Form;
-            //_currentForm.Dock = DockStyle.Fill; *****
+            //currentForm.Dock = DockStyle.Fill;
             _currentForm.TopLevel = false;
             _currentForm.TopMost = true;
             _currentForm.FormBorderStyle = FormBorderStyle.None;
             this.panel_Loader.Controls.Add(_currentForm);
-            _currentForm.Show();
+
+            CurrentForm = newForm;
+            newForm.Show();
+        }
+
+        public int Y
+        {
+            get => Location.Y;
+            set => Location = Location with { Y = value };
+        }
+
+        public new void Show()
+        {
+            Location = new Point(Location.X, Location.Y + Height);
+            base.Show();
+            FluentTransitions.Transition.With(this, nameof(Y), 0).
+                Accelerate(TimeSpan.FromMilliseconds(200));
+        }
+
+        public new void Close()
+        {
+            FluentTransitions.Transition.With(this, nameof(Y), Location.Y - Height).
+                HookOnCompletionInUiThread(this, () => base.Close()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         public void SetProgressBar(int step)

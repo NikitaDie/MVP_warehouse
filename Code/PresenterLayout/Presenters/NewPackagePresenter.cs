@@ -52,7 +52,7 @@ namespace PresenterLayout.Presenters
             {
                 //_userPackage = new UserPackage(package);
                 //Controller.RegisterInstance<UserPackage>(new UserPackage(package));
-                //Controller.Run<NewPackageUserDataPresenter, bool>(false);
+                Controller.Run<NewPackageUserDataPresenter, bool>(false);
             }
 
             View.Close();

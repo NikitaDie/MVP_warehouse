@@ -30,6 +30,12 @@ namespace Forms.MenuForms.NewPackage
             btnNewPackage.Click += (sender, args) => Invoke(NewPackage);
         }
 
+        public int X
+        {
+            get => Location.X;
+            set => Location = new Point(value, Location.Y);
+        }
+
         private new void Invoke(Action? action)
         {
             try
@@ -37,6 +43,20 @@ namespace Forms.MenuForms.NewPackage
                 action?.Invoke();
             }
             catch { throw; };
+        }
+        public new void Close()
+        {
+            FluentTransitions.Transition.With(this, nameof(X), Location.X - Width).
+                HookOnCompletionInUiThread(this, () => base.Close()).
+                Accelerate(TimeSpan.FromMilliseconds(200));
+        }
+
+        public new void Show()
+        {
+            Location = new Point(Location.X + Width, Location.Y);
+            base.Show();
+            FluentTransitions.Transition.With(this, nameof(X), 0).
+                Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
         private void btnPrintLabel_Click(object sender, EventArgs e)

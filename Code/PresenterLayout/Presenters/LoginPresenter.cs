@@ -40,9 +40,8 @@ namespace PresenterLayout.Presenters
             }
             else
             {
-                //Controller.Run<MenuPresenter, User>(user);
-                Controller.Run<MenuPresenter, User>(user);
                 View.Close();
+                Controller.Run<MenuPresenter, User>(user);
             }
         }
 

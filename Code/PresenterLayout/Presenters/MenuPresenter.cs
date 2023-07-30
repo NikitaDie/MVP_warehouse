@@ -1,17 +1,9 @@
-﻿using Forms.MenuForms.NewPackage;
-using ModelLayout.Models.Package;
-using ModelLayout.Models.User;
+﻿using ModelLayout.Models.User;
 using PresenterLayout.Common;
-using ServiceLayer.Services.Login;
-using ServiceLayout.Services.GetStartPackages;
-using ServiceLayout.Services.Label;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Forms.MenuForms.NewPackage;
 using ViewLayout;
 using ViewLayout.Views;
+using Forms.MenuForms;
 
 namespace PresenterLayout.Presenters
 {
@@ -22,20 +14,35 @@ namespace PresenterLayout.Presenters
         {
             _controller = GetController();
             View.BackToLoginPage += BackToLoginPage;
+
+            View.LaunchNewPackage += () =>
+            {
+                if (View.CurrentForm is INewPackageContainerView) return;
+
+                View.CurrentForm?.Close();
+                _controller.Run<NewPackageContainerPresenter>();
+            };
+
+            View.LaunchSearchPackage += () =>
+            {
+                if (View.CurrentForm is ISearchPackageView) return;
+
+                View.CurrentForm?.Close();
+                _controller.Run<SearchPackagePresenter>();
+            };
         }
 
         public override void Run(IUserModel user)
         {
             View.LoadUserSettings(user);
             ParentPresenter.LoadNewForm(View);
-
-            _controller.Run<NewPackageContainerPresenter>();
         }
 
         private IApplicationController GetController()
         {
-            var controller = new ApplicationController(new LightInjectAdapder())
+           var controller = new ApplicationController(new LightInjectAdapder())
                     .RegisterView<INewPackageContainerView, NewPackageContainerForm>()
+                    .RegisterView<ISearchPackageView, SearchPackageForm>()
                     .RegisterInstance<IParentPresenter>(this);
 
             return controller;
