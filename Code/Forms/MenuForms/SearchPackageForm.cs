@@ -1,21 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Data.OleDb;
+using ViewLayout;
 using ViewLayout.Views;
 
 namespace Forms.MenuForms
 {
     public partial class SearchPackageForm : Form, ISearchPackageView
     {
+        public List<string> AutoCompleteSource
+        {
+            set
+            {
+                _autoCompleteCollection = new AutoCompleteStringCollection();
+                _autoCompleteCollection.AddRange(value.ToArray());
+                //textBoxSearchPackage.AutoCompleteCustomSource = _autoCompleteCollection;
+                listBox1.DataSource = _autoCompleteCollection;
+            }
+        }
+
+        public string InputText => textBoxSearchPackage.Text;
+
+        private AutoCompleteStringCollection? _autoCompleteCollection;
+
+        public event Action? InputChanged;
+        public event Action? GetPackageInfo;
+
         public SearchPackageForm()
         {
             InitializeComponent();
+
+            textBoxSearchPackage.TextChanged += (sender, args) => Invoke(InputChanged);
+            listBox1.Click += (sender, args) => Invoke(GetPackageInfo);
+        }
+
+        private new void Invoke(Action? action)
+        {
+            try
+            {
+                action?.Invoke();
+            }
+            catch { throw; };
         }
 
         public int Y
@@ -39,5 +65,24 @@ namespace Forms.MenuForms
                 Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
+        public void LoadNewForm(IView newForm)
+        {
+            Form _currentForm = newForm as Form;
+            _currentForm.TopLevel = false;
+            _currentForm.TopMost = true;
+            _currentForm.FormBorderStyle = FormBorderStyle.None;
+            this.labelPanel.Controls.Add(_currentForm);
+
+            //CurrentForm = newForm;
+            newForm.Show();
+        }
+
+        public string GetLabelID()
+        {
+            string? id = listBox1.GetItemText(listBox1.SelectedItem);
+            id ??= string.Empty;
+
+            return id;
+        }
     }
 }

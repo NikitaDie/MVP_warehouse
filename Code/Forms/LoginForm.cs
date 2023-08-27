@@ -88,7 +88,8 @@ namespace Forms
 
         public void ShowError(string errorMessage)
         {
-            throw new NotImplementedException();
+            panel_password.BackColor = Color.Red;
+            panel_login.BackColor = Color.Red;
         }
     }
 }

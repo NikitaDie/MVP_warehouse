@@ -13,7 +13,7 @@ namespace PresenterLayout.Common
     {
         protected TView View { get; private set; }
         protected IParentPresenter? ParentPresenter { get; private set; }
-        protected IApplicationController Controller { get; private set; }
+        protected IApplicationController Controller { get; }
 
         protected BasePresenter(IApplicationController controller, TView view, IParentPresenter parentPresenter)
         {

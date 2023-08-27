@@ -30,7 +30,7 @@ namespace PresenterLayout.Presenters
         }
         private IApplicationController GetController()
         {
-            var controller = new ApplicationController(new LightInjectAdapder())
+            var controller = new ApplicationController(new LightInjectAdapter())
                 .RegisterView<ILoginView, LoginForm>()
                 .RegisterView<IMenuView, MenuForm>()
                 .RegisterService<ILoginService, LoginService>()

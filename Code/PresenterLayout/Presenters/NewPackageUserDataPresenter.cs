@@ -1,5 +1,6 @@
 ﻿using ModelLayout.Models.Package;
 using PresenterLayout.Common;
+using ViewLayout;
 using ViewLayout.Views;
 
 namespace PresenterLayout.Presenters
@@ -55,8 +56,13 @@ namespace PresenterLayout.Presenters
             _userPackage.SenderHouseNumber = View.SenderHouseNumber;
             _userPackage.SenderEmail = View.SenderEmail;
 
-            Controller.Run<NewPackagePaymentPresenter>();
+            if (_changeCall)
+                Controller.GetInstance<NewPackagePaymentPresenter>().Run();
+            else
+                Controller.Run<NewPackagePaymentPresenter>();
+
             View.Close();
         }
+
     }
 }

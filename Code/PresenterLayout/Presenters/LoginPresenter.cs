@@ -32,7 +32,7 @@ namespace PresenterLayout.Presenters
                 throw new ArgumentNullException(nameof(username));
             if (password == null)
                 throw new ArgumentNullException(nameof(password));
-            // make sha
+
             var user = new User(username, password);
             if (!_service.Login(user))
             {
@@ -42,6 +42,7 @@ namespace PresenterLayout.Presenters
             {
                 View.Close();
                 Controller.Run<MenuPresenter, User>(user);
+                
             }
         }
 

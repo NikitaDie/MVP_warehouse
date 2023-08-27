@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ViewLayout.Views
 {
-    public interface ISearchPackageView : IView
+    public interface ISearchPackageView : IBaseView
     {
+        List<string> AutoCompleteSource { set; }
+        string InputText { get; }
+
+        event Action InputChanged;
+        event Action GetPackageInfo;
+
+        string GetLabelID();
     }
 }

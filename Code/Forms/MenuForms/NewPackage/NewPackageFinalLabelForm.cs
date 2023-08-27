@@ -1,26 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Drawing.Printing;
+﻿using System.Drawing.Printing;
 using Guna.UI2.WinForms;
 using ViewLayout.Views;
-using System.IO;
+using ViewLayout;
 
 namespace Forms.MenuForms.NewPackage
 {
     public partial class NewPackageFinalLabelForm : Form, INewPackageFinalLabelView
     {
         public event Action? NewPackage;
-        public Size BigBarcodeSize => imgBarcode.Size;
-        public Size SmallBarcodeSize => new Size(imgSmallBarcode.Size.Height, imgSmallBarcode.Size.Width);
-        public string BigBarcodeImage { set => imgBarcode.ImageLocation = value; }
-        public string SmallBarcodeImage { set => imgSmallBarcode.ImageLocation = value; }
 
         public NewPackageFinalLabelForm()
         {
@@ -59,15 +46,27 @@ namespace Forms.MenuForms.NewPackage
                 Accelerate(TimeSpan.FromMilliseconds(200));
         }
 
+        public void LoadNewForm(IView newForm)
+        {
+            Form _currentForm = newForm as Form;
+            _currentForm.TopLevel = false;
+            _currentForm.TopMost = true;
+            _currentForm.FormBorderStyle = FormBorderStyle.None;
+            this.labelPanel.Controls.Add(_currentForm);
+
+            //CurrentForm = newForm;
+            newForm.Show();
+        }
+
         private void btnPrintLabel_Click(object sender, EventArgs e)
         {
-            Print(LabelPanel);
+            Print(labelPanel);
         }
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
             Rectangle pagearea = e.PageBounds;
-            e.Graphics.DrawImage(MemoryImage, (pagearea.Width / 2) - (this.panel1.Width / 2), this.panel1.Location.Y);
+            e.Graphics.DrawImage(MemoryImage, (pagearea.Width / 2) - (this.labelPanel.Width / 2), this.labelPanel.Location.Y);
         }
 
         //Declare following Object Variables
@@ -84,12 +83,6 @@ namespace Forms.MenuForms.NewPackage
             Rectangle rect = new Rectangle(0, 0, pnl.Width, pnl.Height);
             pnl.DrawToBitmap(MemoryImage, new Rectangle(0, 0, pnl.Width, pnl.Height));
         }
-
-        /*protected override void OnPaint(PaintEventArgs e)
-        {
-            e.Graphics.DrawImage(MemoryImage, 0, 0);
-            base.OnPaint(e);
-        }*/
 
         void printdoc1_PrintPage(object sender, PrintPageEventArgs e)
         {

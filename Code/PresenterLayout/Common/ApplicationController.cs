@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LightInject;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -39,6 +40,13 @@ namespace PresenterLayout.Common
             return this;
         }
 
+        public IApplicationController RegisterService<TModel, TImplementation>(ILifetime lifetime)
+            where TImplementation : class, TModel
+        {
+            _container.Register<TModel, TImplementation>(lifetime);
+            return this;
+        }
+
         public T GetInstance<T>()
         {
             return _container.GetInstance<T>();
@@ -55,6 +63,17 @@ namespace PresenterLayout.Common
             presenter.Run();
         }
 
+        public void Run<TPresenter>(ILifetime lifetime) where TPresenter : class, IPresenter
+        {
+            if (!_container.IsRegistered<TPresenter>())
+            {
+                _container.Register<TPresenter>(lifetime);
+            }
+
+            var presenter = _container.Resolve<TPresenter>();
+            presenter.Run();
+        }
+
         public void Run<TPresenter, TArgument>(TArgument argument) where TPresenter : class, IPresenter<TArgument>
         {
             if (!_container.IsRegistered<TPresenter>())
@@ -64,6 +83,22 @@ namespace PresenterLayout.Common
 
             var presenter = _container.Resolve<TPresenter>();
             presenter.Run(argument);
+        }
+
+        public void Run<TPresenter, TArgument>(TArgument argument, ILifetime lifetime) where TPresenter : class, IPresenter<TArgument>
+        {
+            if (!_container.IsRegistered<TPresenter>())
+            {
+                _container.Register<TPresenter>(lifetime);
+            }
+
+            var presenter = _container.Resolve<TPresenter>();
+            presenter.Run(argument);
+        }
+
+        public void Dispose()
+        {
+            _container.Dispose();
         }
     }
 }

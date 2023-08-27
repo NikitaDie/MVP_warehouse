@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.Services.Login
 {
-    public interface ILoginService : IDBService
+    public interface ILoginService : IDbService
     {
         bool Login(User user);
     }

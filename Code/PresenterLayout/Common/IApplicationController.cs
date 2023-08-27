@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LightInject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,13 +19,24 @@ namespace PresenterLayout.Common
         IApplicationController RegisterService<TService, TImplementation>()
             where TImplementation : class, TService;
 
+        IApplicationController RegisterService<TService, TImplementation>(ILifetime lifetime)
+            where TImplementation : class, TService;
+
+        void Dispose();
+
         T GetInstance<T>();
-            //where T : interface;
+
 
         void Run<TPresenter>()
             where TPresenter : class, IPresenter;
 
+        void Run<TPresenter>(ILifetime lifetime)
+            where TPresenter : class, IPresenter;
+
         void Run<TPresenter, TArgumnent>(TArgumnent argumnent)
             where TPresenter : class, IPresenter<TArgumnent>;
+
+        public void Run<TPresenter, TArgument>(TArgument argument, ILifetime lifetime)
+            where TPresenter : class, IPresenter<TArgument>;
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayout.CommonServices
 {
-    public interface IDBService
+    public interface IDbService
     {
         public DBDataSource DB { get; set; }
     }

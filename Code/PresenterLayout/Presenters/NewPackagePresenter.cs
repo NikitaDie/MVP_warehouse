@@ -26,7 +26,7 @@ namespace PresenterLayout.Presenters
             View.PagesButtonText = _changeCall ? "Return to Payment" : "Continue to address input";
             View.LoadStartPackages(GetStartPackages());
 
-            if (_userPackage != null)
+            if (_userPackage.Name != null)
             {
                 View.SetCurrentOptionPanel(_userPackage.Name);
             }
@@ -47,7 +47,7 @@ namespace PresenterLayout.Presenters
             _userPackage.SizeDescription = package.SizeDescription;
 
             if (_changeCall)
-                Controller.Run<NewPackagePaymentPresenter>();
+                Controller.GetInstance<NewPackagePaymentPresenter>().Run();
             else
             {
                 //_userPackage = new UserPackage(package);
@@ -56,6 +56,11 @@ namespace PresenterLayout.Presenters
             }
 
             View.Close();
+            /*if (this is IDisposable disposableService)
+            {
+                disposableService.Dispose();
+            }*/
+
         }
 
     }

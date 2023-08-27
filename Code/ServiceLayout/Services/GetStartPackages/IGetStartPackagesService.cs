@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayout.Services.GetStartPackages
 {
-    public interface IGetStartPackagesService : IDBService
+    public interface IGetStartPackagesService : IDbService
     {
         public List<IPackageModel> GetStartPackages();
     }
